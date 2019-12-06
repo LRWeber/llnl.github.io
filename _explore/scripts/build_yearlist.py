@@ -1,34 +1,31 @@
 from scraper.github import queryManager as qm
+from collections import defaultdict
 from os import environ as env
 import os.path
+import re
 
 ghDataDir = env.get("GITHUB_DATA", "../github-data")
-yearDict = {}
+yearData = qm.DataManager("%s/YEARS.json" % ghDataDir, False)
+yearDict = defaultdict(list)
 
 # Gather all file name data
 print("Checking GitHub data file names with year stamps...")
 if not os.path.exists(ghDataDir):
     raise FileNotFoundError("Directory path '%s' does not exist." % (ghDataDir))
-for file in os.listdir(ghDataDir):
-    if file.endswith(".json"):
-        nameSplit = file.split(".")
-        # Must have format "somePrefix.0000.json"
-        if not nameSplit[0] == "YEARS" and nameSplit[1].isdigit():
-            prefix = nameSplit[0]
-            yearX = int(nameSplit[1])
-            if prefix not in yearDict:
-                yearDict[prefix] = []
-            yearDict[prefix].append(yearX)
+yearlyFiles = list(
+    filter(lambda x: re.fullmatch(r"^\w+?\.\d{4}\.json$", x), os.listdir(ghDataDir))
+)  # Files must have format "somePrefix.0000.json"
+for file in yearlyFiles:
+    nameSplit = file.split(".")
+    yearDict[nameSplit[0]].append(nameSplit[1])
+
+yearDict = dict(yearDict)  # Convert to normal dictionary
 
 print("Sorting year data...")
-# Remove duplicate years (though shouldn't be possible) and sort list
-for prefix in yearDict.keys():
-    yearList = yearDict[prefix]
-    yearList = list(set(yearList))
+for prefix, yearList in yearDict.items():
     yearList.sort()
-    yearDict[prefix] = yearList
 
-yearData = qm.DataManager("%s/YEARS.json" % ghDataDir, False)
+yearData.data = yearDict
 yearData.fileSave()
 
 print("Done!\n")

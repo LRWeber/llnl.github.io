@@ -8,14 +8,12 @@ inputLists = qm.DataManager("../input_lists.json", True)
 
 print("Cleaning primary input lists...")
 
-for aList in inputLists.data.keys():
-    print("\t%s" % aList)
-    listWIP = [
-        x.lower() for x in inputLists.data[aList]
-    ]  # Standardize as all lowercase
-    listWIP = list(set(listWIP))  # Remove duplicates
-    listWIP.sort()  # List in alphabetical order
-    inputLists.data[aList] = listWIP
+for listName, aList in inputLists.data.items():
+    print("\t%s" % listName)
+    aList = [x.lower() for x in aList]  # Standardize as all lowercase
+    aList = list(set(aList))  # Remove duplicates
+    aList.sort()  # List in alphabetical order
+    inputLists.data[listName] = aList
 
 inputLists.fileSave()
 
@@ -27,16 +25,14 @@ subsetLists = qm.DataManager("../input_lists_subsets.json", True)
 
 print("Cleaning input subset lists...")
 
-for aSet in subsetLists.data.keys():
-    print("\t%s" % aSet)
-    for aList in subsetLists.data[aSet].keys():
-        print("\t\t%s" % aList)
-        listWIP = [
-            x.lower() for x in subsetLists.data[aSet][aList]
-        ]  # Standardize as all lowercase
-        listWIP = list(set(listWIP))  # Remove duplicates
-        listWIP.sort()  # List in alphabetical order
-        subsetLists.data[aSet][aList] = listWIP
+for subsetName, setLists in subsetLists.data.items():
+    print("\t%s" % subsetName)
+    for listName, aList in setLists.items():
+        print("\t\t%s" % listName)
+        aList = [x.lower() for x in aList]  # Standardize as all lowercase
+        aList = list(set(aList))  # Remove duplicates
+        aList.sort()  # List in alphabetical order
+        subsetLists.data[subsetName][listName] = aList
 
 subsetLists.fileSave()
 

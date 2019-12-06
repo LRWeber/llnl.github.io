@@ -23,24 +23,13 @@ dataCollector.data = {"data": {}}
 
 # Helper function - test if matches org only
 def matchOrg(orgName, repoName):
-    # TODO
-    orgName = orgName.lower()
-    repoName = repoName.lower()
-    if orgName == repoName.split("/")[0]:
-        return True
-    else:
-        return False
+    repoOrg = repoName.split("/")[0]
+    return True if orgName.lower() == repoOrg.lower() else False
 
 
 # Helper function - test if matches full 'org/repo' name
 def matchRepo(repoName1, repoName2):
-    # TODO
-    repoName1 = repoName1.lower()
-    repoName2 = repoName2.lower()
-    if repoName1 == repoName2:
-        return True
-    else:
-        return False
+    return True if repoName1.lower() == repoName2.lower() else False
 
 
 # Iterate through subset tags
