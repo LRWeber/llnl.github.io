@@ -4,7 +4,7 @@ Author: Ian Lee <lee1001@llnl.gov>
 
 Welcome to the Lawrence Livermore National Laboratory software portal! The purpose of this software portal is to serve as a hub for open source software produced by LLNL.
 
-LLNL produces softwardse on a daily basis. Some of this software is used only internally, other components are licensed for use by external partners and collaborators, still other software is released, or even actively developed, in the opzen on software hosting platforms such as GitHub.com, Bitbucket.org, Sourceforge.net, and others.
+LLNL produces software on a daily basis. Some of this software is used only internally, other components are licensed for use by external partners and collaborators, still other software is released, or even actively developed, in the open on software hosting platforms such as GitHub.com, Bitbucket.org, Sourceforge.net, and others.
 
 ## Prerequisites
 
