@@ -2,7 +2,7 @@ name: Scheduled Cache Request
 
 on:
   schedule:
-    - cron: "45 6 * * *"
+    - cron: "45 00 * * *"
 
 env:
   # GitHub username (owner of BOT_TOKEN, will be credited for updates)
@@ -42,6 +42,9 @@ jobs:
         run: ./$ACTION_REPO/.github/scripts/cache.sh
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      - name: Print key log info
+        if: ${{ always() }}
+        run: cat $DATA_REPO/_visualize/LAST_CACHE_REQUEST.txt || true
       - name: Save log files
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
