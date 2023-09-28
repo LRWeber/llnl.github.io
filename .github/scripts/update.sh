@@ -83,12 +83,12 @@ if [ "$CHANGE_COUNT" -ne "$VALID_COUNT" ]
         echo "Changed files validated"
 fi
 
-### COMMIT UPDATE ###
-git stash
-git pull --ff-only
-git stash pop
-git add -A .
-git commit -m "${DATA_TIMESTAMP} Data Update by ${BOT_USER}"
-git push
+# ### COMMIT UPDATE ###
+# git stash
+# git pull --ff-only
+# git stash pop
+# git add -A .
+# git commit -m "${DATA_TIMESTAMP} Data Update by ${BOT_USER}"
+# git push
 
 exit 0
