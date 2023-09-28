@@ -2,7 +2,7 @@ name: Scheduled Data Update
 
 on:
   schedule:
-    - cron: "45 7 * * *"
+    - cron: "45 00 * * *"
 
 env:
   # GitHub username (owner of BOT_TOKEN, will be credited for updates)
@@ -42,6 +42,11 @@ jobs:
         run: ./$ACTION_REPO/.github/scripts/update.sh
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+      - name: Print key log info
+        if: ${{ always() }}
+        run: |
+          cat $DATA_REPO/_visualize/LAST_MASTER_UPDATE.txt || true
+          cat $DATA_REPO/_visualize/LAST_MASTER_UPDATE.log | grep -A 2 "Run.*\.py\|Warning\|GITHUB NEEDS A BREAK" || true
       - name: Save log files
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
