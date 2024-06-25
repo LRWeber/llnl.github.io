@@ -17,6 +17,19 @@ jobs:
         with:
           files: ./_posts ./README.md ./about/faq.md ./about/contributing.md
 
+  javascript-check:
+    name: JavaScript Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+      - name: Install JS tools
+        run: npm install prettier
+
   python-check:
     name: Python Check
     runs-on: ubuntu-latest
@@ -27,6 +40,6 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
-      - name: Install dependencies
+      - name: Install Python tools
         run: pip install flake8 black
       - run: make test
