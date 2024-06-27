@@ -17,8 +17,8 @@ jobs:
         with:
           files: ./_posts ./README.md ./about/faq.md ./about/contributing.md
 
-  javascript-check:
-    name: JavaScript Check
+  style-check:
+    name: Style Check
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,13 +28,7 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: Install JS tools
-        run: npm install prettier
-
-  python-check:
-    name: Python Check
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+        run: npm install markdownlint-cli2 prettier
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
