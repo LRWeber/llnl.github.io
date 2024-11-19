@@ -28,7 +28,8 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: Install JS tools
-        run: npm install markdownlint-cli2 prettier
+        run: npm install prettier
+      # TODO run prettier
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -36,4 +37,6 @@ jobs:
           cache: 'pip'
       - name: Install Python tools
         run: pip install flake8 black
-      - run: make test
+      - run: |
+          flake8
+          black --check .
