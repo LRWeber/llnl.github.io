@@ -2694,6 +2694,19 @@
                 "nodes": []
             }
         },
+        "CDAT/cdat_compute_graph": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "CDAT/cdat_info": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -63316,6 +63329,19 @@
             }
         },
         "llnl/pefile": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
+        "llnl/pefile-tests": {
             "dependencyGraphManifests": {
                 "nodes": []
             },
