@@ -587,6 +587,22 @@
                 "login": "ESGF"
             }
         },
+        "ESPRI-Mod/cmipld": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "cmipld",
+            "nameWithOwner": "ESPRI-Mod/cmipld",
+            "owner": {
+                "isVerified": false,
+                "login": "ESPRI-Mod"
+            }
+        },
         "EndBug/add-and-commit": {
             "languages": {
                 "nodes": [
@@ -1463,6 +1479,21 @@
             "nameWithOwner": "Marak/colors.js",
             "owner": {
                 "login": "Marak"
+            }
+        },
+        "Marco-Sulla/python-frozendict": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    }
+                ]
+            },
+            "name": "python-frozendict",
+            "nameWithOwner": "Marco-Sulla/python-frozendict",
+            "owner": {
+                "login": "Marco-Sulla"
             }
         },
         "MarkusJx/install-boost": {
@@ -6729,6 +6760,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "conda-incubator"
+            }
+        },
+        "confluentinc/confluent-kafka-python": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "confluent-kafka-python",
+            "nameWithOwner": "confluentinc/confluent-kafka-python",
+            "owner": {
+                "isVerified": true,
+                "login": "confluentinc"
             }
         },
         "contourpy/contourpy": {

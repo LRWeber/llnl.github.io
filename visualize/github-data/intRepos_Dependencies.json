@@ -11060,6 +11060,1027 @@
                 ]
             }
         },
+        "ESGF/stac-transaction-api": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "annotated-types",
+                                    "repository": {
+                                        "nameWithOwner": "annotated-types/annotated-types"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "anyio",
+                                    "repository": {
+                                        "nameWithOwner": "agronholm/anyio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "attrs",
+                                    "repository": {
+                                        "nameWithOwner": "python-attrs/attrs"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "boto3",
+                                    "repository": {
+                                        "nameWithOwner": "boto/boto3"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "botocore",
+                                    "repository": {
+                                        "nameWithOwner": "boto/botocore"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "brotli",
+                                    "repository": {
+                                        "nameWithOwner": "google/brotli"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "brotli-asgi",
+                                    "repository": {
+                                        "nameWithOwner": "fullonic/brotli-asgi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cachetools",
+                                    "repository": {
+                                        "nameWithOwner": "tkem/cachetools"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "certifi",
+                                    "repository": {
+                                        "nameWithOwner": "certifi/python-certifi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cffi",
+                                    "repository": {
+                                        "nameWithOwner": "python-cffi/cffi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "charset-normalizer",
+                                    "repository": {
+                                        "nameWithOwner": "jawah/charset_normalizer"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "click",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/click"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "colorama",
+                                    "repository": {
+                                        "nameWithOwner": "tartley/colorama"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "confluent-kafka",
+                                    "repository": {
+                                        "nameWithOwner": "confluentinc/confluent-kafka-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "coverage",
+                                    "repository": {
+                                        "nameWithOwner": "coveragepy/coveragepy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cryptography",
+                                    "repository": {
+                                        "nameWithOwner": "pyca/cryptography"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "esgf-playground-utils",
+                                    "repository": {
+                                        "nameWithOwner": "ESGF/esgf-playground-utils"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "esgvoc",
+                                    "repository": {
+                                        "nameWithOwner": "ESPRI-Mod/cmipld"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "exceptiongroup",
+                                    "repository": {
+                                        "nameWithOwner": "python-trio/exceptiongroup"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "fastapi",
+                                    "repository": {
+                                        "nameWithOwner": "fastapi/fastapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "frozendict",
+                                    "repository": {
+                                        "nameWithOwner": "Marco-Sulla/python-frozendict"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "geojson-pydantic",
+                                    "repository": {
+                                        "nameWithOwner": "developmentseed/geojson-pydantic"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "globus-sdk",
+                                    "repository": {
+                                        "nameWithOwner": "globus/globus-sdk-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "greenlet",
+                                    "repository": {
+                                        "nameWithOwner": "python-greenlet/greenlet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h11",
+                                    "repository": {
+                                        "nameWithOwner": "python-hyper/h11"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "httpcore",
+                                    "repository": {
+                                        "nameWithOwner": "encode/httpcore"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "httpx",
+                                    "repository": {
+                                        "nameWithOwner": "encode/httpx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "httpx-auth",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "idna",
+                                    "repository": {
+                                        "nameWithOwner": "kjd/idna"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "iniconfig",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/iniconfig"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "iso8601",
+                                    "repository": {
+                                        "nameWithOwner": "micktwomey/pyiso8601"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jinja2",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/jinja"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jmespath",
+                                    "repository": {
+                                        "nameWithOwner": "jmespath/jmespath.py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jsonschema",
+                                    "repository": {
+                                        "nameWithOwner": "python-jsonschema/jsonschema"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jsonschema-specifications",
+                                    "repository": {
+                                        "nameWithOwner": "python-jsonschema/jsonschema-specifications"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "lxml",
+                                    "repository": {
+                                        "nameWithOwner": "lxml/lxml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "markdown-it-py",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/markdown-it-py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "markupsafe",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/markupsafe"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mdurl",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/mdurl"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "packaging",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/packaging"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "platformdirs",
+                                    "repository": {
+                                        "nameWithOwner": "tox-dev/platformdirs"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pluggy",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pluggy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pycparser",
+                                    "repository": {
+                                        "nameWithOwner": "eliben/pycparser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pydantic",
+                                    "repository": {
+                                        "nameWithOwner": "pydantic/pydantic"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pydantic-core",
+                                    "repository": {
+                                        "nameWithOwner": "pydantic/pydantic-core"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pydantic-settings",
+                                    "repository": {
+                                        "nameWithOwner": "pydantic/pydantic-settings"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pygments",
+                                    "repository": {
+                                        "nameWithOwner": "pygments/pygments"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyjwt",
+                                    "repository": {
+                                        "nameWithOwner": "jpadilla/pyjwt"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyld",
+                                    "repository": {
+                                        "nameWithOwner": "digitalbazaar/pyld"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-mock",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-dateutil",
+                                    "repository": {
+                                        "nameWithOwner": "dateutil/dateutil"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-dotenv",
+                                    "repository": {
+                                        "nameWithOwner": "theskumar/python-dotenv"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "referencing",
+                                    "repository": {
+                                        "nameWithOwner": "python-jsonschema/referencing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "rich",
+                                    "repository": {
+                                        "nameWithOwner": "Textualize/rich"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "rpds-py",
+                                    "repository": {
+                                        "nameWithOwner": "crate-py/rpds"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "s3transfer",
+                                    "repository": {
+                                        "nameWithOwner": "boto/s3transfer"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "shellingham",
+                                    "repository": {
+                                        "nameWithOwner": "sarugaku/shellingham"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "six",
+                                    "repository": {
+                                        "nameWithOwner": "benjaminp/six"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sniffio",
+                                    "repository": {
+                                        "nameWithOwner": "python-trio/sniffio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sqlalchemy",
+                                    "repository": {
+                                        "nameWithOwner": "sqlalchemy/sqlalchemy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sqlmodel",
+                                    "repository": {
+                                        "nameWithOwner": "fastapi/sqlmodel"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "stac-fastapi-api",
+                                    "repository": {
+                                        "nameWithOwner": "stac-utils/stac-fastapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "stac-fastapi-extensions",
+                                    "repository": {
+                                        "nameWithOwner": "stac-utils/stac-fastapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "stac-fastapi-types",
+                                    "repository": {
+                                        "nameWithOwner": "stac-utils/stac-fastapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "stac-pydantic",
+                                    "repository": {
+                                        "nameWithOwner": "stac-utils/stac-pydantic"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "starlette",
+                                    "repository": {
+                                        "nameWithOwner": "Kludex/starlette"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "toml",
+                                    "repository": {
+                                        "nameWithOwner": "uiri/toml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tomli",
+                                    "repository": {
+                                        "nameWithOwner": "hukkin/tomli"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "typer",
+                                    "repository": {
+                                        "nameWithOwner": "fastapi/typer"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "typing-extensions",
+                                    "repository": {
+                                        "nameWithOwner": "python/typing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "urllib3",
+                                    "repository": {
+                                        "nameWithOwner": "urllib3/urllib3"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "uvicorn",
+                                    "repository": {
+                                        "nameWithOwner": "Kludex/uvicorn"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "boto3",
+                                    "repository": {
+                                        "nameWithOwner": "boto/boto3"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "certifi",
+                                    "repository": {
+                                        "nameWithOwner": "certifi/python-certifi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cffi",
+                                    "repository": {
+                                        "nameWithOwner": "python-cffi/cffi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "charset-normalizer",
+                                    "repository": {
+                                        "nameWithOwner": "jawah/charset_normalizer"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "confluent-kafka",
+                                    "repository": {
+                                        "nameWithOwner": "confluentinc/confluent-kafka-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cryptography",
+                                    "repository": {
+                                        "nameWithOwner": "pyca/cryptography"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "esgf-playground-utils",
+                                    "repository": {
+                                        "nameWithOwner": "ESGF/esgf-playground-utils"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "esgvoc",
+                                    "repository": {
+                                        "nameWithOwner": "ESPRI-Mod/cmipld"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "fastapi",
+                                    "repository": {
+                                        "nameWithOwner": "fastapi/fastapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "globus-sdk",
+                                    "repository": {
+                                        "nameWithOwner": "globus/globus-sdk-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "httpx",
+                                    "repository": {
+                                        "nameWithOwner": "encode/httpx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "httpx-auth",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "idna",
+                                    "repository": {
+                                        "nameWithOwner": "kjd/idna"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jsonschema",
+                                    "repository": {
+                                        "nameWithOwner": "python-jsonschema/jsonschema"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyjwt",
+                                    "repository": {
+                                        "nameWithOwner": "jpadilla/pyjwt"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-mock",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-dotenv",
+                                    "repository": {
+                                        "nameWithOwner": "theskumar/python-dotenv"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "stac-fastapi-extensions",
+                                    "repository": {
+                                        "nameWithOwner": "stac-utils/stac-fastapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "stac-fastapi-types",
+                                    "repository": {
+                                        "nameWithOwner": "stac-utils/stac-fastapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "uvicorn",
+                                    "repository": {
+                                        "nameWithOwner": "Kludex/uvicorn"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "annotated-types",
+                                    "repository": {
+                                        "nameWithOwner": "annotated-types/annotated-types"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "anyio",
+                                    "repository": {
+                                        "nameWithOwner": "agronholm/anyio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "attrs",
+                                    "repository": {
+                                        "nameWithOwner": "python-attrs/attrs"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "boto3",
+                                    "repository": {
+                                        "nameWithOwner": "boto/boto3"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "botocore",
+                                    "repository": {
+                                        "nameWithOwner": "boto/botocore"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "brotli",
+                                    "repository": {
+                                        "nameWithOwner": "google/brotli"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "brotli-asgi",
+                                    "repository": {
+                                        "nameWithOwner": "fullonic/brotli-asgi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "certifi",
+                                    "repository": {
+                                        "nameWithOwner": "certifi/python-certifi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cffi",
+                                    "repository": {
+                                        "nameWithOwner": "python-cffi/cffi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "charset-normalizer",
+                                    "repository": {
+                                        "nameWithOwner": "jawah/charset_normalizer"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "click",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/click"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "confluent-kafka",
+                                    "repository": {
+                                        "nameWithOwner": "confluentinc/confluent-kafka-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cryptography",
+                                    "repository": {
+                                        "nameWithOwner": "pyca/cryptography"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "esgf-playground-utils",
+                                    "repository": {
+                                        "nameWithOwner": "ESGF/esgf-playground-utils"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "esgvoc",
+                                    "repository": {
+                                        "nameWithOwner": "ESPRI-Mod/cmipld"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "fastapi",
+                                    "repository": {
+                                        "nameWithOwner": "fastapi/fastapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "geojson-pydantic",
+                                    "repository": {
+                                        "nameWithOwner": "developmentseed/geojson-pydantic"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "globus-sdk",
+                                    "repository": {
+                                        "nameWithOwner": "globus/globus-sdk-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "h11",
+                                    "repository": {
+                                        "nameWithOwner": "python-hyper/h11"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "httpx",
+                                    "repository": {
+                                        "nameWithOwner": "encode/httpx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "iso8601",
+                                    "repository": {
+                                        "nameWithOwner": "micktwomey/pyiso8601"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "jmespath",
+                                    "repository": {
+                                        "nameWithOwner": "jmespath/jmespath.py"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pycparser",
+                                    "repository": {
+                                        "nameWithOwner": "eliben/pycparser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pydantic",
+                                    "repository": {
+                                        "nameWithOwner": "pydantic/pydantic"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pydantic-core",
+                                    "repository": {
+                                        "nameWithOwner": "pydantic/pydantic-core"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pydantic-settings",
+                                    "repository": {
+                                        "nameWithOwner": "pydantic/pydantic-settings"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyjwt",
+                                    "repository": {
+                                        "nameWithOwner": "jpadilla/pyjwt"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-mock",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-mock"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-dateutil",
+                                    "repository": {
+                                        "nameWithOwner": "dateutil/dateutil"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-dotenv",
+                                    "repository": {
+                                        "nameWithOwner": "theskumar/python-dotenv"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "six",
+                                    "repository": {
+                                        "nameWithOwner": "benjaminp/six"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sniffio",
+                                    "repository": {
+                                        "nameWithOwner": "python-trio/sniffio"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "stac-fastapi-extensions",
+                                    "repository": {
+                                        "nameWithOwner": "stac-utils/stac-fastapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "stac-fastapi-types",
+                                    "repository": {
+                                        "nameWithOwner": "stac-utils/stac-fastapi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "stac-pydantic",
+                                    "repository": {
+                                        "nameWithOwner": "stac-utils/stac-pydantic"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "starlette",
+                                    "repository": {
+                                        "nameWithOwner": "Kludex/starlette"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "typing-extensions",
+                                    "repository": {
+                                        "nameWithOwner": "python/typing"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "uvicorn",
+                                    "repository": {
+                                        "nameWithOwner": "Kludex/uvicorn"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "FrankD412/pyaestro": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -13124,33 +14145,6 @@
                     {
                         "color": "#3572A5",
                         "name": "Python"
-                    }
-                ]
-            }
-        },
-        "GMLC-TDC/helics-action": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "gmlc-tdc/helics-action/install",
-                                    "repository": {
-                                        "nameWithOwner": "GMLC-TDC/helics-action"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#89e051",
-                        "name": "Shell"
                     }
                 ]
             }
@@ -49991,9 +50985,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.springframework:spring-websocket",
-                                    "repository": {
-                                        "nameWithOwner": "spring-projects/spring-framework"
-                                    }
+                                    "repository": null
                                 }
                             ]
                         }
@@ -50247,9 +51239,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.springframework:spring-webflux",
-                                    "repository": {
-                                        "nameWithOwner": "spring-projects/spring-framework"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -50261,9 +51251,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.springframework:spring-websocket",
-                                    "repository": {
-                                        "nameWithOwner": "spring-projects/spring-framework"
-                                    }
+                                    "repository": null
                                 }
                             ]
                         }
@@ -50551,9 +51539,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.springframework:spring-websocket",
-                                    "repository": {
-                                        "nameWithOwner": "spring-projects/spring-framework"
-                                    }
+                                    "repository": null
                                 }
                             ]
                         }
