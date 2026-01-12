@@ -26140,143 +26140,6 @@
                 ]
             }
         },
-        "flux-framework/flux-sched": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "docutils",
-                                    "repository": {
-                                        "nameWithOwner": "jwilk-mirrors/docutils"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "jinja2",
-                                    "repository": {
-                                        "nameWithOwner": "pallets/jinja"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx",
-                                    "repository": {
-                                        "nameWithOwner": "sphinx-doc/sphinx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-rtd-theme",
-                                    "repository": {
-                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "black",
-                                    "repository": {
-                                        "nameWithOwner": "psf/black"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pre-commit",
-                                    "repository": {
-                                        "nameWithOwner": "pre-commit/pre-commit"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/upload-artifact",
-                                    "repository": {
-                                        "nameWithOwner": "actions/upload-artifact"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "codecov/codecov-action",
-                                    "repository": {
-                                        "nameWithOwner": "codecov/codecov-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "crate-ci/typos",
-                                    "repository": {
-                                        "nameWithOwner": "crate-ci/typos"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "docker/setup-buildx-action",
-                                    "repository": {
-                                        "nameWithOwner": "docker/setup-buildx-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "flux-framework/pr-validator",
-                                    "repository": {
-                                        "nameWithOwner": "flux-framework/pr-validator"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "mxschmitt/action-tmate",
-                                    "repository": {
-                                        "nameWithOwner": "mxschmitt/action-tmate"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "softprops/action-gh-release",
-                                    "repository": {
-                                        "nameWithOwner": "softprops/action-gh-release"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            }
-        },
         "flux-framework/flux-sched-py": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -26699,107 +26562,6 @@
                     {
                         "color": "#555555",
                         "name": "C"
-                    }
-                ]
-            }
-        },
-        "flux-framework/locator-map": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "RUBYGEMS",
-                                    "packageName": "faraday",
-                                    "repository": {
-                                        "nameWithOwner": "lostisland/faraday"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUBYGEMS",
-                                    "packageName": "github-pages",
-                                    "repository": {
-                                        "nameWithOwner": "github/pages-gem"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUBYGEMS",
-                                    "packageName": "jekyll-paginate",
-                                    "repository": {
-                                        "nameWithOwner": "jekyll/jekyll-paginate"
-                                    }
-                                },
-                                {
-                                    "packageManager": "RUBYGEMS",
-                                    "packageName": "webrick",
-                                    "repository": {
-                                        "nameWithOwner": "ruby/webrick"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "geopy",
-                                    "repository": {
-                                        "nameWithOwner": "geopy/geopy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "requests",
-                                    "repository": {
-                                        "nameWithOwner": "psf/requests"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#663399",
-                        "name": "CSS"
                     }
                 ]
             }
@@ -31392,9 +31154,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "edu.sc.seis:seisFile",
-                                    "repository": {
-                                        "nameWithOwner": "crotwell/seisFile"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -37528,9 +37288,7 @@
                                 {
                                     "packageManager": "PIP",
                                     "packageName": "crcmod",
-                                    "repository": {
-                                        "nameWithOwner": "gsutil-mirrors/crcmod"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -64089,6 +63847,47 @@
                 ]
             }
         },
+        "llnl/psuade-lite": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/upload-artifact",
+                                    "repository": {
+                                        "nameWithOwner": "actions/upload-artifact"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "conda-incubator/setup-miniconda",
+                                    "repository": {
+                                        "nameWithOwner": "conda-incubator/setup-miniconda"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
         "llnl/py-hostlist": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -66467,9 +66266,7 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "edu.sc.seis:seisFile",
-                                    "repository": {
-                                        "nameWithOwner": "crotwell/seisFile"
-                                    }
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -78535,165 +78332,6 @@
             },
             "languages": {
                 "nodes": []
-            }
-        },
-        "spack/spack-cscs2019": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "express",
-                                    "repository": {
-                                        "nameWithOwner": "expressjs/express"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-autoprefixer",
-                                    "repository": {
-                                        "nameWithOwner": "nDmitry/grunt-autoprefixer"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-cli",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-cli"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-contrib-connect",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-contrib-connect"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-contrib-cssmin",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-contrib-cssmin"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-contrib-jshint",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-contrib-jshint"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-contrib-qunit",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-contrib-qunit"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-contrib-uglify",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-contrib-uglify"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-contrib-watch",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-contrib-watch"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-retire",
-                                    "repository": {
-                                        "nameWithOwner": "RetireJS/grunt-retire"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-sass",
-                                    "repository": {
-                                        "nameWithOwner": "sindresorhus/grunt-sass"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-zip",
-                                    "repository": {
-                                        "nameWithOwner": "twolfson/grunt-zip"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "mustache",
-                                    "repository": {
-                                        "nameWithOwner": "janl/mustache.js"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "socket.io",
-                                    "repository": {
-                                        "nameWithOwner": "socketio/socket.io"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "express",
-                                    "repository": {
-                                        "nameWithOwner": "expressjs/express"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "grunt-cli",
-                                    "repository": {
-                                        "nameWithOwner": "gruntjs/grunt-cli"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "mustache",
-                                    "repository": {
-                                        "nameWithOwner": "janl/mustache.js"
-                                    }
-                                },
-                                {
-                                    "packageManager": "NPM",
-                                    "packageName": "socket.io",
-                                    "repository": {
-                                        "nameWithOwner": "socketio/socket.io"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
             }
         },
         "spack/spack-cscs2024": {
