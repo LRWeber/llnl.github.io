@@ -3174,13 +3174,16 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 271185
+                        "size": 289782
                     },
                     {
-                        "size": 5372
+                        "size": 5903
                     },
                     {
                         "size": 4524
+                    },
+                    {
+                        "size": 3642
                     }
                 ],
                 "nodes": [
@@ -3195,10 +3198,14 @@
                     {
                         "color": "#89e051",
                         "name": "Shell"
+                    },
+                    {
+                        "color": "#DA3434",
+                        "name": "CMake"
                     }
                 ],
-                "totalCount": 3,
-                "totalSize": 281081
+                "totalCount": 4,
+                "totalSize": 303851
             }
         },
         "CEED/benchmarks": {
@@ -9878,7 +9885,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1098976
+                        "size": 1099024
                     },
                     {
                         "size": 609742
@@ -9930,7 +9937,7 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 1829699
+                "totalSize": 1829747
             }
         },
         "chaos/9nbd": {
@@ -11769,10 +11776,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 451322
+                        "size": 452974
                     },
                     {
-                        "size": 390819
+                        "size": 391183
                     },
                     {
                         "size": 229859
@@ -11781,7 +11788,7 @@
                         "size": 56741
                     },
                     {
-                        "size": 13354
+                        "size": 13384
                     },
                     {
                         "size": 13329
@@ -11828,7 +11835,7 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 1159797
+                "totalSize": 1161843
             }
         },
         "flux-framework/flux-coral2": {
@@ -19016,7 +19023,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 603288
+                        "size": 628514
                     }
                 ],
                 "nodes": [
@@ -19026,7 +19033,7 @@
                     }
                 ],
                 "totalCount": 1,
-                "totalSize": 603288
+                "totalSize": 628514
             }
         },
         "llnl/JSAC": {
@@ -19105,7 +19112,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 232283
+                        "size": 233531
                     },
                     {
                         "size": 67592
@@ -19150,7 +19157,7 @@
                     }
                 ],
                 "totalCount": 6,
-                "totalSize": 368768
+                "totalSize": 370016
             }
         },
         "llnl/LAST": {
@@ -25173,7 +25180,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 14078771
+                        "size": 14078807
                     },
                     {
                         "size": 596057
@@ -25260,7 +25267,7 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 15853043
+                "totalSize": 15853079
             }
         },
         "llnl/axom-docker": {
@@ -25431,7 +25438,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 868249
+                        "size": 868674
                     },
                     {
                         "size": 4592
@@ -25462,7 +25469,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 880809
+                "totalSize": 881234
             }
         },
         "llnl/benchpark-tutorial": {
@@ -39526,10 +39533,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 17581219
+                        "size": 17581406
                     },
                     {
-                        "size": 4723019
+                        "size": 4723160
                     },
                     {
                         "size": 1211404
@@ -39541,7 +39548,7 @@
                         "size": 402554
                     },
                     {
-                        "size": 203541
+                        "size": 203601
                     },
                     {
                         "size": 60205
@@ -39592,7 +39599,7 @@
                     }
                 ],
                 "totalCount": 9,
-                "totalSize": 24694566
+                "totalSize": 24694954
             }
         },
         "openzfs/zfs-buildbot": {
@@ -41216,6 +41223,14 @@
                 "totalSize": 0
             }
         },
+        "spack/permissions-test-repo": {
+            "languages": {
+                "edges": [],
+                "nodes": [],
+                "totalCount": 0,
+                "totalSize": 0
+            }
+        },
         "spack/pypi-to-spack-package": {
             "languages": {
                 "edges": [
@@ -41741,13 +41756,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 7713114
+                        "size": 7716389
                     },
                     {
                         "size": 522722
                     },
                     {
-                        "size": 130112
+                        "size": 130128
                     },
                     {
                         "size": 38431
@@ -41835,7 +41850,7 @@
                     }
                 ],
                 "totalCount": 13,
-                "totalSize": 8480980
+                "totalSize": 8484271
             }
         },
         "spack/spack-asp-prototypes": {
@@ -42325,7 +42340,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 19936936
+                        "size": 19945788
                     },
                     {
                         "size": 78726
@@ -42426,7 +42441,7 @@
                     }
                 ],
                 "totalCount": 14,
-                "totalSize": 20052645
+                "totalSize": 20061497
             }
         },
         "spack/spack-prereq": {
