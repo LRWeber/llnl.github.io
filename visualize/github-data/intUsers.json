@@ -3985,6 +3985,7 @@
                     "llnl/PolyClipper",
                     "llnl/UMT",
                     "llnl/axom",
+                    "llnl/benchmarks",
                     "llnl/polytope",
                     "mfem/PyMFEM",
                     "mfem/data",
@@ -4031,7 +4032,9 @@
                 "nodes": [
                     "LBANN/DGraph",
                     "LBANN/DiHydrogen",
+                    "LBANN/DistConv",
                     "LBANN/HPC-launcher",
+                    "LBANN/ScaFFold",
                     "LBANN/lbann",
                     "LBANN/llama",
                     "llnl/Aluminum",
@@ -6897,6 +6900,7 @@
             "contributedLabRepositories": {
                 "nodes": [
                     "LBANN/DiHydrogen",
+                    "LBANN/DistConv",
                     "LBANN/llama",
                     "llnl/Elemental"
                 ]
@@ -10493,6 +10497,7 @@
             "avatarUrl": "https://avatars.githubusercontent.com/u/32579379?u=fcca2e305be9bab3b66d02b91c9614fc6406f4d6&v=4",
             "contributedLabRepositories": {
                 "nodes": [
+                    "LBANN/ScaFFold",
                     "llnl/Adiak",
                     "llnl/Comb",
                     "llnl/RAJA",
@@ -10864,6 +10869,7 @@
             "contributedLabRepositories": {
                 "nodes": [
                     "LBANN/DiHydrogen",
+                    "LBANN/ScaFFold",
                     "LBANN/lbann",
                     "LBANN/pyyogrt",
                     "llnl/Aluminum",
@@ -12810,6 +12816,16 @@
             },
             "login": "samuel-schwartz",
             "name": "Sam Schwartz"
+        },
+        "samueldeklund": {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/9142845?u=dd357820475f2d8581cd7b738567a02ec0d11578&v=4",
+            "contributedLabRepositories": {
+                "nodes": [
+                    "llnl/mstk-docker"
+                ]
+            },
+            "login": "samueldeklund",
+            "name": "Samuel Eklund"
         },
         "samuelpmishLLNL": {
             "avatarUrl": "https://avatars.githubusercontent.com/u/61714427?v=4",
@@ -15500,6 +15516,7 @@
             "avatarUrl": "https://avatars.githubusercontent.com/u/814322?u=2863ff73ac543fd0b8adca62abc382a97e6118a7&v=4",
             "contributedLabRepositories": {
                 "nodes": [
+                    "flux-framework/.github",
                     "flux-framework/PerfFlowAspect",
                     "flux-framework/Tutorials",
                     "flux-framework/actions",
