@@ -6,7 +6,7 @@ on:
 
 env:
   # GitHub username (owner of BOT_TOKEN, will be credited for updates)
-  BOT_USER: lc-bot
+  BOT_USER: github-actions[bot]
   # Paths used to store cloned repositories
   ACTION_REPO: thisrepo
   DATA_REPO: thisrepo
@@ -29,7 +29,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: ${{ env.ACTION_REPO }}
-          token: ${{ secrets.BOT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup python
         uses: actions/setup-python@v5
         with:
@@ -41,7 +41,7 @@ jobs:
       - name: Run cache script
         run: ./$ACTION_REPO/.github/scripts/cache.sh
         env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Show health stats
         if: ${{ always() }}
         run: |
