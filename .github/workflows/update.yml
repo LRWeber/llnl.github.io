@@ -53,12 +53,14 @@ jobs:
           git config --global user.email '${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com'
       - name: Commit updated data
         run: |
+          pushd $REPO_DIR
           git stash
           git pull --ff-only
           git stash pop
           git add -A .
           git commit -m "${{ env.TIMESTAMP }} Data Update by ${{ steps.app-token.outputs.app-slug }}"
           git push
+          popd
       - name: Show health stats
         if: ${{ always() }}
         run: |
