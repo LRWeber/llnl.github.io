@@ -5,19 +5,14 @@ set -eu
 ### VARIABLES ###
 
 # From action env:
-#   BOT_TOKEN
-#   DATA_REPO
+#   REPO_DIR
 
 ACT_SCRIPT_PATH=_visualize/scripts
 
 ### SETUP ###
 
-export GITHUB_API_TOKEN=$BOT_TOKEN
-
-DATA_TIMESTAMP=$(date -u "+%F-%H")
-
 # Store absolute path
-cd $DATA_REPO
+cd $REPO_DIR
 REPO_ROOT=$(pwd)
 
 ### RUN CACHE SCRIPT ###

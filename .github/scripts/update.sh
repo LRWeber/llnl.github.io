@@ -5,9 +5,7 @@ set -eu
 ### VARIABLES ###
 
 # From action env:
-#   BOT_USER
-#   BOT_TOKEN
-#   DATA_REPO
+#   REPO_DIR
 
 ACT_LOG_PATH=_visualize/LAST_MASTER_UPDATE.txt
 ACT_INPUT_PATH=_visualize
@@ -16,16 +14,8 @@ ACT_SCRIPT_PATH=_visualize/scripts
 
 ### SETUP ###
 
-export GITHUB_API_TOKEN=$BOT_TOKEN
-
-DATA_TIMESTAMP=$(date -u "+%F-%H")
-
-# Configure git
-git config --global user.name "${BOT_USER}"
-git config --global user.email "${BOT_USER}@users.noreply.github.com"
-
 # Store absolute path
-cd $DATA_REPO
+cd $REPO_DIR
 REPO_ROOT=$(pwd)
 
 # Store previous END timestamp
@@ -82,13 +72,5 @@ if [ "$CHANGE_COUNT" -ne "$VALID_COUNT" ]
     else
         echo "Changed files validated"
 fi
-
-### COMMIT UPDATE ###
-git stash
-git pull --ff-only
-git stash pop
-git add -A .
-git commit -m "${DATA_TIMESTAMP} Data Update by ${BOT_USER}"
-git push
 
 exit 0
