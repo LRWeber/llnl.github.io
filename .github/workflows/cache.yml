@@ -31,18 +31,18 @@ jobs:
           cache: "pip"
           cache-dependency-path: "${{ env.REPO_DIR }}/_visualize/scripts/requirements.txt"
       - name: Install dependencies
-        run: pip install -r $REPO_DIR/_visualize/scripts/requirements.txt
+        run: pip install -r ${{ env.REPO_DIR }}/_visualize/scripts/requirements.txt
       - name: Run cache script
-        run: ./$REPO_DIR/.github/scripts/cache.sh
+        run: ./${{ env.REPO_DIR }}/.github/scripts/cache.sh
         env:
           GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Show health stats
         if: ${{ always() }}
         run: |
-          cat $REPO_DIR/_visualize/LAST_CACHE_REQUEST.txt || true
-          echo "Warning Count: $(grep -c 'Warning' $REPO_DIR/_visualize/LAST_CACHE_REQUEST.log)"
-          echo "From Timeouts: $(grep -c 'but failed' $REPO_DIR/_visualize/LAST_CACHE_REQUEST.log)"
-          echo "Limit Reached: $(grep -c 'rate limit exceeded' $REPO_DIR/_visualize/LAST_CACHE_REQUEST.log)"
+          cat ${{ env.REPO_DIR }}/_visualize/LAST_CACHE_REQUEST.txt || true
+          echo "Warning Count: $(grep -c 'Warning' ${{ env.REPO_DIR }}/_visualize/LAST_CACHE_REQUEST.log)"
+          echo "From Timeouts: $(grep -c 'but failed' ${{ env.REPO_DIR }}/_visualize/LAST_CACHE_REQUEST.log)"
+          echo "Limit Reached: $(grep -c 'rate limit exceeded' ${{ env.REPO_DIR }}/_visualize/LAST_CACHE_REQUEST.log)"
       - name: Save log files
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
