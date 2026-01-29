@@ -21,12 +21,13 @@ jobs:
         run: |
           echo "TIMESTAMP=$(date -u +"%F-%H")" >> "$GITHUB_ENV"
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           path: ${{ env.REPO_DIR }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: false
       - name: Setup python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
@@ -34,9 +35,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r ${{ env.REPO_DIR }}/_visualize/scripts/requirements.txt
       - name: Run update script
-        run: ./${{ env.REPO_DIR }}/.github/scripts/update.sh
         env:
           GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./${{ env.REPO_DIR }}/.github/scripts/update.sh
       - name: Create GitHub App Installation Token
         uses: actions/create-github-app-token@v2
         id: app-token
@@ -45,14 +46,21 @@ jobs:
           private-key: ${{ secrets.PRIVATE_KEY }}
       - name: Get GitHub App User ID
         id: get-user-id
-        run: echo "user-id=$(gh api "/users/${{ steps.app-token.outputs.app-slug }}[bot]" --jq .id)" >> "$GITHUB_OUTPUT"
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: echo "user-id=$(gh api "/users/${{ steps.app-token.outputs.app-slug }}[bot]" --jq .id)" >> "$GITHUB_OUTPUT"
+      - name: Configure git
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          gh auth setup-git
+          git config --global user.name '${{ steps.app-token.outputs.app-slug }}[bot]'
+          git config --global user.email '${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com'
       - name: Commit updated data
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           pushd ${{ env.REPO_DIR }}
-          git config user.name '${{ steps.app-token.outputs.app-slug }}[bot]'
-          git config user.email '${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com'
           git stash
           git pull --ff-only
           git stash pop
@@ -69,7 +77,7 @@ jobs:
           echo "Limit Reached: $(grep -c 'rate limit exceeded' ${{ env.REPO_DIR }}/_visualize/LAST_MASTER_UPDATE.log)"
       - name: Save log files
         if: ${{ always() }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: logfiles_${{ env.TIMESTAMP }}_update
           path: |

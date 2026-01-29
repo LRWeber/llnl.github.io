@@ -21,12 +21,12 @@ jobs:
         run: |
           echo "TIMESTAMP=$(date -u +"%F-%H")" >> "$GITHUB_ENV"
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           path: ${{ env.REPO_DIR }}
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
@@ -46,7 +46,7 @@ jobs:
           echo "Limit Reached: $(grep -c 'rate limit exceeded' ${{ env.REPO_DIR }}/_visualize/LAST_CACHE_REQUEST.log)"
       - name: Save log files
         if: ${{ always() }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: logfiles_${{ env.TIMESTAMP }}_cache
           path: |
