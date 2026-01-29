@@ -1,6 +1,7 @@
-name: Scheduled Data Update
+name: Routine Data Update
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "45 10 * * *"
 

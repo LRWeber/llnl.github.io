@@ -1,6 +1,7 @@
-name: Scheduled Cache Request
+name: Routine Data Cache Request
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "45 8 * * *"
 
