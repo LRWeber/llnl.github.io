@@ -29,10 +29,16 @@ for repo in genDataCollector.data["data"]:
 
     # gather any repo topics
     if repoObj["repositoryTopics"]["totalCount"] > 0:
-        topicRepo = topicsCollector.data["data"][repo]
         topics = []
-        for topicObj in topicRepo["repositoryTopics"]["nodes"]:
-            topics.append(topicObj["topic"]["name"])
+        try:
+            topicRepo = topicsCollector.data["data"][repo]
+            for topicObj in topicRepo["repositoryTopics"]["nodes"]:
+                topics.append(topicObj["topic"]["name"])
+        except KeyError:
+            print(
+                "Warning: Repo '%s' not found in '%s'"
+                % (repo, topicsDatafile.split("/")[-1])
+            )
         repoData["topics"] = topics
     else:
         repoData["topics"] = None
