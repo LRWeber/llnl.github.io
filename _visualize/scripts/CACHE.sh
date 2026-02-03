@@ -2,10 +2,12 @@
 # Run this script to trigger GitHub's data caching
 # https://docs.github.com/en/rest/metrics/statistics?apiVersion=2022-11-28#best-practices-for-caching
 
-exec &> ../LAST_CACHE_REQUEST.log
+TAG=CACHE
+
+exec &> ../LAST_${TAG}_UPDATE.log
 
 export GITHUB_DATA=../../visualize/github-data
-DATELOG=../LAST_CACHE_REQUEST.txt
+DATELOG=../LAST_${TAG}_UPDATE.txt
 
 # On exit
 function finish {

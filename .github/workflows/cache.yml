@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       REPO_DIR: main
+      TAG: CACHE
       TIMESTAMP: X
     steps:
       - name: Store timestamp
@@ -40,15 +41,15 @@ jobs:
       - name: Show health stats
         if: ${{ always() }}
         run: |
-          cat ${{ env.REPO_DIR }}/_visualize/LAST_CACHE_REQUEST.txt || true
-          echo "Warning Count: $(grep -c 'Warning' ${{ env.REPO_DIR }}/_visualize/LAST_CACHE_REQUEST.log)"
-          echo "From Timeouts: $(grep -c 'but failed' ${{ env.REPO_DIR }}/_visualize/LAST_CACHE_REQUEST.log)"
-          echo "Limit Reached: $(grep -c 'rate limit exceeded' ${{ env.REPO_DIR }}/_visualize/LAST_CACHE_REQUEST.log)"
+          cat ${{ env.REPO_DIR }}/_visualize/LAST_${{ env.TAG }}_UPDATE.txt || true
+          echo "Warning Count: $(grep -c 'Warning' ${{ env.REPO_DIR }}/_visualize/LAST_${{ env.TAG }}_UPDATE.log)"
+          echo "From Timeouts: $(grep -c 'but failed' ${{ env.REPO_DIR }}/_visualize/LAST_${{ env.TAG }}_UPDATE.log)"
+          echo "Limit Reached: $(grep -c 'rate limit exceeded' ${{ env.REPO_DIR }}/_visualize/LAST_${{ env.TAG }}_UPDATE.log)"
       - name: Save log files
         if: ${{ always() }}
         uses: actions/upload-artifact@v6
         with:
           name: logfiles_${{ env.TIMESTAMP }}_cache
           path: |
-            ${{ env.REPO_DIR }}/_visualize/LAST_CACHE_REQUEST.txt
-            ${{ env.REPO_DIR }}/_visualize/LAST_CACHE_REQUEST.log
+            ${{ env.REPO_DIR }}/_visualize/LAST_${{ env.TAG }}_UPDATE.txt
+            ${{ env.REPO_DIR }}/_visualize/LAST_${{ env.TAG }}_UPDATE.log

@@ -6,6 +6,7 @@ set -eu
 
 # From action env:
 #   REPO_DIR
+#   TAG
 
 ACT_SCRIPT_PATH=_visualize/scripts
 

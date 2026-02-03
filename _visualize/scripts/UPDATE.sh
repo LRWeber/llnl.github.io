@@ -1,10 +1,12 @@
 #!/bin/bash
 # Run this script to refresh all data
 
-exec &> ../LAST_MASTER_UPDATE.log
+TAG=FULL
+
+exec &> ../LAST_${TAG}_UPDATE.log
 
 export GITHUB_DATA=../../visualize/github-data
-DATELOG=../LAST_MASTER_UPDATE.txt
+DATELOG=../LAST_${TAG}_UPDATE.txt
 
 # On exit
 function finish {
@@ -35,7 +37,7 @@ function runScript() {
 runScript python_check.py
 
 
-echo "RUNNING MASTER UPDATE SCRIPT"
+echo "RUNNING ${TAG} UPDATE SCRIPT"
 
 # Log start time
 echo -e "$(date -u '+%F-%H')" > $DATELOG
@@ -78,4 +80,4 @@ runScript build_yearlist.py  # Used in case of long term cumulative data
 runScript gather_repo_metadata.py  # Generate simplified metadata file
 
 
-echo "MASTER UPDATE COMPLETE"
+echo "${TAG} UPDATE COMPLETE"

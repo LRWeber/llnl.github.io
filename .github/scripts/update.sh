@@ -6,8 +6,9 @@ set -eu
 
 # From action env:
 #   REPO_DIR
+#   TAG
 
-ACT_LOG_PATH=_visualize/LAST_MASTER_UPDATE.txt
+ACT_LOG_PATH=_visualize/LAST_${TAG}_UPDATE.txt
 ACT_INPUT_PATH=_visualize
 ACT_DATA_PATH=visualize/github-data
 ACT_SCRIPT_PATH=_visualize/scripts
@@ -22,10 +23,10 @@ REPO_ROOT=$(pwd)
 OLD_END=$(cat $ACT_LOG_PATH | grep END | cut -f 2)
 OLD_END=$(date --date="$OLD_END" "+%s")
 
-### RUN MASTER SCRIPT ###
+### RUN UPDATE SCRIPT ###
 
 cd $REPO_ROOT/$ACT_SCRIPT_PATH
-./MASTER.sh
+./UPDATE.sh
 
 ### VALIDATE UPDATE ###
 
