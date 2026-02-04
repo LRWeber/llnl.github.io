@@ -2,7 +2,7 @@
 
 ```bash
 cd _visualize/scripts/
-./MASTER.sh
+./UPDATE.sh
 ```
 
 _(Additional script functionality detailed in the [`./scripts` section below][jump2 scripts].)_
@@ -29,7 +29,11 @@ New files are created for each type of data structure.
 For most files, data is overwritten each time the scripts are run.  
 Other scripts may collect cumulative data with a daily timestamp. If one of these scripts is run multiple times in a single day, the entry for that day will be overwritten.
 
-Running [`MASTER.sh`][mastersh] will run all of the necessary scripts in the appropriate order to fetch the latest data. It will also update [`LAST_MASTER_UPDATE.txt`][lastmasterup] to record when this complete data update was last run.
+Running [`UPDATE.sh`][updatesh] will run all of the necessary scripts in the appropriate order to fetch the latest data. It will also update `LAST_FULL_UPDATE.txt` to record when this complete data update was last run.  
+
+You can also run the script with an argument `UPDATE.sh <TAG>` to select a custom set of scripts defined in `UPDATE_<TAG>.txt`.
+(See [`UPDATE_FULL.txt`][updatefull] for the default set of scripts.)
+Timestamps will also be recorded in `LAST_<TAG>_UPDATE.txt` instead.
 
 The scripts are only for gathering new data. You do not need them to run in order to view the webpage visualizations.
 
@@ -39,8 +43,8 @@ The scripts are only for gathering new data. You do not need them to run in orde
 [queries dir]: queries
 [scripts dir]: scripts
 [requires]: scripts/requirements.txt
-[mastersh]: scripts/MASTER.sh
-[lastmasterup]: LAST_MASTER_UPDATE.txt
+[updatesh]: scripts/UPDATE.sh
+[updatefull]: scripts/UPDATE_FULL.txt
 [gitgraphql]: https://developer.github.com/v4/
 [oauth]: https://github.com/settings/developers
 [personaltoken]: https://github.com/settings/tokens
