@@ -3,7 +3,7 @@ name: Routine Data Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: "45 10 * * *"
+    - cron: '45 10 * * *'
 
 defaults:
   run:
@@ -30,9 +30,9 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
-          cache: "pip"
-          cache-dependency-path: "${{ env.REPO_DIR }}/_visualize/scripts/requirements.txt"
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: '${{ env.REPO_DIR }}/_visualize/scripts/requirements.txt'
       - name: Install dependencies
         run: pip install -r ${{ env.REPO_DIR }}/_visualize/scripts/requirements.txt
       - name: Run update script
