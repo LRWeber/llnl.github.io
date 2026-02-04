@@ -37,7 +37,7 @@ if [ $(cat $ACT_LOG_FILE | grep -c FAILED) -ne "0" ] || [ $(cat $ACT_LOG_FILE | 
         echo "Timestamp log valid"
 fi
 
-#   All new files are valid
+#   All new files are valid additions ( <ACT_DATA_PATH>/*.json | <ACT_LOG_PATH>/LAST_*_UPDATE.txt )
 git status --porcelain | grep --color=never "^?? "
 UNTRACKED_COUNT=$(git status --porcelain | grep -c "^?? ")
 VALID_UNTRACKED_COUNT=$(git status --porcelain | grep "^?? " | awk '{print $2}' | grep -c -E "(^${ACT_DATA_PATH}\/\S+\.json$)|(^${ACT_LOG_PATH}\/LAST_\S+\_UPDATE.txt$)")
@@ -49,7 +49,7 @@ if [ "$UNTRACKED_COUNT" -ne "$VALID_UNTRACKED_COUNT" ]
         echo "New files validated"
 fi
 
-#   All changes are to valid files only
+#   All changes are to expected files only ( <ACT_DATA_PATH>/*.json | <ACT_INPUT_PATH>/input*.json | <ACT_LOG_PATH>/LAST_*_UPDATE.txt )
 git diff --name-only HEAD
 CHANGE_COUNT=$(git diff --name-only HEAD | grep -c -E ".+")
 VALID_CHANGE_COUNT=$(git diff --name-only HEAD | grep -c -E "(^${ACT_DATA_PATH}\/\S+\.json$)|(^${ACT_INPUT_PATH}\/input\S+\.json$)|(^${ACT_LOG_PATH}\/LAST_\S+\_UPDATE.txt$)")
