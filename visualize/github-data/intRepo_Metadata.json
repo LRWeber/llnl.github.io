@@ -3493,6 +3493,12 @@
         ],
         "website": ""
     },
+    "llnl/GRACE---GRinding-Automated-Classification-Engine": {
+        "description": "Machine learning classifier for quality control of alloy sample grinding. Uses a YOLO based classifier on microscopy images to perform binary classification of grind quality, detecting surface scratches and separating pass or fail samples for an autonomous preparation workflows.",
+        "name": "llnl/GRACE---GRinding-Automated-Classification-Engine",
+        "topics": null,
+        "website": null
+    },
     "llnl/GRAPE": {
         "description": "Distributed Git Workflow Management Tool - The Git Replacement for the \"Awesome\" PARSEC Environment",
         "name": "llnl/GRAPE",
