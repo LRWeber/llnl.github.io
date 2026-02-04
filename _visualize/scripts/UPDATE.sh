@@ -1,7 +1,14 @@
 #!/bin/bash
-# Run this script to refresh all data
+# Run this script to refresh data.
+# Script selection can be customized through a text file UPDATE_<TAG>.txt
+# Providing the argument <TAG> to this script will select UPDATE_<TAG>.txt
+# The input list from UPDATE_FULL.txt is selected by default.
 
-TAG=FULL
+if [ -z "$1" ]; then
+    TAG=FULL
+else
+    TAG="$1"
+fi
 
 exec &> ../LAST_${TAG}_UPDATE.log
 
@@ -36,48 +43,20 @@ function runScript() {
 # Check Python requirements
 runScript python_check.py
 
-
 echo "RUNNING ${TAG} UPDATE SCRIPT"
 
 # Log start time
 echo -e "$(date -u '+%F-%H')" > $DATELOG
 echo -e "START\t$(date -u)" >> $DATELOG
 
-
 # RUN THIS FIRST
 runScript cleanup_inputs.py
 
-
-# --- BASIC DATA ---
-# Required before any other repo scripts (output used as repo list)
-runScript get_repos_info.py
-# Required before any other member scripts (output used as member list)
-runScript get_internal_members.py
-
-
-# --- EXTERNAL V INTERNAL ---
-runScript get_members_extrepos.py
-runScript get_repos_users.py
-
-
-# --- ADDITIONAL REPO DETAILS ---
-runScript get_repos_languages.py
-runScript get_repos_topics.py
-runScript get_repos_activitycommits.py
-runScript get_repos_dependencies.py
-runScript get_dependency_info.py
-
-
-# --- HISTORY FOR ALL TIME ---
-runScript get_repos_starhistory.py
-runScript get_repos_releases.py
-runScript get_repos_creationhistory.py
-
-
-# RUN THIS LAST
-runScript build_yearlist.py  # Used in case of long term cumulative data
-
-runScript gather_repo_metadata.py  # Generate simplified metadata file
-
+# DATA COLLECTION
+readarray -t script_array < <(grep -v '^#' UPDATE_${TAG}.txt)
+echo "Data scripts queued: (${script_array[*]})"
+for datascript in "${script_array[@]}"; do
+    runScript ${datascript}.py
+done
 
 echo "${TAG} UPDATE COMPLETE"

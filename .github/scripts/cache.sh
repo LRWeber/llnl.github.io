@@ -19,6 +19,6 @@ REPO_ROOT=$(pwd)
 ### RUN CACHE SCRIPT ###
 
 cd $REPO_ROOT/$ACT_SCRIPT_PATH
-./CACHE.sh
+./UPDATE.sh $TAG
 
 exit 0

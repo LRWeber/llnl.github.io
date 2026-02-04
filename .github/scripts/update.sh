@@ -26,7 +26,7 @@ OLD_END=$(date --date="$OLD_END" "+%s")
 ### RUN UPDATE SCRIPT ###
 
 cd $REPO_ROOT/$ACT_SCRIPT_PATH
-./UPDATE.sh
+./UPDATE.sh $TAG
 
 ### VALIDATE UPDATE ###
 

@@ -1,0 +1,21 @@
+# --- BASIC DATA ---
+get_repos_info
+#   Required before any other repo scripts (output used as repo list)
+get_internal_members
+#   Required before any other member scripts (output used as member list)
+# --- EXTERNAL V INTERNAL ---
+get_members_extrepos
+get_repos_users
+# --- ADDITIONAL REPO DETAILS ---
+get_repos_languages
+get_repos_topics
+get_repos_activitycommits
+get_repos_dependencies
+get_dependency_info
+# --- HISTORY FOR ALL TIME ---
+get_repos_starhistory
+get_repos_releases
+get_repos_creationhistory
+# --- ADDITIONAL DATA PROCESSING ---
+gather_repo_metadata
+#   Generates simplified metadata file
