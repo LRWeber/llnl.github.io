@@ -1,9 +1,6 @@
-# DEFAULT
 # --- BASIC DATA ---
 get_repos_info
 #   Required before any other repo scripts (output used as repo list)
-get_internal_members
-#   Required before any other member scripts (output used as member list)
 # --- EXTERNAL V INTERNAL ---
 get_members_extrepos
 get_repos_users
