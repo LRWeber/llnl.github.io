@@ -115,10 +115,10 @@ jobs:
         if: ${{ always() }}
         run: |
           for TAG in MEMBERS CORE; do
-            cat $REPO_DIR/_visualize/LAST_$TAG_UPDATE.txt || true
-            echo "Warning Count: $(grep -c 'Warning' $REPO_DIR/_visualize/LAST_$TAG_UPDATE.log)"
-            echo "From Timeouts: $(grep -c 'but failed' $REPO_DIR/_visualize/LAST_$TAG_UPDATE.log)"
-            echo "Limit Reached: $(grep -c 'rate limit exceeded' $REPO_DIR/_visualize/LAST_$TAG_UPDATE.log)"
+            cat $REPO_DIR/_visualize/LAST_${TAG}_UPDATE.txt || true
+            echo "Warning Count: $(grep -c 'Warning' $REPO_DIR/_visualize/LAST_${TAG}_UPDATE.log)"
+            echo "From Timeouts: $(grep -c 'but failed' $REPO_DIR/_visualize/LAST_${TAG}_UPDATE.log)"
+            echo "Limit Reached: $(grep -c 'rate limit exceeded' $REPO_DIR/_visualize/LAST_${TAG}_UPDATE.log)"
           done
 
       - name: Save log files
