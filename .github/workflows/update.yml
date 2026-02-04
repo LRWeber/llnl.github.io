@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: '45 10 * * *'
 
+concurrency:
+  group: data-updates
+  cancel-in-progress: true
+
 defaults:
   run:
     shell: bash
