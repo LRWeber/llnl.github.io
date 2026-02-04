@@ -8,9 +8,10 @@ set -eu
 #   REPO_DIR
 #   TAG
 
-ACT_LOG_PATH=_visualize/LAST_${TAG}_UPDATE.txt
-ACT_INPUT_PATH=_visualize
 ACT_DATA_PATH=visualize/github-data
+ACT_INPUT_PATH=_visualize
+ACT_LOG_PATH=_visualize
+ACT_LOG_FILE=${ACT_LOG_PATH}/LAST_${TAG}_UPDATE.txt
 
 ### VALIDATE UPDATE ###
 
@@ -28,7 +29,7 @@ cd $REPO_DIR
 # fi
 
 #   Logged START and END without FAILED
-if [ $(cat $ACT_LOG_PATH | grep -c FAILED) -ne "0" ] || [ $(cat $ACT_LOG_PATH | grep -c START) -ne "1" ] || [ $(cat $ACT_LOG_PATH | grep -c END) -ne "1" ]
+if [ $(cat $ACT_LOG_FILE | grep -c FAILED) -ne "0" ] || [ $(cat $ACT_LOG_FILE | grep -c START) -ne "1" ] || [ $(cat $ACT_LOG_FILE | grep -c END) -ne "1" ]
     then
         echo "UPDATE FAILED - Invalid timestamp log"
         exit 1
@@ -39,7 +40,7 @@ fi
 #   All changes are to valid files only
 git diff --name-only HEAD
 CHANGE_COUNT=$(git diff --name-only HEAD | grep -c -E ".+")
-VALID_COUNT=$(git diff --name-only HEAD | grep -c -E "(^${ACT_DATA_PATH}\/\S+\.json$)|(^${ACT_INPUT_PATH}\/input\S+\.json$)|(${ACT_LOG_PATH})")
+VALID_COUNT=$(git diff --name-only HEAD | grep -c -E "(^${ACT_DATA_PATH}\/\S+\.json$)|(^${ACT_INPUT_PATH}\/input\S+\.json$)|(^${ACT_LOG_PATH}\/LAST_\S+\_UPDATE.txt$)")
 if [ "$CHANGE_COUNT" -ne "$VALID_COUNT" ]
     then
         echo "UPDATE FAILED - Unexpected file changes"
