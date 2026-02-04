@@ -37,11 +37,23 @@ if [ $(cat $ACT_LOG_FILE | grep -c FAILED) -ne "0" ] || [ $(cat $ACT_LOG_FILE | 
         echo "Timestamp log valid"
 fi
 
+#   All new files are valid
+git status --porcelain | grep --color=never "^?? "
+UNTRACKED_COUNT=$(git status --porcelain | grep -c "^?? ")
+VALID_UNTRACKED_COUNT=$(git status --porcelain | grep "^?? " | awk '{print $2}' | grep -c -E "(^${ACT_DATA_PATH}\/\S+\.json$)|(^${ACT_LOG_PATH}\/LAST_\S+\_UPDATE.txt$)")
+if [ "$UNTRACKED_COUNT" -ne "$VALID_UNTRACKED_COUNT" ]
+    then
+        echo "UPDATE FAILED - Unexpected new files"
+        exit 1
+    else
+        echo "New files validated"
+fi
+
 #   All changes are to valid files only
 git diff --name-only HEAD
 CHANGE_COUNT=$(git diff --name-only HEAD | grep -c -E ".+")
-VALID_COUNT=$(git diff --name-only HEAD | grep -c -E "(^${ACT_DATA_PATH}\/\S+\.json$)|(^${ACT_INPUT_PATH}\/input\S+\.json$)|(^${ACT_LOG_PATH}\/LAST_\S+\_UPDATE.txt$)")
-if [ "$CHANGE_COUNT" -ne "$VALID_COUNT" ]
+VALID_CHANGE_COUNT=$(git diff --name-only HEAD | grep -c -E "(^${ACT_DATA_PATH}\/\S+\.json$)|(^${ACT_INPUT_PATH}\/input\S+\.json$)|(^${ACT_LOG_PATH}\/LAST_\S+\_UPDATE.txt$)")
+if [ "$CHANGE_COUNT" -ne "$VALID_CHANGE_COUNT" ]
     then
         echo "UPDATE FAILED - Unexpected file changes"
         exit 1
