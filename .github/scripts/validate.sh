@@ -17,7 +17,7 @@ ACT_LOG_FILE=${ACT_LOG_PATH}/LAST_${TAG}_UPDATE.txt
 
 cd $REPO_DIR
 
-#   Timestamp log changed
+# Timestamp log changed
 cat $ACT_LOG_FILE
 if [ $(git diff --name-only HEAD | grep -c "${ACT_LOG_FILE}") -ne "1" ]
     then
@@ -33,7 +33,7 @@ if [ $(git diff --name-only HEAD | grep -c "${ACT_LOG_FILE}") -ne "1" ]
         echo "Timestamp log confirmed as updated"
 fi
 
-#   Logged START and END without FAILED
+# Logged START and END without FAILED
 if [ $(cat $ACT_LOG_FILE | grep -c FAILED) -ne "0" ] || [ $(cat $ACT_LOG_FILE | grep -c START) -ne "1" ] || [ $(cat $ACT_LOG_FILE | grep -c END) -ne "1" ]
     then
         echo "UPDATE FAILED - Invalid timestamp log"
@@ -42,7 +42,7 @@ if [ $(cat $ACT_LOG_FILE | grep -c FAILED) -ne "0" ] || [ $(cat $ACT_LOG_FILE | 
         echo "Timestamp log valid"
 fi
 
-#   All new files are valid additions ( <ACT_DATA_PATH>/*.json | <ACT_LOG_PATH>/LAST_*_UPDATE.txt )
+# All new files are valid additions ( <ACT_DATA_PATH>/*.json | <ACT_LOG_PATH>/LAST_*_UPDATE.txt )
 git status --porcelain | grep --color=never "^?? "
 UNTRACKED_COUNT=$(git status --porcelain | grep -c "^?? ")
 VALID_UNTRACKED_COUNT=$(git status --porcelain | grep "^?? " | awk '{print $2}' | grep -c -E "(^${ACT_DATA_PATH}\/\S+\.json$)|(^${ACT_LOG_PATH}\/LAST_\S+\_UPDATE.txt$)")
