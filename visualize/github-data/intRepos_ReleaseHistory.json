@@ -2981,6 +2981,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "0.9.6",
+                        "publishedAt": "2026-02-05T09:50:23Z",
+                        "tagName": "0.9.6",
+                        "url": "https://github.com/ESGF/esgf-download/releases/tag/0.9.6"
+                    },
+                    {
                         "name": "0.9.5",
                         "publishedAt": "2026-02-04T14:55:48Z",
                         "tagName": "0.9.5",
@@ -8671,30 +8677,6 @@
                 ]
             }
         },
-        "flux-framework/flux-core-v0.11": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": null,
-                        "publishedAt": "2019-08-09T03:37:59Z",
-                        "tagName": "v0.11.3",
-                        "url": "https://github.com/flux-framework/flux-core-v0.11/releases/tag/v0.11.3"
-                    },
-                    {
-                        "name": null,
-                        "publishedAt": "2019-06-05T22:12:50Z",
-                        "tagName": "v0.11.2",
-                        "url": "https://github.com/flux-framework/flux-core-v0.11/releases/tag/v0.11.2"
-                    },
-                    {
-                        "name": null,
-                        "publishedAt": "2019-05-06T22:55:09Z",
-                        "tagName": "v0.11.1",
-                        "url": "https://github.com/flux-framework/flux-core-v0.11/releases/tag/v0.11.1"
-                    }
-                ]
-            }
-        },
         "flux-framework/flux-depend": {
             "releases": {
                 "nodes": []
@@ -9245,18 +9227,6 @@
                 "nodes": []
             }
         },
-        "flux-framework/flux-sched-v0.7": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": null,
-                        "publishedAt": "2019-06-17T16:44:29Z",
-                        "tagName": "v0.7.1",
-                        "url": "https://github.com/flux-framework/flux-sched-v0.7/releases/tag/v0.7.1"
-                    }
-                ]
-            }
-        },
         "flux-framework/flux-security": {
             "releases": {
                 "nodes": [
@@ -9358,11 +9328,6 @@
             }
         },
         "flux-framework/flux-test-collective": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "flux-framework/flux-workflow-examples": {
             "releases": {
                 "nodes": []
             }
@@ -13944,12 +13909,6 @@
         "llnl/SSAPy": {
             "releases": {
                 "nodes": [
-                    {
-                        "name": "Removing 2.0 restriction on numpy",
-                        "publishedAt": "2026-02-03T19:15:53Z",
-                        "tagName": "v1.1.4",
-                        "url": "https://github.com/llnl/SSAPy/releases/tag/v1.1.4"
-                    },
                     {
                         "name": "Suppressing missed debug print in compute.py",
                         "publishedAt": "2025-10-23T17:46:12Z",
