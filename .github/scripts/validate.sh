@@ -19,16 +19,18 @@ cd $REPO_DIR
 
 #   Timestamp log changed
 cat $ACT_LOG_FILE
-if [ $(git diff --name-only HEAD | grep -c "${ACT_LOG_FILE}") -ne "1" ]; then
-    # or is new
-    if [ $(git status --porcelain | grep "^?? " | awk '{print $2}' | grep -c "${ACT_LOG_FILE}") -ne "1" ]; then
-        echo "UPDATE FAILED - Timestamp log unchanged"
-        exit 1
+if [ $(git diff --name-only HEAD | grep -c "${ACT_LOG_FILE}") -ne "1" ]
+    then
+        # or is new
+        if [ $(git status --porcelain | grep "^?? " | awk '{print $2}' | grep -c "${ACT_LOG_FILE}") -ne "1" ]
+            then
+                echo "UPDATE FAILED - Timestamp log unchanged"
+                exit 1
+            else
+                echo "Timestamp log confirmed as new"
+        fi
     else
-        echo "Timestamp log confirmed as new"
-    fi
-else
-    echo "Timestamp log confirmed as updated"
+        echo "Timestamp log confirmed as updated"
 fi
 
 #   Logged START and END without FAILED
