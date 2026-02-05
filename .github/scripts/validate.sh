@@ -56,7 +56,7 @@ fi
 
 #   All changes are to expected files only ( <ACT_DATA_PATH>/*.json | <ACT_INPUT_PATH>/input*.json | <ACT_LOG_PATH>/LAST_*_UPDATE.txt )
 git diff --name-only HEAD
-CHANGE_COUNT=$(git diff --name-only HEAD | grep -c -E ".+")
+CHANGE_COUNT=$(git diff --name-only HEAD | grep -c -E ".+" || true)
 VALID_CHANGE_COUNT=$(git diff --name-only HEAD | grep -c -E "(^${ACT_DATA_PATH}\/\S+\.json$)|(^${ACT_INPUT_PATH}\/input\S+\.json$)|(^${ACT_LOG_PATH}\/LAST_\S+\_UPDATE.txt$)")
 if [ "$CHANGE_COUNT" -ne "$VALID_CHANGE_COUNT" ]
     then
