@@ -17,16 +17,19 @@ ACT_LOG_FILE=${ACT_LOG_PATH}/LAST_${TAG}_UPDATE.txt
 
 cd $REPO_DIR
 
-# TODO creation of new file (from new TAG) should be valid
-# #   Timestamp log changed
-# cat $ACT_LOG_PATH
-# if [ $(git diff --name-only HEAD | grep -c "${ACT_LOG_PATH}") -ne "1" ]
-#     then
-#         echo "UPDATE FAILED - Timestamp log unchanged"
-#         exit 1
-#     else
-#         echo "Timestamp log confirmed"
-# fi
+#   Timestamp log changed
+cat $ACT_LOG_FILE
+if [ $(git diff --name-only HEAD | grep -c "${ACT_LOG_FILE}") -ne "1" ]; then
+    # or is new
+    if [ $(git status --porcelain | grep "^?? " | awk '{print $2}' | grep -c "${ACT_LOG_FILE}") -ne "1" ]; then
+        echo "UPDATE FAILED - Timestamp log unchanged"
+        exit 1
+    else
+        echo "Timestamp log confirmed as new"
+    fi
+else
+    echo "Timestamp log confirmed as updated"
+fi
 
 #   Logged START and END without FAILED
 if [ $(cat $ACT_LOG_FILE | grep -c FAILED) -ne "0" ] || [ $(cat $ACT_LOG_FILE | grep -c START) -ne "1" ] || [ $(cat $ACT_LOG_FILE | grep -c END) -ne "1" ]
