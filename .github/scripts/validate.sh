@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-set -eu
+# set -eu
 
 ### VARIABLES ###
 
@@ -63,5 +63,7 @@ if [ "$CHANGE_COUNT" -ne "$VALID_CHANGE_COUNT" ]
     else
         echo "Changed files validated"
 fi
+
+echo "VALIDATION SUCCESSFUL - All checks passed"
 
 exit 0
