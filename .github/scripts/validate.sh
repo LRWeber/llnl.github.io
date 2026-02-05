@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-# set -eu
+set -eu
 
 ### VARIABLES ###
 
