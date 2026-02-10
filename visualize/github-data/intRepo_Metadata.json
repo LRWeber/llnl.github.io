@@ -3774,7 +3774,15 @@
     "llnl/MACSio": {
         "description": "A Multi-purpose, Application-Centric, Scalable I/O Proxy Application",
         "name": "llnl/MACSio",
-        "topics": [],
+        "topics": [
+            "proxy-application",
+            "hpc",
+            "scientific-computing",
+            "performance-testing",
+            "io-benchmark",
+            "parallel-io",
+            "io-library"
+        ],
         "website": "https://computing.llnl.gov/projects/co-design/macsio"
     },
     "llnl/MAT": {
@@ -3840,7 +3848,13 @@
     "llnl/MTL-suite": {
         "description": "Suite of multitask learning methods.",
         "name": "llnl/MTL-suite",
-        "topics": [],
+        "topics": [
+            "machine-learning",
+            "classification-algorithm",
+            "regression-models",
+            "multitask-learning",
+            "python"
+        ],
         "website": null
     },
     "llnl/MTLRecSys": {
