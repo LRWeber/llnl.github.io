@@ -4182,22 +4182,6 @@
                 "login": "apache"
             }
         },
-        "appany/helm-oci-chart-releaser": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f0c040",
-                        "name": "Smarty"
-                    }
-                ]
-            },
-            "name": "helm-oci-chart-releaser",
-            "nameWithOwner": "appany/helm-oci-chart-releaser",
-            "owner": {
-                "isVerified": true,
-                "login": "appany"
-            }
-        },
         "appliedsec/pygeoip": {
             "languages": {
                 "nodes": [
@@ -7477,6 +7461,17 @@
                 "login": "dotnet"
             }
         },
+        "dotnet/core-setup": {
+            "languages": {
+                "nodes": []
+            },
+            "name": "core-setup",
+            "nameWithOwner": "dotnet/core-setup",
+            "owner": {
+                "isVerified": true,
+                "login": "dotnet"
+            }
+        },
         "dotnet/corefx": {
             "languages": {
                 "nodes": []
@@ -7563,17 +7558,6 @@
             },
             "name": "runtime",
             "nameWithOwner": "dotnet/runtime",
-            "owner": {
-                "isVerified": true,
-                "login": "dotnet"
-            }
-        },
-        "dotnet/source-build": {
-            "languages": {
-                "nodes": []
-            },
-            "name": "source-build",
-            "nameWithOwner": "dotnet/source-build",
             "owner": {
                 "isVerified": true,
                 "login": "dotnet"
@@ -13568,8 +13552,8 @@
             "languages": {
                 "nodes": [
                     {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
+                        "color": "#3178c6",
+                        "name": "TypeScript"
                     }
                 ]
             },

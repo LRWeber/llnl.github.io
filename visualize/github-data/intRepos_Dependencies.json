@@ -7946,88 +7946,6 @@
                 "nodes": []
             }
         },
-        "ESGF/esgf-docker": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "appany/helm-oci-chart-releaser",
-                                    "repository": {
-                                        "nameWithOwner": "appany/helm-oci-chart-releaser"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "azure/setup-helm",
-                                    "repository": {
-                                        "nameWithOwner": "Azure/setup-helm"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "medyagh/setup-minikube",
-                                    "repository": {
-                                        "nameWithOwner": "medyagh/setup-minikube"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/setup-python",
-                                    "repository": {
-                                        "nameWithOwner": "actions/setup-python"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "appany/helm-oci-chart-releaser",
-                                    "repository": {
-                                        "nameWithOwner": "appany/helm-oci-chart-releaser"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#384d54",
-                        "name": "Dockerfile"
-                    }
-                ]
-            }
-        },
         "ESGF/esgf-download": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -40020,7 +39938,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "Microsoft.DotNet.PlatformAbstractions",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/source-build"
+                                        "nameWithOwner": "dotnet/core-setup"
                                     }
                                 },
                                 {
@@ -59615,19 +59533,6 @@
                 ]
             }
         },
-        "llnl/pyorick": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "llnl/pyranda": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -76559,6 +76464,13 @@
                                     "packageName": "requests",
                                     "repository": {
                                         "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
                                     }
                                 },
                                 {
