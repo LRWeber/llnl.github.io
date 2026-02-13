@@ -33,7 +33,7 @@ function errorCheck() {
 
 # Basic script run procedure
 function runScript() {
-    echo "Run - $1"
+    echo "Run - $1  [$(date -u)]"
     python -u $1
     ret=$?
     errorCheck "$1"
