@@ -3,7 +3,7 @@ name: Routine Data Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 10 * * *'
+    - cron: '45 9 * * *'
 
 concurrency:
   group: data-updates
