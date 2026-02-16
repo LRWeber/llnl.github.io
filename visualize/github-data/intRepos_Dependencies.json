@@ -17255,6 +17255,26 @@
                                 },
                                 {
                                     "packageManager": "ACTIONS",
+                                    "packageName": "stefanzweifel/git-auto-commit-action",
+                                    "repository": {
+                                        "nameWithOwner": "stefanzweifel/git-auto-commit-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
                                     "packageName": "codecov/codecov-action",
                                     "repository": {
                                         "nameWithOwner": "codecov/codecov-action"
@@ -35249,54 +35269,6 @@
                 ]
             }
         },
-        "llnl/MI-ChemVis": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "eventlet",
-                                    "repository": {
-                                        "nameWithOwner": "eventlet/eventlet"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flask",
-                                    "repository": {
-                                        "nameWithOwner": "pallets/flask"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python-socketio",
-                                    "repository": {
-                                        "nameWithOwner": "miguelgrinberg/python-socketio"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            }
-        },
         "llnl/MLAP": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -47826,7 +47798,9 @@
                                 {
                                     "packageManager": "MAVEN",
                                     "packageName": "org.springframework:spring-webflux",
-                                    "repository": null
+                                    "repository": {
+                                        "nameWithOwner": "spring-projects/spring-framework"
+                                    }
                                 },
                                 {
                                     "packageManager": "MAVEN",
@@ -73365,6 +73339,28 @@
         "spack/seps": {
             "dependencyGraphManifests": {
                 "nodes": []
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
+        "spack/setup-spack": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": []
