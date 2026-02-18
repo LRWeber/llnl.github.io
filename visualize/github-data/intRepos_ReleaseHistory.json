@@ -3365,7 +3365,20 @@
         },
         "ESGF/esgf-prepare": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "v3.0.1",
+                        "publishedAt": "2026-02-18T13:22:36Z",
+                        "tagName": "v3.0.1",
+                        "url": "https://github.com/ESGF/esgf-prepare/releases/tag/v3.0.1"
+                    },
+                    {
+                        "name": "python3.12 min",
+                        "publishedAt": "2026-02-18T13:04:06Z",
+                        "tagName": "v3.0.0",
+                        "url": "https://github.com/ESGF/esgf-prepare/releases/tag/v3.0.0"
+                    }
+                ]
             }
         },
         "ESGF/esgf-publisher-resources": {
@@ -13135,6 +13148,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "PyDV 3.9.1",
+                        "publishedAt": "2026-02-17T22:03:12Z",
+                        "tagName": "pydv-3.9.1",
+                        "url": "https://github.com/llnl/PyDV/releases/tag/pydv-3.9.1"
+                    },
+                    {
                         "name": "PyDV 3.9.0",
                         "publishedAt": "2026-01-21T18:01:54Z",
                         "tagName": "pydv-3.9.0",
@@ -16562,6 +16581,12 @@
         "llnl/dfanalyzer": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v0.0.7",
+                        "publishedAt": "2026-02-17T19:38:23Z",
+                        "tagName": "v0.0.7",
+                        "url": "https://github.com/llnl/dfanalyzer/releases/tag/v0.0.7"
+                    },
                     {
                         "name": "Release v0.0.6",
                         "publishedAt": "2026-01-15T15:58:18Z",
@@ -20216,6 +20241,11 @@
                         "url": "https://github.com/llnl/phloem/releases/tag/v1.4"
                     }
                 ]
+            }
+        },
+        "llnl/piafs": {
+            "releases": {
+                "nodes": []
             }
         },
         "llnl/playwright": {

@@ -509,22 +509,6 @@
                 "login": "ES-DOC"
             }
         },
-        "ESGF/esgf-config-parser": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "esgf-config-parser",
-            "nameWithOwner": "ESGF/esgf-config-parser",
-            "owner": {
-                "isVerified": false,
-                "login": "ESGF"
-            }
-        },
         "ESGF/esgf-playground-utils": {
             "languages": {
                 "nodes": [
@@ -555,6 +539,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "ESGF"
+            }
+        },
+        "ESPRI-Mod/cmipld": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "cmipld",
+            "nameWithOwner": "ESPRI-Mod/cmipld",
+            "owner": {
+                "isVerified": false,
+                "login": "ESPRI-Mod"
             }
         },
         "EndBug/add-and-commit": {
@@ -4791,21 +4791,6 @@
                 "login": "benbalter"
             }
         },
-        "benbalter/jekyll-remote-theme": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#701516",
-                        "name": "Ruby"
-                    }
-                ]
-            },
-            "name": "jekyll-remote-theme",
-            "nameWithOwner": "benbalter/jekyll-remote-theme",
-            "owner": {
-                "login": "benbalter"
-            }
-        },
         "benchmark-action/github-action-benchmark": {
             "languages": {
                 "nodes": [
@@ -4895,21 +4880,6 @@
             "nameWithOwner": "beorn7/perks",
             "owner": {
                 "login": "beorn7"
-            }
-        },
-        "berkerpeksag/astor": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "astor",
-            "nameWithOwner": "berkerpeksag/astor",
-            "owner": {
-                "login": "berkerpeksag"
             }
         },
         "bgentry/speakeasy": {
@@ -6135,38 +6105,6 @@
             },
             "name": "click-plugins",
             "nameWithOwner": "click-contrib/click-plugins",
-            "owner": {
-                "isVerified": false,
-                "login": "click-contrib"
-            }
-        },
-        "click-contrib/click-repl": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "click-repl",
-            "nameWithOwner": "click-contrib/click-repl",
-            "owner": {
-                "isVerified": false,
-                "login": "click-contrib"
-            }
-        },
-        "click-contrib/click_params": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "click_params",
-            "nameWithOwner": "click-contrib/click_params",
             "owner": {
                 "isVerified": false,
                 "login": "click-contrib"
@@ -7952,21 +7890,6 @@
             "nameWithOwner": "egor-tensin/setup-gcc",
             "owner": {
                 "login": "egor-tensin"
-            }
-        },
-        "eifinger/setup-rye": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "setup-rye",
-            "nameWithOwner": "eifinger/setup-rye",
-            "owner": {
-                "login": "eifinger"
             }
         },
         "ekalinin/nodeenv": {
@@ -12558,22 +12481,6 @@
                 "login": "jdillard"
             }
         },
-        "jekyll/github-metadata": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#701516",
-                        "name": "Ruby"
-                    }
-                ]
-            },
-            "name": "github-metadata",
-            "nameWithOwner": "jekyll/github-metadata",
-            "owner": {
-                "isVerified": true,
-                "login": "jekyll"
-            }
-        },
         "jekyll/jekyll": {
             "languages": {
                 "nodes": [
@@ -12585,22 +12492,6 @@
             },
             "name": "jekyll",
             "nameWithOwner": "jekyll/jekyll",
-            "owner": {
-                "isVerified": true,
-                "login": "jekyll"
-            }
-        },
-        "jekyll/jekyll-coffeescript": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#701516",
-                        "name": "Ruby"
-                    }
-                ]
-            },
-            "name": "jekyll-coffeescript",
-            "nameWithOwner": "jekyll/jekyll-coffeescript",
             "owner": {
                 "isVerified": true,
                 "login": "jekyll"
@@ -12649,22 +12540,6 @@
             },
             "name": "jekyll-paginate",
             "nameWithOwner": "jekyll/jekyll-paginate",
-            "owner": {
-                "isVerified": true,
-                "login": "jekyll"
-            }
-        },
-        "jekyll/jekyll-redirect-from": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#701516",
-                        "name": "Ruby"
-                    }
-                ]
-            },
-            "name": "jekyll-redirect-from",
-            "nameWithOwner": "jekyll/jekyll-redirect-from",
             "owner": {
                 "isVerified": true,
                 "login": "jekyll"
@@ -14316,22 +14191,6 @@
                 "login": "kpdecker"
             }
         },
-        "kramdown/parser-gfm": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#701516",
-                        "name": "Ruby"
-                    }
-                ]
-            },
-            "name": "parser-gfm",
-            "nameWithOwner": "kramdown/parser-gfm",
-            "owner": {
-                "isVerified": false,
-                "login": "kramdown"
-            }
-        },
         "krisprice/ipnet": {
             "languages": {
                 "nodes": [
@@ -15195,22 +15054,6 @@
             },
             "name": "scisample",
             "nameWithOwner": "llnl/scisample",
-            "owner": {
-                "isVerified": true,
-                "login": "llnl"
-            }
-        },
-        "llnl/scraper": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "scraper",
-            "nameWithOwner": "llnl/scraper",
             "owner": {
                 "isVerified": true,
                 "login": "llnl"
@@ -16254,21 +16097,6 @@
             "nameWithOwner": "mgeisler/version-sync",
             "owner": {
                 "login": "mgeisler"
-            }
-        },
-        "mhammond/pywin32": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f34b7d",
-                        "name": "C++"
-                    }
-                ]
-            },
-            "name": "pywin32",
-            "nameWithOwner": "mhammond/pywin32",
-            "owner": {
-                "login": "mhammond"
             }
         },
         "mhkeller/layercake": {
@@ -18924,6 +18752,22 @@
                 "login": "petl-developers"
             }
         },
+        "pexip/os-python-click-repl": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "os-python-click-repl",
+            "nameWithOwner": "pexip/os-python-click-repl",
+            "owner": {
+                "isVerified": true,
+                "login": "pexip"
+            }
+        },
         "pexpect/pexpect": {
             "languages": {
                 "nodes": [
@@ -20472,22 +20316,6 @@
                 "login": "pyserial"
             }
         },
-        "pytest-dev/execnet": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "execnet",
-            "nameWithOwner": "pytest-dev/execnet",
-            "owner": {
-                "isVerified": false,
-                "login": "pytest-dev"
-            }
-        },
         "pytest-dev/iniconfig": {
             "languages": {
                 "nodes": [
@@ -20966,22 +20794,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "python-trio"
-            }
-        },
-        "python-validators/validators": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "validators",
-            "nameWithOwner": "python-validators/validators",
-            "owner": {
-                "isVerified": false,
-                "login": "python-validators"
             }
         },
         "python-websockets/websockets": {
@@ -21550,22 +21362,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "readthedocs"
-            }
-        },
-        "realpython/pytest-mypy": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "pytest-mypy",
-            "nameWithOwner": "realpython/pytest-mypy",
-            "owner": {
-                "isVerified": true,
-                "login": "realpython"
             }
         },
         "redis/hiredis-py": {
@@ -22846,6 +22642,21 @@
             "nameWithOwner": "scottcorgan/tiny-emitter",
             "owner": {
                 "login": "scottcorgan"
+            }
+        },
+        "sdziallas/softsys-p2j": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "softsys-p2j",
+            "nameWithOwner": "sdziallas/softsys-p2j",
+            "owner": {
+                "login": "sdziallas"
             }
         },
         "seanmiddleditch/gha-setup-ninja": {
@@ -26441,21 +26252,6 @@
             "nameWithOwner": "vsoch/uptodate",
             "owner": {
                 "login": "vsoch"
-            }
-        },
-        "vxgmichel/aiostream": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "aiostream",
-            "nameWithOwner": "vxgmichel/aiostream",
-            "owner": {
-                "login": "vxgmichel"
             }
         },
         "warjiang/setup-skopeo": {
