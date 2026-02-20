@@ -560,7 +560,8 @@
         "FLASK-LLNL/LC-Conductor": {
             "labContributors": {
                 "nodes": [
-                    "bvanessen"
+                    "bvanessen",
+                    "tbennun"
                 ]
             },
             "nameWithOwner": "FLASK-LLNL/LC-Conductor"
@@ -3874,14 +3875,6 @@
             },
             "nameWithOwner": "mpi4jax/mpi4jax"
         },
-        "mptre/yank": {
-            "labContributors": {
-                "nodes": [
-                    "trappitsch"
-                ]
-            },
-            "nameWithOwner": "mptre/yank"
-        },
         "msys2/MINGW-packages": {
             "labContributors": {
                 "nodes": [
@@ -4744,6 +4737,14 @@
                 ]
             },
             "nameWithOwner": "seanbaxter/circle"
+        },
+        "seccomp/libseccomp": {
+            "labContributors": {
+                "nodes": [
+                    "cmelone"
+                ]
+            },
+            "nameWithOwner": "seccomp/libseccomp"
         },
         "sgl-project/sglang": {
             "labContributors": {

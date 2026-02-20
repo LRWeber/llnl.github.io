@@ -4530,7 +4530,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 414157
+                        "size": 414536
                     },
                     {
                         "size": 510
@@ -4547,7 +4547,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 414667
+                "totalSize": 415046
             }
         },
         "ESGF/esgf-dream-data-service": {
@@ -8285,7 +8285,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 168218
+                        "size": 168882
                     },
                     {
                         "size": 2042
@@ -8302,7 +8302,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 170260
+                "totalSize": 170924
             }
         },
         "LBANN/cb_optillm": {
@@ -8498,7 +8498,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1101017
+                        "size": 1100822
                     },
                     {
                         "size": 57725
@@ -8550,7 +8550,7 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 1199129
+                "totalSize": 1198934
             }
         },
         "Olympus-HPC/proteus-benchmarks": {
@@ -11817,10 +11817,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 466840
+                        "size": 466828
                     },
                     {
-                        "size": 424519
+                        "size": 425568
                     },
                     {
                         "size": 233142
@@ -11876,7 +11876,7 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 1212554
+                "totalSize": 1213591
             }
         },
         "flux-framework/flux-coral2": {
@@ -12192,16 +12192,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 604258
+                        "size": 604269
                     },
                     {
                         "size": 49215
                     },
                     {
                         "size": 40782
-                    },
-                    {
-                        "size": 29385
                     },
                     {
                         "size": 10804
@@ -12211,6 +12208,9 @@
                     },
                     {
                         "size": 5667
+                    },
+                    {
+                        "size": 2858
                     },
                     {
                         "size": 1361
@@ -12230,10 +12230,6 @@
                         "name": "Shell"
                     },
                     {
-                        "color": "#ecdebe",
-                        "name": "Roff"
-                    },
-                    {
                         "color": "#dbb284",
                         "name": "Pawn"
                     },
@@ -12246,12 +12242,16 @@
                         "name": "Python"
                     },
                     {
+                        "color": "#ecdebe",
+                        "name": "Roff"
+                    },
+                    {
                         "color": "#384d54",
                         "name": "Dockerfile"
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 750524
+                "totalSize": 724008
             }
         },
         "flux-framework/flux-framework.github.io": {
@@ -16318,6 +16318,44 @@
                 ],
                 "totalCount": 12,
                 "totalSize": 5470796
+            }
+        },
+        "llnl/ClaMS": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 107558
+                    },
+                    {
+                        "size": 77764
+                    },
+                    {
+                        "size": 14115
+                    },
+                    {
+                        "size": 8390
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    },
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    },
+                    {
+                        "color": "#DA3434",
+                        "name": "CMake"
+                    },
+                    {
+                        "color": "#89e051",
+                        "name": "Shell"
+                    }
+                ],
+                "totalCount": 4,
+                "totalSize": 207827
             }
         },
         "llnl/CoMD-Chapel": {
@@ -22198,7 +22236,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 168567
+                        "size": 166583
                     }
                 ],
                 "nodes": [
@@ -22208,7 +22246,7 @@
                     }
                 ],
                 "totalCount": 1,
-                "totalSize": 168567
+                "totalSize": 166583
             }
         },
         "llnl/SHOCK-UQ": {
@@ -25086,10 +25124,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 14185453
+                        "size": 14188460
                     },
                     {
-                        "size": 604003
+                        "size": 604133
                     },
                     {
                         "size": 592144
@@ -25173,7 +25211,7 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 15992492
+                "totalSize": 15995629
             }
         },
         "llnl/axom-docker": {
@@ -25344,7 +25382,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 923241
+                        "size": 923587
                     },
                     {
                         "size": 5161
@@ -25375,7 +25413,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 936584
+                "totalSize": 936930
             }
         },
         "llnl/benchpark-tutorial": {
@@ -26464,22 +26502,22 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 10217957
+                        "size": 10209436
                     },
                     {
-                        "size": 913942
+                        "size": 916665
                     },
                     {
                         "size": 370852
                     },
                     {
-                        "size": 345948
+                        "size": 349910
                     },
                     {
-                        "size": 219565
+                        "size": 220028
                     },
                     {
-                        "size": 44508
+                        "size": 45172
                     },
                     {
                         "size": 30835
@@ -26494,7 +26532,7 @@
                         "size": 4818
                     },
                     {
-                        "size": 2224
+                        "size": 3736
                     }
                 ],
                 "nodes": [
@@ -26544,7 +26582,7 @@
                     }
                 ],
                 "totalCount": 11,
-                "totalSize": 12160663
+                "totalSize": 12161466
             }
         },
         "llnl/configurable-http-proxy": {
@@ -27543,6 +27581,14 @@
                 ],
                 "totalCount": 7,
                 "totalSize": 2775798
+            }
+        },
+        "llnl/dftracer-workloads": {
+            "languages": {
+                "edges": [],
+                "nodes": [],
+                "totalCount": 0,
+                "totalSize": 0
             }
         },
         "llnl/direct-fuse": {
@@ -32645,6 +32691,45 @@
                 ],
                 "totalCount": 4,
                 "totalSize": 226601
+            }
+        },
+        "llnl/nsCamera": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 315811
+                    },
+                    {
+                        "size": 69697
+                    },
+                    {
+                        "size": 555
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    },
+                    {
+                        "color": "#555555",
+                        "name": "C"
+                    },
+                    {
+                        "color": "#427819",
+                        "name": "Makefile"
+                    }
+                ],
+                "totalCount": 3,
+                "totalSize": 386063
+            }
+        },
+        "llnl/nsCamera_plugin": {
+            "languages": {
+                "edges": [],
+                "nodes": [],
+                "totalCount": 0,
+                "totalSize": 0
             }
         },
         "llnl/omi_data_tools_open_source": {
@@ -39635,13 +39720,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 17913020
+                        "size": 17914356
                     },
                     {
-                        "size": 4765401
+                        "size": 4765429
                     },
                     {
-                        "size": 1226944
+                        "size": 1225099
                     },
                     {
                         "size": 469520
@@ -39701,7 +39786,7 @@
                     }
                 ],
                 "totalCount": 9,
-                "totalSize": 25515377
+                "totalSize": 25514896
             }
         },
         "openzfs/zfs-buildbot": {
@@ -41844,7 +41929,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 7739049
+                        "size": 7742800
                     },
                     {
                         "size": 522722
@@ -41945,7 +42030,7 @@
                     }
                 ],
                 "totalCount": 14,
-                "totalSize": 8508362
+                "totalSize": 8512113
             }
         },
         "spack/spack-asp-prototypes": {
@@ -42435,7 +42520,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 20131042
+                        "size": 20165914
                     },
                     {
                         "size": 78978
@@ -42536,7 +42621,7 @@
                     }
                 ],
                 "totalCount": 14,
-                "totalSize": 20247003
+                "totalSize": 20281875
             }
         },
         "spack/spack-prereq": {

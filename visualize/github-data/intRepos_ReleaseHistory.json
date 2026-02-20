@@ -11178,6 +11178,11 @@
                 "nodes": []
             }
         },
+        "llnl/ClaMS": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "llnl/CoMD-Chapel": {
             "releases": {
                 "nodes": []
@@ -16838,6 +16843,11 @@
                 ]
             }
         },
+        "llnl/dftracer-workloads": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "llnl/direct-fuse": {
             "releases": {
                 "nodes": []
@@ -20061,6 +20071,16 @@
                         "url": "https://github.com/llnl/ns3-if77-module/releases/tag/v1.0"
                     }
                 ]
+            }
+        },
+        "llnl/nsCamera": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "llnl/nsCamera_plugin": {
+            "releases": {
+                "nodes": []
             }
         },
         "llnl/omi_data_tools_open_source": {
@@ -24451,6 +24471,12 @@
         "spack/spack": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v1.0.3",
+                        "publishedAt": "2026-02-19T21:48:10Z",
+                        "tagName": "v1.0.3",
+                        "url": "https://github.com/spack/spack/releases/tag/v1.0.3"
+                    },
                     {
                         "name": "v1.1.1 (2026-01-14)",
                         "publishedAt": "2026-01-27T00:44:49Z",
