@@ -63,7 +63,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 35400427
+                        "size": 35416161
                     },
                     {
                         "size": 574065
@@ -150,7 +150,7 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 37913786
+                "totalSize": 37929520
             }
         },
         "CDAT/.github": {
@@ -3798,7 +3798,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 332148
+                        "size": 353253
                     },
                     {
                         "size": 12681
@@ -3815,7 +3815,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 344829
+                "totalSize": 365934
             }
         },
         "ESGF/cic": {
@@ -5840,7 +5840,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1712119
+                        "size": 1712519
                     },
                     {
                         "size": 78063
@@ -5878,7 +5878,7 @@
                     }
                 ],
                 "totalCount": 5,
-                "totalSize": 1911324
+                "totalSize": 1911724
             }
         },
         "GLVis/data": {
@@ -8498,13 +8498,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1102008
+                        "size": 1119747
                     },
                     {
-                        "size": 57803
+                        "size": 65687
                     },
                     {
-                        "size": 26783
+                        "size": 40692
                     },
                     {
                         "size": 8097
@@ -8513,10 +8513,13 @@
                         "size": 4897
                     },
                     {
-                        "size": 505
+                        "size": 1393
                     },
                     {
                         "size": 105
+                    },
+                    {
+                        "size": 102
                     }
                 ],
                 "nodes": [
@@ -8547,10 +8550,14 @@
                     {
                         "color": "#4F3A4F",
                         "name": "HIP"
+                    },
+                    {
+                        "color": "#3A4E3A",
+                        "name": "Cuda"
                     }
                 ],
-                "totalCount": 7,
-                "totalSize": 1200198
+                "totalCount": 8,
+                "totalSize": 1240720
             }
         },
         "Olympus-HPC/proteus-benchmarks": {
@@ -9926,13 +9933,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1219514
+                        "size": 1225337
                     },
                     {
                         "size": 611545
                     },
                     {
-                        "size": 139480
+                        "size": 142017
                     },
                     {
                         "size": 32649
@@ -9978,7 +9985,7 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 2025495
+                "totalSize": 2033855
             }
         },
         "chaos/9nbd": {
@@ -13964,7 +13971,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 26421551
+                        "size": 26450103
                     },
                     {
                         "size": 3556459
@@ -14072,17 +14079,17 @@
                     }
                 ],
                 "totalCount": 15,
-                "totalSize": 31723424
+                "totalSize": 31751976
             }
         },
         "hypre-space/hypredrive": {
             "languages": {
                 "edges": [
                     {
-                        "size": 1232829
+                        "size": 1258913
                     },
                     {
-                        "size": 139576
+                        "size": 149478
                     },
                     {
                         "size": 122471
@@ -14124,7 +14131,7 @@
                     }
                 ],
                 "totalCount": 6,
-                "totalSize": 1568333
+                "totalSize": 1604319
             }
         },
         "jpype-project/jpype": {
@@ -14673,7 +14680,7 @@
                         "size": 119386
                     },
                     {
-                        "size": 3648
+                        "size": 3698
                     },
                     {
                         "size": 768
@@ -14694,7 +14701,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 123802
+                "totalSize": 123852
             }
         },
         "llnl/ATD": {
@@ -25382,7 +25389,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 925061
+                        "size": 925053
                     },
                     {
                         "size": 5161
@@ -25413,7 +25420,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 938404
+                "totalSize": 938396
             }
         },
         "llnl/benchpark-tutorial": {
@@ -26511,10 +26518,10 @@
                         "size": 370852
                     },
                     {
-                        "size": 349910
+                        "size": 348504
                     },
                     {
-                        "size": 220030
+                        "size": 220150
                     },
                     {
                         "size": 45172
@@ -26582,7 +26589,7 @@
                     }
                 ],
                 "totalCount": 11,
-                "totalSize": 12287832
+                "totalSize": 12286546
             }
         },
         "llnl/configurable-http-proxy": {
@@ -31915,7 +31922,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 216232
+                        "size": 222362
                     },
                     {
                         "size": 16227
@@ -31953,7 +31960,7 @@
                     }
                 ],
                 "totalCount": 5,
-                "totalSize": 240122
+                "totalSize": 246252
             }
         },
         "llnl/mpi-tools": {
@@ -35957,51 +35964,6 @@
                 "totalSize": 714
             }
         },
-        "llnl/session-recorder": {
-            "languages": {
-                "edges": [
-                    {
-                        "size": 787224
-                    },
-                    {
-                        "size": 96835
-                    },
-                    {
-                        "size": 78882
-                    },
-                    {
-                        "size": 57256
-                    },
-                    {
-                        "size": 12124
-                    }
-                ],
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    },
-                    {
-                        "color": "#663399",
-                        "name": "CSS"
-                    },
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    },
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    },
-                    {
-                        "color": "#e34c26",
-                        "name": "HTML"
-                    }
-                ],
-                "totalCount": 5,
-                "totalSize": 1032321
-            }
-        },
         "llnl/shroud": {
             "languages": {
                 "edges": [
@@ -36244,7 +36206,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2731875
+                        "size": 2731935
                     },
                     {
                         "size": 174132
@@ -36296,7 +36258,7 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 3193679
+                "totalSize": 3193739
             }
         },
         "llnl/smoothG": {
@@ -39720,16 +39682,16 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 17918017
+                        "size": 17923032
                     },
                     {
-                        "size": 4768548
+                        "size": 4771055
                     },
                     {
                         "size": 1225099
                     },
                     {
-                        "size": 470181
+                        "size": 471896
                     },
                     {
                         "size": 461051
@@ -39738,7 +39700,7 @@
                         "size": 375647
                     },
                     {
-                        "size": 205594
+                        "size": 205650
                     },
                     {
                         "size": 60205
@@ -39786,7 +39748,7 @@
                     }
                 ],
                 "totalCount": 9,
-                "totalSize": 25523654
+                "totalSize": 25532947
             }
         },
         "openzfs/zfs-buildbot": {
@@ -41929,13 +41891,13 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 7743008
+                        "size": 7750374
                     },
                     {
                         "size": 522638
                     },
                     {
-                        "size": 117508
+                        "size": 117791
                     },
                     {
                         "size": 38431
@@ -42030,7 +41992,7 @@
                     }
                 ],
                 "totalCount": 14,
-                "totalSize": 8512237
+                "totalSize": 8519886
             }
         },
         "spack/spack-asp-prototypes": {
@@ -42520,7 +42482,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 20176780
+                        "size": 20208987
                     },
                     {
                         "size": 78978
@@ -42621,7 +42583,7 @@
                     }
                 ],
                 "totalCount": 14,
-                "totalSize": 20292741
+                "totalSize": 20324948
             }
         },
         "spack/spack-prereq": {
@@ -43629,25 +43591,25 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 75091737
+                        "size": 75096845
                     },
                     {
-                        "size": 12731771
+                        "size": 12732303
                     },
                     {
-                        "size": 3840448
+                        "size": 3840895
                     },
                     {
                         "size": 3003390
                     },
                     {
-                        "size": 1483627
+                        "size": 1421524
                     },
                     {
-                        "size": 1317757
+                        "size": 1317857
                     },
                     {
-                        "size": 1071113
+                        "size": 1070604
                     },
                     {
                         "size": 417170
@@ -43786,7 +43748,7 @@
                     }
                 ],
                 "totalCount": 22,
-                "totalSize": 99114901
+                "totalSize": 99058476
             }
         },
         "visit-dav/visit-deps": {
