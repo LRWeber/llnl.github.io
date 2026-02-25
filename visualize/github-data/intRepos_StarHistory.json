@@ -3746,7 +3746,12 @@
         ],
         "ESGF/apache-frontend": [],
         "ESGF/basejump": [],
-        "ESGF/cc-plugin-wcrp": [],
+        "ESGF/cc-plugin-wcrp": [
+            {
+                "date": "2026-02-02",
+                "value": 1
+            }
+        ],
         "ESGF/cic": [],
         "ESGF/compute": [],
         "ESGF/config": [
@@ -4354,6 +4359,10 @@
         "ESGF/esgf-qa": [
             {
                 "date": "2025-10-27",
+                "value": 1
+            },
+            {
+                "date": "2026-02-02",
                 "value": 1
             }
         ],
@@ -6326,6 +6335,10 @@
             {
                 "date": "2026-02-09",
                 "value": 1
+            },
+            {
+                "date": "2026-02-16",
+                "value": 2
             }
         ],
         "GMLC-TDC/HELICS-BBX": [],
@@ -21124,6 +21137,10 @@
             {
                 "date": "2026-02-02",
                 "value": 5
+            },
+            {
+                "date": "2026-02-23",
+                "value": 1
             }
         ],
         "klieberman/ood_nic": [
@@ -24632,7 +24649,12 @@
                 "value": 1
             }
         ],
-        "llnl/DECIDER": [],
+        "llnl/DECIDER": [
+            {
+                "date": "2024-09-30",
+                "value": 1
+            }
+        ],
         "llnl/DFDashboard": [],
         "llnl/DFDiagnoser": [],
         "llnl/DFTT": [
@@ -33420,6 +33442,10 @@
             {
                 "date": "2026-01-19",
                 "value": 1
+            },
+            {
+                "date": "2026-01-26",
+                "value": 2
             }
         ],
         "llnl/RAJAPerf-Benchmark": [],
@@ -40486,6 +40512,10 @@
             },
             {
                 "date": "2026-01-05",
+                "value": 1
+            },
+            {
+                "date": "2026-01-26",
                 "value": 1
             }
         ],
@@ -68465,7 +68495,7 @@
             },
             {
                 "date": "2023-01-09",
-                "value": 27
+                "value": 26
             },
             {
                 "date": "2023-01-16",
@@ -69077,7 +69107,7 @@
             },
             {
                 "date": "2025-12-15",
-                "value": 30
+                "value": 29
             },
             {
                 "date": "2025-12-22",
@@ -70728,10 +70758,6 @@
             {
                 "date": "2025-11-24",
                 "value": 6
-            },
-            {
-                "date": "2025-12-01",
-                "value": 1
             },
             {
                 "date": "2025-12-08",
@@ -73064,7 +73090,7 @@
             },
             {
                 "date": "2023-01-23",
-                "value": 9
+                "value": 8
             },
             {
                 "date": "2023-01-30",
