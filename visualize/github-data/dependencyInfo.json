@@ -3203,22 +3203,6 @@
                 "login": "adamchainz"
             }
         },
-        "advanced-security/filter-sarif": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#b07219",
-                        "name": "Java"
-                    }
-                ]
-            },
-            "name": "filter-sarif",
-            "nameWithOwner": "advanced-security/filter-sarif",
-            "owner": {
-                "isVerified": true,
-                "login": "advanced-security"
-            }
-        },
         "agronholm/anyio": {
             "languages": {
                 "nodes": [
@@ -4333,6 +4317,21 @@
                 "login": "ashishb"
             }
         },
+        "ask/nosecover3": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "nosecover3",
+            "nameWithOwner": "ask/nosecover3",
+            "owner": {
+                "login": "ask"
+            }
+        },
         "asottile/cfgv": {
             "languages": {
                 "nodes": [
@@ -4752,6 +4751,21 @@
             },
             "name": "jekyll-include-cache",
             "nameWithOwner": "benbalter/jekyll-include-cache",
+            "owner": {
+                "login": "benbalter"
+            }
+        },
+        "benbalter/jekyll-remote-theme": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#701516",
+                        "name": "Ruby"
+                    }
+                ]
+            },
+            "name": "jekyll-remote-theme",
+            "nameWithOwner": "benbalter/jekyll-remote-theme",
             "owner": {
                 "login": "benbalter"
             }
@@ -6168,22 +6182,6 @@
             "owner": {
                 "isVerified": true,
                 "login": "codecov"
-            }
-        },
-        "codespell-project/actions-codespell": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#89e051",
-                        "name": "Shell"
-                    }
-                ]
-            },
-            "name": "actions-codespell",
-            "nameWithOwner": "codespell-project/actions-codespell",
-            "owner": {
-                "isVerified": false,
-                "login": "codespell-project"
             }
         },
         "codespell-project/codespell": {
@@ -12499,6 +12497,22 @@
                 "login": "jdillard"
             }
         },
+        "jekyll/github-metadata": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#701516",
+                        "name": "Ruby"
+                    }
+                ]
+            },
+            "name": "github-metadata",
+            "nameWithOwner": "jekyll/github-metadata",
+            "owner": {
+                "isVerified": true,
+                "login": "jekyll"
+            }
+        },
         "jekyll/jekyll": {
             "languages": {
                 "nodes": [
@@ -12510,6 +12524,22 @@
             },
             "name": "jekyll",
             "nameWithOwner": "jekyll/jekyll",
+            "owner": {
+                "isVerified": true,
+                "login": "jekyll"
+            }
+        },
+        "jekyll/jekyll-coffeescript": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#701516",
+                        "name": "Ruby"
+                    }
+                ]
+            },
+            "name": "jekyll-coffeescript",
+            "nameWithOwner": "jekyll/jekyll-coffeescript",
             "owner": {
                 "isVerified": true,
                 "login": "jekyll"
@@ -12558,6 +12588,22 @@
             },
             "name": "jekyll-paginate",
             "nameWithOwner": "jekyll/jekyll-paginate",
+            "owner": {
+                "isVerified": true,
+                "login": "jekyll"
+            }
+        },
+        "jekyll/jekyll-redirect-from": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#701516",
+                        "name": "Ruby"
+                    }
+                ]
+            },
+            "name": "jekyll-redirect-from",
+            "nameWithOwner": "jekyll/jekyll-redirect-from",
             "owner": {
                 "isVerified": true,
                 "login": "jekyll"
@@ -14209,6 +14255,22 @@
                 "login": "kpdecker"
             }
         },
+        "kramdown/parser-gfm": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#701516",
+                        "name": "Ruby"
+                    }
+                ]
+            },
+            "name": "parser-gfm",
+            "nameWithOwner": "kramdown/parser-gfm",
+            "owner": {
+                "isVerified": false,
+                "login": "kramdown"
+            }
+        },
         "krisprice/ipnet": {
             "languages": {
                 "nodes": [
@@ -15072,6 +15134,22 @@
             },
             "name": "scisample",
             "nameWithOwner": "llnl/scisample",
+            "owner": {
+                "isVerified": true,
+                "login": "llnl"
+            }
+        },
+        "llnl/scraper": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "scraper",
+            "nameWithOwner": "llnl/scraper",
             "owner": {
                 "isVerified": true,
                 "login": "llnl"
