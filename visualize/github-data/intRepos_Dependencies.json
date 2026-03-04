@@ -17997,60 +17997,6 @@
                 ]
             }
         },
-        "chaos/slurm": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "abstract",
-                                    "repository": {
-                                        "nameWithOwner": "idin/abstract"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "communication-",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "elan-cap-type-multi-rail-",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "notes",
-                                    "repository": {
-                                        "nameWithOwner": "powellc/django-notes"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "program-",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "references",
-                                    "repository": null
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#555555",
-                        "name": "C"
-                    }
-                ]
-            }
-        },
         "chaos/slurm-spank-plugins": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -36394,89 +36340,6 @@
                 ]
             }
         },
-        "llnl/NDDAV": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "eventlet",
-                                    "repository": {
-                                        "nameWithOwner": "eventlet/eventlet"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flask",
-                                    "repository": {
-                                        "nameWithOwner": "pallets/flask"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flask-socketio",
-                                    "repository": {
-                                        "nameWithOwner": "miguelgrinberg/Flask-SocketIO"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "graphviz",
-                                    "repository": {
-                                        "nameWithOwner": "xflr6/graphviz"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyclipper",
-                                    "repository": {
-                                        "nameWithOwner": "fonttools/pyclipper"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python-socketio",
-                                    "repository": {
-                                        "nameWithOwner": "miguelgrinberg/python-socketio"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sklearn",
-                                    "repository": {
-                                        "nameWithOwner": "scikit-learn/scikit-learn"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            }
-        },
         "llnl/NED_Asteroid_Energy_Deposition": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -53353,6 +53216,13 @@
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
                                     }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "codecov/codecov-action",
+                                    "repository": {
+                                        "nameWithOwner": "codecov/codecov-action"
+                                    }
                                 }
                             ]
                         }
@@ -53373,12 +53243,25 @@
                                     "repository": {
                                         "nameWithOwner": "actions/setup-python"
                                     }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
-                                    "packageName": "codecov/codecov-action",
+                                    "packageName": "actions/setup-python",
                                     "repository": {
-                                        "nameWithOwner": "codecov/codecov-action"
+                                        "nameWithOwner": "actions/setup-python"
                                     }
                                 }
                             ]
