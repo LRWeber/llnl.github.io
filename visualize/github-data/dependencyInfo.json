@@ -92,22 +92,6 @@
                 "login": "Ana06"
             }
         },
-        "AssemblyScript/assemblyscript": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#04133b",
-                        "name": "WebAssembly"
-                    }
-                ]
-            },
-            "name": "assemblyscript",
-            "nameWithOwner": "AssemblyScript/assemblyscript",
-            "owner": {
-                "isVerified": true,
-                "login": "AssemblyScript"
-            }
-        },
         "Azure/docker-login": {
             "languages": {
                 "nodes": [
@@ -966,8 +950,8 @@
             "languages": {
                 "nodes": [
                     {
-                        "color": "#3572A5",
-                        "name": "Python"
+                        "color": "#fedf5b",
+                        "name": "Cython"
                     }
                 ]
             },
@@ -2055,22 +2039,6 @@
                 "login": "Raynos"
             }
         },
-        "ReactiveX/rxjs": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "rxjs",
-            "nameWithOwner": "ReactiveX/rxjs",
-            "owner": {
-                "isVerified": false,
-                "login": "ReactiveX"
-            }
-        },
         "RetireJS/grunt-retire": {
             "languages": {
                 "nodes": [
@@ -2255,22 +2223,6 @@
             },
             "name": "SignalR",
             "nameWithOwner": "SignalR/SignalR",
-            "owner": {
-                "isVerified": false,
-                "login": "SignalR"
-            }
-        },
-        "SignalR/bower-signalr": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "bower-signalr",
-            "nameWithOwner": "SignalR/bower-signalr",
             "owner": {
                 "isVerified": false,
                 "login": "SignalR"
@@ -3713,22 +3665,6 @@
                 "login": "ammaraskar"
             }
         },
-        "ampproject/remapping": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "remapping",
-            "nameWithOwner": "ampproject/remapping",
-            "owner": {
-                "isVerified": false,
-                "login": "ampproject"
-            }
-        },
         "anatawa12/deflate64-rs": {
             "languages": {
                 "nodes": [
@@ -3835,54 +3771,6 @@
                 "login": "angr"
             }
         },
-        "angular-eslint/angular-eslint": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "angular-eslint",
-            "nameWithOwner": "angular-eslint/angular-eslint",
-            "owner": {
-                "isVerified": false,
-                "login": "angular-eslint"
-            }
-        },
-        "angular/angular": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "angular",
-            "nameWithOwner": "angular/angular",
-            "owner": {
-                "isVerified": true,
-                "login": "angular"
-            }
-        },
-        "angular/angular-cli": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "angular-cli",
-            "nameWithOwner": "angular/angular-cli",
-            "owner": {
-                "isVerified": true,
-                "login": "angular"
-            }
-        },
         "angular/clang-format": {
             "languages": {
                 "nodes": [
@@ -3894,22 +3782,6 @@
             },
             "name": "clang-format",
             "nameWithOwner": "angular/clang-format",
-            "owner": {
-                "isVerified": true,
-                "login": "angular"
-            }
-        },
-        "angular/components": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "components",
-            "nameWithOwner": "angular/components",
             "owner": {
                 "isVerified": true,
                 "login": "angular"
@@ -4557,21 +4429,6 @@
                 "login": "awslabs"
             }
         },
-        "azz/prettier-tslint": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "prettier-tslint",
-            "nameWithOwner": "azz/prettier-tslint",
-            "owner": {
-                "login": "azz"
-            }
-        },
         "babel/babel": {
             "languages": {
                 "nodes": [
@@ -4599,22 +4456,6 @@
             },
             "name": "babel-loader",
             "nameWithOwner": "babel/babel-loader",
-            "owner": {
-                "isVerified": true,
-                "login": "babel"
-            }
-        },
-        "babel/babel-polyfills": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "babel-polyfills",
-            "nameWithOwner": "babel/babel-polyfills",
             "owner": {
                 "isVerified": true,
                 "login": "babel"
@@ -5391,22 +5232,6 @@
                 "login": "c0fec0de"
             }
         },
-        "cachix/install-nix-action": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#89e051",
-                        "name": "Shell"
-                    }
-                ]
-            },
-            "name": "install-nix-action",
-            "nameWithOwner": "cachix/install-nix-action",
-            "owner": {
-                "isVerified": false,
-                "login": "cachix"
-            }
-        },
         "caesar0301/treelib": {
             "languages": {
                 "nodes": [
@@ -6077,6 +5902,22 @@
                 "login": "click-contrib"
             }
         },
+        "click-contrib/click-repl": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "click-repl",
+            "nameWithOwner": "click-contrib/click-repl",
+            "owner": {
+                "isVerified": false,
+                "login": "click-contrib"
+            }
+        },
         "click-contrib/click_params": {
             "languages": {
                 "nodes": [
@@ -6170,22 +6011,6 @@
             "owner": {
                 "isVerified": true,
                 "login": "codecov"
-            }
-        },
-        "codemirror/basic-setup": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "basic-setup",
-            "nameWithOwner": "codemirror/basic-setup",
-            "owner": {
-                "isVerified": false,
-                "login": "codemirror"
             }
         },
         "codespell-project/actions-codespell": {
@@ -6898,22 +6723,6 @@
                 "login": "deepin-community"
             }
         },
-        "deepin-community/sphinxext-rediraffe": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "sphinxext-rediraffe",
-            "nameWithOwner": "deepin-community/sphinxext-rediraffe",
-            "owner": {
-                "isVerified": false,
-                "login": "deepin-community"
-            }
-        },
         "deoxxa/duplexer2": {
             "languages": {
                 "nodes": [
@@ -6989,21 +6798,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "developmentseed"
-            }
-        },
-        "dfederm/karma-jasmine-html-reporter": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "karma-jasmine-html-reporter",
-            "nameWithOwner": "dfederm/karma-jasmine-html-reporter",
-            "owner": {
-                "login": "dfederm"
             }
         },
         "dfm/emcee": {
@@ -8674,22 +8468,6 @@
                 "login": "extra-p"
             }
         },
-        "facebook/prop-types": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "prop-types",
-            "nameWithOwner": "facebook/prop-types",
-            "owner": {
-                "isVerified": true,
-                "login": "facebook"
-            }
-        },
         "facebook/react": {
             "languages": {
                 "nodes": [
@@ -9216,6 +8994,22 @@
                 "login": "fonttools"
             }
         },
+        "fonttools/pyclipper": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            },
+            "name": "pyclipper",
+            "nameWithOwner": "fonttools/pyclipper",
+            "owner": {
+                "isVerified": false,
+                "login": "fonttools"
+            }
+        },
         "force-net/Crc32.NET": {
             "languages": {
                 "nodes": [
@@ -9558,21 +9352,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "gidgethub"
-            }
-        },
-        "gilbarbara/react-joyride": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "react-joyride",
-            "nameWithOwner": "gilbarbara/react-joyride",
-            "owner": {
-                "login": "gilbarbara"
             }
         },
         "gimli-rs/addr2line": {
@@ -11432,6 +11211,21 @@
                 "login": "icholy"
             }
         },
+        "idin/abstract": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "abstract",
+            "nameWithOwner": "idin/abstract",
+            "owner": {
+                "login": "idin"
+            }
+        },
         "ijl/orjson": {
             "languages": {
                 "nodes": [
@@ -12091,22 +11885,6 @@
                 "login": "jashkenas"
             }
         },
-        "jasmine/jasmine": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "jasmine",
-            "nameWithOwner": "jasmine/jasmine",
-            "owner": {
-                "isVerified": false,
-                "login": "jasmine"
-            }
-        },
         "java-native-access/jna": {
             "languages": {
                 "nodes": [
@@ -12382,21 +12160,6 @@
             "nameWithOwner": "jcrist/msgspec",
             "owner": {
                 "login": "jcrist"
-            }
-        },
-        "jdillard/sphinx-llms-txt": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "sphinx-llms-txt",
-            "nameWithOwner": "jdillard/sphinx-llms-txt",
-            "owner": {
-                "login": "jdillard"
             }
         },
         "jdillard/sphinx-sitemap": {
@@ -13833,21 +13596,6 @@
                 "login": "jurandy-almeida"
             }
         },
-        "just-jeb/angular-builders": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "angular-builders",
-            "nameWithOwner": "just-jeb/angular-builders",
-            "owner": {
-                "login": "just-jeb"
-            }
-        },
         "jwilk-mirrors/docutils": {
             "languages": {
                 "nodes": [
@@ -13920,54 +13668,6 @@
             },
             "name": "karma",
             "nameWithOwner": "karma-runner/karma",
-            "owner": {
-                "isVerified": false,
-                "login": "karma-runner"
-            }
-        },
-        "karma-runner/karma-chrome-launcher": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "karma-chrome-launcher",
-            "nameWithOwner": "karma-runner/karma-chrome-launcher",
-            "owner": {
-                "isVerified": false,
-                "login": "karma-runner"
-            }
-        },
-        "karma-runner/karma-coverage": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "karma-coverage",
-            "nameWithOwner": "karma-runner/karma-coverage",
-            "owner": {
-                "isVerified": false,
-                "login": "karma-runner"
-            }
-        },
-        "karma-runner/karma-jasmine": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "karma-jasmine",
-            "nameWithOwner": "karma-runner/karma-jasmine",
             "owner": {
                 "isVerified": false,
                 "login": "karma-runner"
@@ -16557,6 +16257,21 @@
                 "login": "migonzalvar"
             }
         },
+        "miguelgrinberg/Flask-SocketIO": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "Flask-SocketIO",
+            "nameWithOwner": "miguelgrinberg/Flask-SocketIO",
+            "owner": {
+                "login": "miguelgrinberg"
+            }
+        },
         "miguelgrinberg/python-socketio": {
             "languages": {
                 "nodes": [
@@ -18382,22 +18097,6 @@
                 "login": "palantir"
             }
         },
-        "palantir/tslint-react": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "tslint-react",
-            "nameWithOwner": "palantir/tslint-react",
-            "owner": {
-                "isVerified": true,
-                "login": "palantir"
-            }
-        },
         "pallets-eco/blinker": {
             "languages": {
                 "nodes": [
@@ -18734,22 +18433,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "petl-developers"
-            }
-        },
-        "pexip/os-python-click-repl": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "os-python-click-repl",
-            "nameWithOwner": "pexip/os-python-click-repl",
-            "owner": {
-                "isVerified": true,
-                "login": "pexip"
             }
         },
         "pexpect/pexpect": {
@@ -19157,6 +18840,21 @@
                 "login": "potassco"
             }
         },
+        "powellc/django-notes": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "django-notes",
+            "nameWithOwner": "powellc/django-notes",
+            "owner": {
+                "login": "powellc"
+            }
+        },
         "pradeepkumar35/Tamil-Learning-Game-For-Kids": {
             "languages": {
                 "nodes": [
@@ -19294,22 +18992,6 @@
                 "login": "prettier"
             }
         },
-        "prettier/tslint-config-prettier": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "tslint-config-prettier",
-            "nameWithOwner": "prettier/tslint-config-prettier",
-            "owner": {
-                "isVerified": true,
-                "login": "prettier"
-            }
-        },
         "prettytable/prettytable": {
             "languages": {
                 "nodes": [
@@ -19324,54 +19006,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "prettytable"
-            }
-        },
-        "primefaces/primeflex": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "primeflex",
-            "nameWithOwner": "primefaces/primeflex",
-            "owner": {
-                "isVerified": true,
-                "login": "primefaces"
-            }
-        },
-        "primefaces/primeicons": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#e34c26",
-                        "name": "HTML"
-                    }
-                ]
-            },
-            "name": "primeicons",
-            "nameWithOwner": "primefaces/primeicons",
-            "owner": {
-                "isVerified": true,
-                "login": "primefaces"
-            }
-        },
-        "primefaces/primeng": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "primeng",
-            "nameWithOwner": "primefaces/primeng",
-            "owner": {
-                "isVerified": true,
-                "login": "primefaces"
             }
         },
         "prometheus/client_golang": {
@@ -21033,7 +20667,7 @@
             "name": "pytorch",
             "nameWithOwner": "pytorch/pytorch",
             "owner": {
-                "isVerified": false,
+                "isVerified": true,
                 "login": "pytorch"
             }
         },
@@ -21049,7 +20683,7 @@
             "name": "vision",
             "nameWithOwner": "pytorch/vision",
             "owner": {
-                "isVerified": false,
+                "isVerified": true,
                 "login": "pytorch"
             }
         },
@@ -22662,21 +22296,6 @@
                 "login": "scottcorgan"
             }
         },
-        "scttcper/ngx-codemirror": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "ngx-codemirror",
-            "nameWithOwner": "scttcper/ngx-codemirror",
-            "owner": {
-                "login": "scttcper"
-            }
-        },
         "sdziallas/softsys-p2j": {
             "languages": {
                 "nodes": [
@@ -23502,37 +23121,6 @@
                 "login": "sinonjs"
             }
         },
-        "slab/quill": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "quill",
-            "nameWithOwner": "slab/quill",
-            "owner": {
-                "isVerified": true,
-                "login": "slab"
-            }
-        },
-        "sloria/sphinx-issues": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "sphinx-issues",
-            "nameWithOwner": "sloria/sphinx-issues",
-            "owner": {
-                "login": "sloria"
-            }
-        },
         "smol-rs/atomic-waker": {
             "languages": {
                 "nodes": [
@@ -24254,21 +23842,6 @@
             "nameWithOwner": "squidfunk/mkdocs-material",
             "owner": {
                 "login": "squidfunk"
-            }
-        },
-        "srcspider/typelib": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "typelib",
-            "nameWithOwner": "srcspider/typelib",
-            "owner": {
-                "login": "srcspider"
             }
         },
         "srijs/rust-crc32fast": {
@@ -26361,22 +25934,6 @@
             "nameWithOwner": "wbolster/jsonlines",
             "owner": {
                 "login": "wbolster"
-            }
-        },
-        "web-animations/web-animations-js": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "web-animations-js",
-            "nameWithOwner": "web-animations/web-animations-js",
-            "owner": {
-                "isVerified": false,
-                "login": "web-animations"
             }
         },
         "webpack-contrib/extract-text-webpack-plugin": {
