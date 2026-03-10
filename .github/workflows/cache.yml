@@ -17,6 +17,7 @@ env:
 
 jobs:
   runDataUpdate:
+    if: github.ref == 'refs/heads/main'
     name: Run Cache Request
     runs-on: ubuntu-latest
     env:
