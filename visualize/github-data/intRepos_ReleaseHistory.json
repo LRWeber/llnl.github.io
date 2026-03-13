@@ -6132,7 +6132,14 @@
         },
         "MetallData/metalldata": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "v0.2.0",
+                        "publishedAt": "2026-03-11T17:21:22Z",
+                        "tagName": "v0.2.0",
+                        "url": "https://github.com/MetallData/metalldata/releases/tag/v0.2.0"
+                    }
+                ]
             }
         },
         "Olympus-HPC/proteus": {
@@ -14389,6 +14396,11 @@
                 "nodes": []
             }
         },
+        "llnl/SurGBSA": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "llnl/Surfactant": {
             "releases": {
                 "nodes": [
@@ -16891,6 +16903,11 @@
             }
         },
         "llnl/dftracer-bak": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "llnl/dftracer-mcp": {
             "releases": {
                 "nodes": []
             }
@@ -22070,6 +22087,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v2026.1.1",
+                        "publishedAt": "2026-03-10T19:08:24Z",
+                        "tagName": "v2026.1.1",
+                        "url": "https://github.com/llnl/thicket/releases/tag/v2026.1.1"
+                    },
+                    {
                         "name": "v2026.1.0",
                         "publishedAt": "2026-01-06T22:47:15Z",
                         "tagName": "v2026.1.0",
@@ -24229,11 +24252,6 @@
                 "nodes": []
             }
         },
-        "shusenl/nlpvis": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "spack/all-pythons": {
             "releases": {
                 "nodes": []
@@ -24289,108 +24307,6 @@
                 "nodes": []
             }
         },
-        "spack/gitlab-runners": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "2026-03-10",
-                        "publishedAt": "2026-03-10T07:52:52Z",
-                        "tagName": "2026-03-10",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/2026-03-10"
-                    },
-                    {
-                        "name": "2025-09-15",
-                        "publishedAt": "2025-09-15T20:15:26Z",
-                        "tagName": "v2025-09-15",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2025-09-15"
-                    },
-                    {
-                        "name": "2025-06-05",
-                        "publishedAt": "2025-06-05T10:20:48Z",
-                        "tagName": "v2025-06-05",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2025-06-05"
-                    },
-                    {
-                        "name": "2024-10-07",
-                        "publishedAt": "2024-10-07T08:41:20Z",
-                        "tagName": "v2024-10-07",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2024-10-07"
-                    },
-                    {
-                        "name": "2024-08-09-v2",
-                        "publishedAt": "2024-09-05T16:55:40Z",
-                        "tagName": "v2024-09-05-v2",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2024-09-05-v2"
-                    },
-                    {
-                        "name": "2024-08-09",
-                        "publishedAt": "2024-08-09T10:40:39Z",
-                        "tagName": "v2024-08-09",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2024-08-09"
-                    },
-                    {
-                        "name": "2024-08-06",
-                        "publishedAt": "2024-08-06T11:45:40Z",
-                        "tagName": "v2024-08-06",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2024-08-06"
-                    },
-                    {
-                        "name": "2024-05-07",
-                        "publishedAt": "2024-05-07T15:39:08Z",
-                        "tagName": "v2024-05-07",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2024-05-07"
-                    },
-                    {
-                        "name": "2024-01-29",
-                        "publishedAt": "2024-01-29T21:37:11Z",
-                        "tagName": "v2024-01-29",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2024-01-29"
-                    },
-                    {
-                        "name": "2023-10-30",
-                        "publishedAt": "2023-10-30T08:24:46Z",
-                        "tagName": "v2023-10-30",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2023-10-30"
-                    },
-                    {
-                        "name": "2023-07-01",
-                        "publishedAt": "2023-07-01T09:55:18Z",
-                        "tagName": "v2023-07-01",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2023-07-01"
-                    },
-                    {
-                        "name": "2023-05-07",
-                        "publishedAt": "2023-05-07T08:07:27Z",
-                        "tagName": "v2023-05-07",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2023-05-07"
-                    },
-                    {
-                        "name": "2023-05-05",
-                        "publishedAt": "2023-05-04T22:31:33Z",
-                        "tagName": "v2023-05-05",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2023-05-05"
-                    },
-                    {
-                        "name": "2023-03-09",
-                        "publishedAt": "2023-03-09T18:30:12Z",
-                        "tagName": "v2023-03-09",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2023-03-09"
-                    },
-                    {
-                        "name": "2022-03-21",
-                        "publishedAt": "2022-03-21T15:25:22Z",
-                        "tagName": "v2022-03-21",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2022-03-21"
-                    },
-                    {
-                        "name": "2021-10-18",
-                        "publishedAt": "2021-10-18T14:05:30Z",
-                        "tagName": "v2021-10-18",
-                        "url": "https://github.com/spack/gitlab-runners/releases/tag/v2021-10-18"
-                    }
-                ]
-            }
-        },
         "spack/gnuconfig": {
             "releases": {
                 "nodes": [
@@ -24426,11 +24342,6 @@
                 "nodes": []
             }
         },
-        "spack/label-schema": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "spack/legacy-spack.io": {
             "releases": {
                 "nodes": []
@@ -24439,36 +24350,6 @@
         "spack/localized-docs": {
             "releases": {
                 "nodes": []
-            }
-        },
-        "spack/manylinux": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "v2024-10-16",
-                        "publishedAt": "2024-10-16T12:59:58Z",
-                        "tagName": "v2024-10-16",
-                        "url": "https://github.com/spack/manylinux/releases/tag/v2024-10-16"
-                    },
-                    {
-                        "name": "v2023-10-03",
-                        "publishedAt": "2023-10-04T03:35:27Z",
-                        "tagName": "v2023-10-03",
-                        "url": "https://github.com/spack/manylinux/releases/tag/v2023-10-03"
-                    },
-                    {
-                        "name": "v2022-10-25",
-                        "publishedAt": "2022-10-25T17:09:57Z",
-                        "tagName": "v2022-10-25",
-                        "url": "https://github.com/spack/manylinux/releases/tag/v2022-10-25"
-                    },
-                    {
-                        "name": "v2022-03-14",
-                        "publishedAt": "2022-03-15T07:51:01Z",
-                        "tagName": "v2022-03-14",
-                        "url": "https://github.com/spack/manylinux/releases/tag/v2022-03-14"
-                    }
-                ]
             }
         },
         "spack/manylinux1-static-libs": {
@@ -24488,40 +24369,6 @@
                 "nodes": []
             }
         },
-        "spack/migrate-package-prs": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "v1.0.0",
-                        "publishedAt": "2025-06-06T08:48:37Z",
-                        "tagName": "v1.0.0",
-                        "url": "https://github.com/spack/migrate-package-prs/releases/tag/v1.0.0"
-                    }
-                ]
-            }
-        },
-        "spack/msvc-wrapper": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "v0.1.0",
-                        "publishedAt": "2025-05-03T00:08:52Z",
-                        "tagName": "v0.1.0",
-                        "url": "https://github.com/spack/msvc-wrapper/releases/tag/v0.1.0"
-                    }
-                ]
-            }
-        },
-        "spack/old-spack-tutorial-container": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/packages.spack.io": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "spack/patches": {
             "releases": {
                 "nodes": []
@@ -24530,18 +24377,6 @@
         "spack/permissions-test-repo": {
             "releases": {
                 "nodes": []
-            }
-        },
-        "spack/pypi-to-spack-package": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "Latest",
-                        "publishedAt": "2024-03-07T11:31:44Z",
-                        "tagName": "latest",
-                        "url": "https://github.com/spack/pypi-to-spack-package/releases/tag/latest"
-                    }
-                ]
             }
         },
         "spack/pytorch": {
@@ -24559,86 +24394,9 @@
                 "nodes": []
             }
         },
-        "spack/sbang": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "v1.0",
-                        "publishedAt": "2020-11-19T00:30:27Z",
-                        "tagName": "v1.0",
-                        "url": "https://github.com/spack/sbang/releases/tag/v1.0"
-                    }
-                ]
-            }
-        },
         "spack/schemas": {
             "releases": {
                 "nodes": []
-            }
-        },
-        "spack/seps": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/setup-spack": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "v3.0.0",
-                        "publishedAt": "2026-02-08T11:15:29Z",
-                        "tagName": "v3.0.0",
-                        "url": "https://github.com/spack/setup-spack/releases/tag/v3.0.0"
-                    },
-                    {
-                        "name": "v2.1.1",
-                        "publishedAt": "2023-12-11T21:44:00Z",
-                        "tagName": "v2.1.1",
-                        "url": "https://github.com/spack/setup-spack/releases/tag/v2.1.1"
-                    },
-                    {
-                        "name": "v2.1.0",
-                        "publishedAt": "2023-12-11T21:13:43Z",
-                        "tagName": "v2.1.0",
-                        "url": "https://github.com/spack/setup-spack/releases/tag/v2.1.0"
-                    },
-                    {
-                        "name": "v2.0.1",
-                        "publishedAt": "2023-12-06T15:27:08Z",
-                        "tagName": "v2.0.1",
-                        "url": "https://github.com/spack/setup-spack/releases/tag/v2.0.1"
-                    },
-                    {
-                        "name": "v2.0.0",
-                        "publishedAt": "2023-12-06T15:16:46Z",
-                        "tagName": "v2.0.0",
-                        "url": "https://github.com/spack/setup-spack/releases/tag/v2.0.0"
-                    },
-                    {
-                        "name": "v1.2.1",
-                        "publishedAt": "2021-07-05T21:09:54Z",
-                        "tagName": "v1.2.1",
-                        "url": "https://github.com/spack/setup-spack/releases/tag/v1.2.1"
-                    },
-                    {
-                        "name": "v1.2.0",
-                        "publishedAt": "2021-07-05T20:24:11Z",
-                        "tagName": "v1.2.0",
-                        "url": "https://github.com/spack/setup-spack/releases/tag/v1.2.0"
-                    },
-                    {
-                        "name": "v1.1.0",
-                        "publishedAt": "2021-07-05T19:18:39Z",
-                        "tagName": "v1.1.0",
-                        "url": "https://github.com/spack/setup-spack/releases/tag/v1.1.0"
-                    },
-                    {
-                        "name": "v1.0.0",
-                        "publishedAt": "2021-07-05T13:35:43Z",
-                        "tagName": "v1.0.0",
-                        "url": "https://github.com/spack/setup-spack/releases/tag/v1.0.0"
-                    }
-                ]
             }
         },
         "spack/slackin-extended": {
@@ -25017,16 +24775,6 @@
                 "nodes": []
             }
         },
-        "spack/spack-benchmark": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-bibliography": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "spack/spack-bootstrap-installer": {
             "releases": {
                 "nodes": []
@@ -25080,74 +24828,6 @@
                 ]
             }
         },
-        "spack/spack-ci-containers": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-configs": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-contributions": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-cscs2019": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-cscs2024": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-distroless": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-gantry": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-github-action": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-infrastructure": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-it": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-monitor": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "Spack Monitor v2.0.1",
-                        "publishedAt": "2022-03-07T02:58:19Z",
-                        "tagName": "2.0.1",
-                        "url": "https://github.com/spack/spack-monitor/releases/tag/2.0.1"
-                    },
-                    {
-                        "name": "Spack Monitor v1.0.0",
-                        "publishedAt": "2021-09-14T02:50:37Z",
-                        "tagName": "1.0.0",
-                        "url": "https://github.com/spack/spack-monitor/releases/tag/1.0.0"
-                    }
-                ]
-            }
-        },
         "spack/spack-packages": {
             "releases": {
                 "nodes": [
@@ -25171,32 +24851,7 @@
                 "nodes": []
             }
         },
-        "spack/spack-repo-template": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-sbom": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-sc15-paper": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-scripting": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "spack/spack-search": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-snap": {
             "releases": {
                 "nodes": []
             }
@@ -25206,97 +24861,7 @@
                 "nodes": []
             }
         },
-        "spack/spack-stack-catalog": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-tutorial": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "SC25",
-                        "publishedAt": "2025-11-17T14:35:48Z",
-                        "tagName": "sc25",
-                        "url": "https://github.com/spack/spack-tutorial/releases/tag/sc25"
-                    },
-                    {
-                        "name": "PEARC25",
-                        "publishedAt": "2025-07-21T13:05:41Z",
-                        "tagName": "pearc25",
-                        "url": "https://github.com/spack/spack-tutorial/releases/tag/pearc25"
-                    },
-                    {
-                        "name": "SC24",
-                        "publishedAt": "2025-01-15T17:50:40Z",
-                        "tagName": "sc24",
-                        "url": "https://github.com/spack/spack-tutorial/releases/tag/sc24"
-                    },
-                    {
-                        "name": "HPCIC24",
-                        "publishedAt": "2024-08-12T20:01:48Z",
-                        "tagName": "hpcic24",
-                        "url": "https://github.com/spack/spack-tutorial/releases/tag/hpcic24"
-                    },
-                    {
-                        "name": "ACM-REP 24",
-                        "publishedAt": "2024-07-01T06:23:31Z",
-                        "tagName": "acmrep24",
-                        "url": "https://github.com/spack/spack-tutorial/releases/tag/acmrep24"
-                    },
-                    {
-                        "name": "Tutorial presented at SC23",
-                        "publishedAt": "2023-11-13T11:40:07Z",
-                        "tagName": "sc23",
-                        "url": "https://github.com/spack/spack-tutorial/releases/tag/sc23"
-                    },
-                    {
-                        "name": "Tutorial presented at ISC 23",
-                        "publishedAt": "2023-05-21T09:43:33Z",
-                        "tagName": "isc23",
-                        "url": "https://github.com/spack/spack-tutorial/releases/tag/isc23"
-                    },
-                    {
-                        "name": "Tutorial presented at CINECA, February 13 2023",
-                        "publishedAt": "2023-02-11T14:04:04Z",
-                        "tagName": "cineca23",
-                        "url": "https://github.com/spack/spack-tutorial/releases/tag/cineca23"
-                    },
-                    {
-                        "name": "Tutorial presented at SC21 (St. Louis, MO)",
-                        "publishedAt": "2021-11-14T08:46:43Z",
-                        "tagName": "sc21",
-                        "url": "https://github.com/spack/spack-tutorial/releases/tag/sc21"
-                    }
-                ]
-            }
-        },
         "spack/spack-tutorial-ami": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack-user-survey": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack.github.io": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack.io": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spack_spack": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "spack/spackbot": {
             "releases": {
                 "nodes": []
             }
@@ -25306,17 +24871,7 @@
                 "nodes": []
             }
         },
-        "spack/stars-over-time": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "spack/windows-bootstrap-resources": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "tonyhutter/edit-initramfs": {
             "releases": {
                 "nodes": []
             }
@@ -25326,22 +24881,7 @@
                 "nodes": []
             }
         },
-        "visit-dav/dashboard-hdf5200": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "visit-dav/java-client-docs": {
-            "releases": {
-                "nodes": []
-            }
-        },
         "visit-dav/largedata": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "visit-dav/migration": {
             "releases": {
                 "nodes": []
             }
@@ -25541,30 +25081,7 @@
                 ]
             }
         },
-        "visit-dav/visit-deps": {
-            "releases": {
-                "nodes": [
-                    {
-                        "name": "Version 3.2.0",
-                        "publishedAt": "2021-04-19T17:44:27Z",
-                        "tagName": "v3.2.0",
-                        "url": "https://github.com/visit-dav/visit-deps/releases/tag/v3.2.0"
-                    },
-                    {
-                        "name": "Version 3.1.0",
-                        "publishedAt": "2020-07-31T00:06:21Z",
-                        "tagName": "v3.1.0",
-                        "url": "https://github.com/visit-dav/visit-deps/releases/tag/v3.1.0"
-                    }
-                ]
-            }
-        },
         "visit-dav/visit-website": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "wustl-cig/DOLCE": {
             "releases": {
                 "nodes": []
             }

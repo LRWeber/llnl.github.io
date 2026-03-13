@@ -537,6 +537,7 @@
         "FLASK-LLNL/LC-Conductor": {
             "labContributors": {
                 "nodes": [
+                    "benson31",
                     "bvanessen",
                     "tbennun"
                 ]
@@ -1274,7 +1275,6 @@
         "Olympus-HPC/RAJA": {
             "labContributors": {
                 "nodes": [
-                    "davidbeckingsale",
                     "johnbowen42"
                 ]
             },
@@ -1472,6 +1472,14 @@
                 ]
             },
             "nameWithOwner": "ROCm/rocm-libraries"
+        },
+        "ROCm/rocm-systems": {
+            "labContributors": {
+                "nodes": [
+                    "morrone"
+                ]
+            },
+            "nameWithOwner": "ROCm/rocm-systems"
         },
         "ROCm/rocprofiler-compute": {
             "labContributors": {
@@ -2864,14 +2872,6 @@
             },
             "nameWithOwner": "e4s-project-exp/e4s-project-exp.github.io"
         },
-        "eclipse-langium/langium": {
-            "labContributors": {
-                "nodes": [
-                    "Nova38"
-                ]
-            },
-            "nameWithOwner": "eclipse-langium/langium"
-        },
         "eic/EICrecon": {
             "labContributors": {
                 "nodes": [
@@ -3602,6 +3602,14 @@
                 ]
             },
             "nameWithOwner": "kubernetes-sigs/node-feature-discovery"
+        },
+        "kylechampley/XrayPhysics": {
+            "labContributors": {
+                "nodes": [
+                    "eirrgang"
+                ]
+            },
+            "nameWithOwner": "kylechampley/XrayPhysics"
         },
         "langchain-ai/langchain": {
             "labContributors": {
@@ -4876,13 +4884,13 @@
             },
             "nameWithOwner": "singularityhub/singularity-hpc"
         },
-        "snakemake/snakemake-storage-plugin-gcs": {
+        "snakemake/snakeface": {
             "labContributors": {
                 "nodes": [
                     "vsoch"
                 ]
             },
-            "nameWithOwner": "snakemake/snakemake-storage-plugin-gcs"
+            "nameWithOwner": "snakemake/snakeface"
         },
         "sottlmarek/DevSecOps": {
             "labContributors": {
@@ -5145,7 +5153,8 @@
         "trilinos/Trilinos": {
             "labContributors": {
                 "nodes": [
-                    "gzagaris"
+                    "gzagaris",
+                    "ldowen"
                 ]
             },
             "nameWithOwner": "trilinos/Trilinos"
