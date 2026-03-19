@@ -4117,8 +4117,30 @@
         },
         "hypre-space/hypredrive": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/hpc",
+                        "topic": {
+                            "name": "hpc"
+                        },
+                        "url": "https://github.com/topics/hpc"
+                    },
+                    {
+                        "resourcePath": "/topics/linear-systems",
+                        "topic": {
+                            "name": "linear-systems"
+                        },
+                        "url": "https://github.com/topics/linear-systems"
+                    },
+                    {
+                        "resourcePath": "/topics/math-library",
+                        "topic": {
+                            "name": "math-library"
+                        },
+                        "url": "https://github.com/topics/math-library"
+                    }
+                ],
+                "totalCount": 3
             }
         },
         "jpype-project/jpype": {
@@ -14699,8 +14721,37 @@
         },
         "llnl/repligit": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/git",
+                        "topic": {
+                            "name": "git"
+                        },
+                        "url": "https://github.com/topics/git"
+                    },
+                    {
+                        "resourcePath": "/topics/github",
+                        "topic": {
+                            "name": "github"
+                        },
+                        "url": "https://github.com/topics/github"
+                    },
+                    {
+                        "resourcePath": "/topics/mirroring",
+                        "topic": {
+                            "name": "mirroring"
+                        },
+                        "url": "https://github.com/topics/mirroring"
+                    },
+                    {
+                        "resourcePath": "/topics/stateless",
+                        "topic": {
+                            "name": "stateless"
+                        },
+                        "url": "https://github.com/topics/stateless"
+                    }
+                ],
+                "totalCount": 4
             }
         },
         "llnl/response": {

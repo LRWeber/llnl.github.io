@@ -2647,7 +2647,11 @@
     "hypre-space/hypredrive": {
         "description": "High-level interface for solving linear systems with hypre",
         "name": "hypre-space/hypredrive",
-        "topics": null,
+        "topics": [
+            "hpc",
+            "linear-systems",
+            "math-library"
+        ],
         "website": ""
     },
     "jpype-project/jpype": {
@@ -7295,7 +7299,12 @@
     "llnl/repligit": {
         "description": "A Git client for mirroring multiple remotes without storing state",
         "name": "llnl/repligit",
-        "topics": null,
+        "topics": [
+            "git",
+            "github",
+            "mirroring",
+            "stateless"
+        ],
         "website": "https://pypi.org/project/repligit/"
     },
     "llnl/response": {
