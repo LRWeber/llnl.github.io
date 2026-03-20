@@ -4639,7 +4639,7 @@
             "tool",
             "hacktoberfest"
         ],
-        "website": ""
+        "website": "https://surfactant.readthedocs.io/en/latest/"
     },
     "llnl/TOPE": {
         "description": "Topology Optimization for Porous Electrodes",
@@ -5428,6 +5428,12 @@
         "name": "llnl/datacrumbs",
         "topics": null,
         "website": "https://datacrumbs.readthedocs.io/en/latest/"
+    },
+    "llnl/datacrumbs-utils": {
+        "description": "Utilities and Userspace tools for help users use and deploy datacrumbs.",
+        "name": "llnl/datacrumbs-utils",
+        "topics": null,
+        "website": null
     },
     "llnl/dataracebench": {
         "description": "Data race benchmark suite for evaluating OpenMP correctness tools aimed to detect data races.",
