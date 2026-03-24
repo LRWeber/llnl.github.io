@@ -3373,6 +3373,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v3.1.0",
+                        "publishedAt": "2026-03-24T10:39:06Z",
+                        "tagName": "v3.1.0",
+                        "url": "https://github.com/ESGF/esgf-prepare/releases/tag/v3.1.0"
+                    },
+                    {
                         "name": "v3.0.2",
                         "publishedAt": "2026-02-18T14:00:08Z",
                         "tagName": "v3.0.2",
@@ -3577,6 +3583,12 @@
         "ESGF/esgf-vocab": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v3.0.0",
+                        "publishedAt": "2026-03-23T15:22:56Z",
+                        "tagName": "3.0.0",
+                        "url": "https://github.com/ESGF/esgf-vocab/releases/tag/3.0.0"
+                    },
                     {
                         "name": "v2.2.1",
                         "publishedAt": "2026-02-06T12:46:50Z",
@@ -8016,6 +8028,12 @@
         "flux-framework/flux-coral2": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "flux-coral2 v0.32.1",
+                        "publishedAt": "2026-03-23T19:36:18Z",
+                        "tagName": "v0.32.1",
+                        "url": "https://github.com/flux-framework/flux-coral2/releases/tag/v0.32.1"
+                    },
                     {
                         "name": "flux-coral2 v0.32.0",
                         "publishedAt": "2026-03-17T21:32:36Z",
@@ -13862,6 +13880,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "RASE v3.1.1",
+                        "publishedAt": "2026-03-23T22:55:17Z",
+                        "tagName": "v3.1.1",
+                        "url": "https://github.com/llnl/RASE/releases/tag/v3.1.1"
+                    },
+                    {
                         "name": "RASE v3.1",
                         "publishedAt": "2026-02-10T23:26:42Z",
                         "tagName": "v3.1",
@@ -15847,6 +15871,11 @@
             }
         },
         "llnl/cardioid": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "llnl/castor": {
             "releases": {
                 "nodes": []
             }
@@ -24596,6 +24625,11 @@
             }
         },
         "spack/repolib": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "spack/review-helpers": {
             "releases": {
                 "nodes": []
             }
