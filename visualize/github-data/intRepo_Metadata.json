@@ -904,6 +904,12 @@
         "topics": null,
         "website": null
     },
+    "ESGF/esgf-core-utils": {
+        "description": "Common models, configuration and functionality for the ESGF-Playground",
+        "name": "ESGF/esgf-core-utils",
+        "topics": null,
+        "website": "https://esgf.github.io/esgf-playground-utils/"
+    },
     "ESGF/esgf-cwt": {
         "description": "Activities of the ESGF Compute Working Team (CWT)",
         "name": "ESGF/esgf-cwt",
@@ -1041,12 +1047,6 @@
         "name": "ESGF/esgf-notify",
         "topics": null,
         "website": ""
-    },
-    "ESGF/esgf-playground-utils": {
-        "description": "Common models, configuration and functionality for the ESGF-Playground",
-        "name": "ESGF/esgf-playground-utils",
-        "topics": null,
-        "website": "https://esgf.github.io/esgf-playground-utils/"
     },
     "ESGF/esgf-prepare": {
         "description": "Toolbox preparing your data for ESGF publication",
@@ -5240,8 +5240,13 @@
     "llnl/castor": {
         "description": "Verifying C++ using a pragma-based automated verification paradigm",
         "name": "llnl/castor",
-        "topics": null,
-        "website": null
+        "topics": [
+            "cplusplus",
+            "formal-methods",
+            "formal-verification",
+            "verification"
+        ],
+        "website": ""
     },
     "llnl/certipy": {
         "description": "Wraps pyOpenSSL for quick and easy PKI",
@@ -5827,6 +5832,12 @@
     "llnl/gitlab-runner-auth": {
         "description": "Simplifies GitLab runner authentication and registration",
         "name": "llnl/gitlab-runner-auth",
+        "topics": null,
+        "website": null
+    },
+    "llnl/gnemcore": {
+        "description": "The Geophysical Monitoring Program Core Seismic Libraries contain a broad array of seismic and waveform analysis libraries useful for a wide range of seismic analysis processes. These include signal processing, travel time calculation, waveform correlation, array processing, geometry and geodesy, and plotting libraries.",
+        "name": "llnl/gnemcore",
         "topics": null,
         "website": null
     },

@@ -1355,6 +1355,12 @@
                 "totalCount": 0
             }
         },
+        "ESGF/esgf-core-utils": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "ESGF/esgf-cwt": {
             "repositoryTopics": {
                 "nodes": [],
@@ -1488,12 +1494,6 @@
             }
         },
         "ESGF/esgf-notify": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
-        "ESGF/esgf-playground-utils": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -10064,8 +10064,37 @@
         },
         "llnl/castor": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/cplusplus",
+                        "topic": {
+                            "name": "cplusplus"
+                        },
+                        "url": "https://github.com/topics/cplusplus"
+                    },
+                    {
+                        "resourcePath": "/topics/formal-methods",
+                        "topic": {
+                            "name": "formal-methods"
+                        },
+                        "url": "https://github.com/topics/formal-methods"
+                    },
+                    {
+                        "resourcePath": "/topics/formal-verification",
+                        "topic": {
+                            "name": "formal-verification"
+                        },
+                        "url": "https://github.com/topics/formal-verification"
+                    },
+                    {
+                        "resourcePath": "/topics/verification",
+                        "topic": {
+                            "name": "verification"
+                        },
+                        "url": "https://github.com/topics/verification"
+                    }
+                ],
+                "totalCount": 4
             }
         },
         "llnl/certipy": {
@@ -11352,6 +11381,12 @@
             }
         },
         "llnl/gitlab-runner-auth": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "llnl/gnemcore": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
