@@ -3,7 +3,7 @@ name: Routine Data Cache Request
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 8 * * *'
+    - cron: '45 7 * * *'
 
 concurrency:
   group: data-cache
