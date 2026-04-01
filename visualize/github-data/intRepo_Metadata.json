@@ -3439,6 +3439,12 @@
         ],
         "website": ""
     },
+    "llnl/GESL_SMT": {
+        "description": "DOE Grid Event Signature Library Signature Matching Tool",
+        "name": "llnl/GESL_SMT",
+        "topics": null,
+        "website": null
+    },
     "llnl/GOTCHA": {
         "description": "GOTCHA is a library for wrapping function calls in shared libraries",
         "name": "llnl/GOTCHA",
@@ -5244,7 +5250,9 @@
             "cplusplus",
             "formal-methods",
             "formal-verification",
-            "verification"
+            "verification",
+            "cpp",
+            "smt-solver"
         ],
         "website": ""
     },

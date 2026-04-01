@@ -11700,6 +11700,11 @@
                 "nodes": []
             }
         },
+        "llnl/GESL_SMT": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "llnl/GOTCHA": {
             "releases": {
                 "nodes": [
@@ -13743,6 +13748,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v2025.12.1",
+                        "publishedAt": "2026-03-30T18:58:13Z",
+                        "tagName": "v2025.12.1",
+                        "url": "https://github.com/llnl/RAJAPerf/releases/tag/v2025.12.1"
+                    },
+                    {
                         "name": "v2025.12.0",
                         "publishedAt": "2026-03-24T18:40:43Z",
                         "tagName": "v2025.12.0",
@@ -13873,7 +13884,14 @@
         },
         "llnl/RAJAPerf-Benchmark": {
             "releases": {
-                "nodes": []
+                "nodes": [
+                    {
+                        "name": "v2026.04.0",
+                        "publishedAt": "2026-03-30T20:12:58Z",
+                        "tagName": "v2026.04.0",
+                        "url": "https://github.com/llnl/RAJAPerf-Benchmark/releases/tag/v2026.04.0"
+                    }
+                ]
             }
         },
         "llnl/RAJAProxies": {
@@ -15388,6 +15406,12 @@
         "llnl/axom": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "Axom-v0.14.0",
+                        "publishedAt": "2026-03-31T20:54:08Z",
+                        "tagName": "v0.14.0",
+                        "url": "https://github.com/llnl/axom/releases/tag/v0.14.0"
+                    },
                     {
                         "name": "Axom-v0.13.0",
                         "publishedAt": "2026-02-05T23:21:22Z",
