@@ -2645,12 +2645,13 @@
         "website": "https://www.llnl.gov/casc/hypre/"
     },
     "hypre-space/hypredrive": {
-        "description": "High-level interface for solving linear systems with hypre",
+        "description": "Flexible engine for solving linear systems with hypre",
         "name": "hypre-space/hypredrive",
         "topics": [
             "hpc",
             "linear-systems",
-            "math-library"
+            "linear-solvers",
+            "math-libraries"
         ],
         "website": ""
     },
