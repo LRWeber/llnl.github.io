@@ -3789,6 +3789,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v1.3.4",
+                        "publishedAt": "2026-04-21T21:11:55Z",
+                        "tagName": "v1.3.4",
+                        "url": "https://github.com/ESGF/output_viewer/releases/tag/v1.3.4"
+                    },
+                    {
                         "name": "v1.3.3",
                         "publishedAt": "2020-12-03T22:03:18Z",
                         "tagName": "v1.3.3",
@@ -17853,6 +17859,11 @@
             }
         },
         "llnl/hubcast": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "llnl/hubcast-test": {
             "releases": {
                 "nodes": []
             }
