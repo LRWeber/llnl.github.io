@@ -1,7 +1,7 @@
 from scraper.github import queryManager as qm
 from os import environ as env
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 
 ghDataDir = env.get("GITHUB_DATA", "../github-data")
 datfilepath = "%s/intRepos_ActivityCommits.json" % ghDataDir
@@ -46,7 +46,7 @@ for repo in repolist:
         except KeyError:
             pass
         # Convert unix timestamps into standard dates (rounded to nearest week to improve aggregate data)
-        weekinfo = datetime.utcfromtimestamp(item["week"]).isocalendar()
+        weekinfo = datetime.fromtimestamp(item["week"], tz=timezone.utc).isocalendar()
         weekstring = str(weekinfo[0]) + "-W" + str(weekinfo[1]) + "-1"
         item["week"] = datetime.strptime(weekstring, "%Y-W%W-%w").strftime("%Y-%m-%d")
 
