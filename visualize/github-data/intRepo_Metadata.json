@@ -1036,6 +1036,12 @@
         "topics": null,
         "website": ""
     },
+    "ESGF/esgf-ng-onboarding": {
+        "description": "Instructions and information for onboarding modeling centers and data nodes to the ESGF-NG system",
+        "name": "ESGF/esgf-ng-onboarding",
+        "topics": null,
+        "website": null
+    },
     "ESGF/esgf-node-manager": {
         "description": "Mirror: ESGF Node Manager",
         "name": "ESGF/esgf-node-manager",
@@ -3262,6 +3268,12 @@
         "topics": null,
         "website": null
     },
+    "llnl/EGAN-3DF": {
+        "description": null,
+        "name": "llnl/EGAN-3DF",
+        "topics": null,
+        "website": null
+    },
     "llnl/EQ3_6": {
         "description": "EQ3/6, a Software Package for Geochemical Modeling",
         "name": "llnl/EQ3_6",
@@ -3526,6 +3538,12 @@
             "classifier-model",
             "groundwater"
         ],
+        "website": ""
+    },
+    "llnl/GhidraMCP": {
+        "description": "MCP Server for Ghidra, with multi-server changes to support OGhidra",
+        "name": "llnl/GhidraMCP",
+        "topics": null,
         "website": ""
     },
     "llnl/GpuMatMatPaper": {
@@ -4049,6 +4067,12 @@
         ],
         "website": ""
     },
+    "llnl/NPS": {
+        "description": "Materials simullation toolkit at the atomistic and mesoscale",
+        "name": "llnl/NPS",
+        "topics": null,
+        "website": null
+    },
     "llnl/NSBC": {
         "description": null,
         "name": "llnl/NSBC",
@@ -4477,10 +4501,15 @@
         "website": null
     },
     "llnl/SSAPy-Toolkit": {
-        "description": null,
+        "description": "Add-on to the SSAPy orbit propagation package.",
         "name": "llnl/SSAPy-Toolkit",
-        "topics": null,
-        "website": null
+        "topics": [
+            "observables",
+            "orbit-transfers",
+            "plotting",
+            "orbit-fit"
+        ],
+        "website": ""
     },
     "llnl/SSHSpawner": {
         "description": null,
@@ -8317,6 +8346,12 @@
         ],
         "website": null
     },
+    "rose-compiler/build-artifacts-for-rose": {
+        "description": "See https://github.com/rose-compiler/rose for the standard repo. This repo contains additional generated files for use with analysis tools such as DeepWiki (https://deepwiki.com/rose-compiler/build-artifacts-for-rose ), and should not be cloned/downloaded.",
+        "name": "rose-compiler/build-artifacts-for-rose",
+        "topics": null,
+        "website": "http://rosecompiler.org"
+    },
     "rose-compiler/build-blocker-plugin": {
         "description": "Jenkins build blocker plugin",
         "name": "rose-compiler/build-blocker-plugin",
@@ -8364,12 +8399,6 @@
         "name": "rose-compiler/rose-develop",
         "topics": null,
         "website": ""
-    },
-    "rose-compiler/rose-full": {
-        "description": "See https://github.com/rose-compiler/rose for the standard repo. This repo contains additional generated files for use with analysis tools such as DeepWiki (https://deepwiki.com/rose-compiler/rose-full ), and should not be cloned/downloaded.",
-        "name": "rose-compiler/rose-full",
-        "topics": null,
-        "website": "http://rosecompiler.org"
     },
     "rose-compiler/rose-plugin": {
         "description": "A demo for https://en.wikibooks.org/wiki/ROSE_Compiler_Framework/Plugin",
@@ -8437,6 +8466,12 @@
         "name": "spack/ci-pricer",
         "topics": null,
         "website": ""
+    },
+    "spack/compiler-wrapper": {
+        "description": "Spack's compiler wrapper",
+        "name": "spack/compiler-wrapper",
+        "topics": null,
+        "website": null
     },
     "spack/concretizer-paper-sc22": {
         "description": "SC22 SOP Paper",
@@ -8732,6 +8767,12 @@
         "name": "spack/spack-cscs2024",
         "topics": null,
         "website": "https://spack.github.io/spack-cscs2024/"
+    },
+    "spack/spack-dashboard": {
+        "description": "GitHub Pages dashboard: open issue & PR trends for spack/spack and spack/spack-packages",
+        "name": "spack/spack-dashboard",
+        "topics": null,
+        "website": "https://spack.github.io/spack-dashboard/"
     },
     "spack/spack-distroless": {
         "description": "A minimal container environment to test Spack builds",

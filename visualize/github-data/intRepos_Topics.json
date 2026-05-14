@@ -1487,6 +1487,12 @@
                 "totalCount": 0
             }
         },
+        "ESGF/esgf-ng-onboarding": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "ESGF/esgf-node-manager": {
             "repositoryTopics": {
                 "nodes": [],
@@ -5513,6 +5519,12 @@
                 "totalCount": 0
             }
         },
+        "llnl/EGAN-3DF": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "llnl/EQ3_6": {
             "repositoryTopics": {
                 "nodes": [
@@ -6191,6 +6203,12 @@
                     }
                 ],
                 "totalCount": 3
+            }
+        },
+        "llnl/GhidraMCP": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "llnl/GpuMatMatPaper": {
@@ -7380,6 +7398,12 @@
                 "totalCount": 2
             }
         },
+        "llnl/NPS": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "llnl/NSBC": {
             "repositoryTopics": {
                 "nodes": [
@@ -8343,8 +8367,37 @@
         },
         "llnl/SSAPy-Toolkit": {
             "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/observables",
+                        "topic": {
+                            "name": "observables"
+                        },
+                        "url": "https://github.com/topics/observables"
+                    },
+                    {
+                        "resourcePath": "/topics/orbit-transfers",
+                        "topic": {
+                            "name": "orbit-transfers"
+                        },
+                        "url": "https://github.com/topics/orbit-transfers"
+                    },
+                    {
+                        "resourcePath": "/topics/plotting",
+                        "topic": {
+                            "name": "plotting"
+                        },
+                        "url": "https://github.com/topics/plotting"
+                    },
+                    {
+                        "resourcePath": "/topics/orbit-fit",
+                        "topic": {
+                            "name": "orbit-fit"
+                        },
+                        "url": "https://github.com/topics/orbit-fit"
+                    }
+                ],
+                "totalCount": 4
             }
         },
         "llnl/SSHSpawner": {
@@ -16898,6 +16951,12 @@
                 "totalCount": 2
             }
         },
+        "rose-compiler/build-artifacts-for-rose": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "rose-compiler/build-blocker-plugin": {
             "repositoryTopics": {
                 "nodes": [],
@@ -16941,12 +17000,6 @@
             }
         },
         "rose-compiler/rose-develop": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
-        "rose-compiler/rose-full": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -17080,6 +17133,12 @@
             }
         },
         "spack/ci-pricer": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "spack/compiler-wrapper": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -17531,6 +17590,12 @@
             }
         },
         "spack/spack-cscs2024": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "spack/spack-dashboard": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0

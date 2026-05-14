@@ -2100,6 +2100,18 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v1.0.0-rc.3",
+                        "publishedAt": "2026-05-12T13:03:28Z",
+                        "tagName": "v1.0.0-rc.3",
+                        "url": "https://github.com/CEED/libCEED/releases/tag/v1.0.0-rc.3"
+                    },
+                    {
+                        "name": "v1.0.0-rc.2",
+                        "publishedAt": "2026-05-04T15:16:58Z",
+                        "tagName": "v1.0.0-rc.2",
+                        "url": "https://github.com/CEED/libCEED/releases/tag/v1.0.0-rc.2"
+                    },
+                    {
                         "name": "v1.0.0-rc.1",
                         "publishedAt": "2026-01-23T19:06:20Z",
                         "tagName": "v1.0.0-rc.1",
@@ -3382,6 +3394,11 @@
                 "nodes": []
             }
         },
+        "ESGF/esgf-ng-onboarding": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "ESGF/esgf-node-manager": {
             "releases": {
                 "nodes": [
@@ -3625,6 +3642,12 @@
         "ESGF/esgf-vocab": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v4.0.1",
+                        "publishedAt": "2026-05-12T10:59:59Z",
+                        "tagName": "4.0.1",
+                        "url": "https://github.com/ESGF/esgf-vocab/releases/tag/4.0.1"
+                    },
                     {
                         "name": "v3.1.0",
                         "publishedAt": "2026-04-14T06:45:20Z",
@@ -5998,6 +6021,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v0.8.0",
+                        "publishedAt": "2026-05-08T01:11:38Z",
+                        "tagName": "v0.8.0",
+                        "url": "https://github.com/GMLC-TDC/utilities/releases/tag/v0.8.0"
+                    },
+                    {
                         "name": "v0.7.1",
                         "publishedAt": "2026-04-14T15:11:11Z",
                         "tagName": "v0.7.1",
@@ -6254,6 +6283,18 @@
         "Olympus-HPC/proteus": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v2026.05.1rc1",
+                        "publishedAt": "2026-05-12T22:53:29Z",
+                        "tagName": "v2026.05.1rc1",
+                        "url": "https://github.com/Olympus-HPC/proteus/releases/tag/v2026.05.1rc1"
+                    },
+                    {
+                        "name": "v2026.05.0",
+                        "publishedAt": "2026-05-07T23:54:19Z",
+                        "tagName": "v2026.05.0",
+                        "url": "https://github.com/Olympus-HPC/proteus/releases/tag/v2026.05.0"
+                    },
                     {
                         "name": "v2026.03.0",
                         "publishedAt": "2026-03-03T20:17:28Z",
@@ -8150,6 +8191,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "flux-coral2 v0.34.0",
+                        "publishedAt": "2026-05-11T21:12:31Z",
+                        "tagName": "v0.34.0",
+                        "url": "https://github.com/flux-framework/flux-coral2/releases/tag/v0.34.0"
+                    },
+                    {
                         "name": "flux-coral2 v0.33.1",
                         "publishedAt": "2026-04-09T19:46:45Z",
                         "tagName": "v0.33.1",
@@ -8419,6 +8466,12 @@
         "flux-framework/flux-core": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "flux-core v0.85.0",
+                        "publishedAt": "2026-05-06T03:52:20Z",
+                        "tagName": "v0.85.0",
+                        "url": "https://github.com/flux-framework/flux-core/releases/tag/v0.85.0"
+                    },
                     {
                         "name": "flux-core v0.84.0",
                         "publishedAt": "2026-04-08T03:24:24Z",
@@ -9187,6 +9240,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "flux-sched v0.51.0",
+                        "publishedAt": "2026-05-11T18:20:34Z",
+                        "tagName": "v0.51.0",
+                        "url": "https://github.com/flux-framework/flux-sched/releases/tag/v0.51.0"
+                    },
+                    {
                         "name": "flux-sched v0.50.0",
                         "publishedAt": "2026-04-03T05:49:10Z",
                         "tagName": "v0.50.0",
@@ -9527,6 +9586,12 @@
         "flux-framework/flux-security": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "flux-security v0.15.0",
+                        "publishedAt": "2026-05-05T18:13:20Z",
+                        "tagName": "v0.15.0",
+                        "url": "https://github.com/flux-framework/flux-security/releases/tag/v0.15.0"
+                    },
                     {
                         "name": "flux-security v0.14.0",
                         "publishedAt": "2025-02-27T21:57:51Z",
@@ -10065,6 +10130,12 @@
         "jpype-project/jpype": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "1.7.1 2026-05-07",
+                        "publishedAt": "2026-05-06T23:56:23Z",
+                        "tagName": "v1.7.1",
+                        "url": "https://github.com/jpype-project/jpype/releases/tag/v1.7.1"
+                    },
                     {
                         "name": "v1.7.0",
                         "publishedAt": "2026-04-09T12:58:27Z",
@@ -11548,6 +11619,11 @@
                 "nodes": []
             }
         },
+        "llnl/EGAN-3DF": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "llnl/EQ3_6": {
             "releases": {
                 "nodes": []
@@ -11959,6 +12035,11 @@
             }
         },
         "llnl/GWAP": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "llnl/GhidraMCP": {
             "releases": {
                 "nodes": []
             }
@@ -12596,6 +12677,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "MacPatch v4.2.1",
+                        "publishedAt": "2026-05-12T15:50:07Z",
+                        "tagName": "v4.2.1",
+                        "url": "https://github.com/llnl/MacPatch/releases/tag/v4.2.1"
+                    },
+                    {
                         "name": "MacPatch 4.1.3b",
                         "publishedAt": "2026-04-23T16:01:13Z",
                         "tagName": "v4.1.3b",
@@ -13159,6 +13246,11 @@
             }
         },
         "llnl/NPB": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "llnl/NPS": {
             "releases": {
                 "nodes": []
             }
@@ -14037,6 +14129,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v2026.04.1",
+                        "publishedAt": "2026-05-12T21:46:21Z",
+                        "tagName": "v2026.04.1",
+                        "url": "https://github.com/llnl/RAJAPerf-Benchmark/releases/tag/v2026.04.1"
+                    },
+                    {
                         "name": "v2026.04.0",
                         "publishedAt": "2026-03-30T20:12:58Z",
                         "tagName": "v2026.04.0",
@@ -14306,6 +14404,12 @@
         "llnl/SSAPy": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "Migrating some functions to the ssapy-toolkit",
+                        "publishedAt": "2026-05-06T20:51:38Z",
+                        "tagName": "v1.1.5",
+                        "url": "https://github.com/llnl/SSAPy/releases/tag/v1.1.5"
+                    },
                     {
                         "name": "Removed version control on numpy",
                         "publishedAt": "2026-02-05T16:49:09Z",
@@ -17024,6 +17128,12 @@
         "llnl/dftracer": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "Release v2.0.3",
+                        "publishedAt": "2026-05-06T20:48:06Z",
+                        "tagName": "v2.0.3",
+                        "url": "https://github.com/llnl/dftracer/releases/tag/v2.0.3"
+                    },
                     {
                         "name": "Release v2.0.2",
                         "publishedAt": "2025-10-22T22:37:41Z",
@@ -20957,6 +21067,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v1.1.0",
+                        "publishedAt": "2026-05-11T20:49:19Z",
+                        "tagName": "v1.1.0",
+                        "url": "https://github.com/llnl/pseudopod/releases/tag/v1.1.0"
+                    },
+                    {
                         "name": "v1.0.0",
                         "publishedAt": "2026-02-19T00:19:23Z",
                         "tagName": "v1.0.0",
@@ -23738,6 +23854,18 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "zfs-2.4.2",
+                        "publishedAt": "2026-05-12T22:20:06Z",
+                        "tagName": "zfs-2.4.2",
+                        "url": "https://github.com/openzfs/zfs/releases/tag/zfs-2.4.2"
+                    },
+                    {
+                        "name": "zfs-2.3.7",
+                        "publishedAt": "2026-05-12T22:19:47Z",
+                        "tagName": "zfs-2.3.7",
+                        "url": "https://github.com/openzfs/zfs/releases/tag/zfs-2.3.7"
+                    },
+                    {
                         "name": "zfs-2.4.1",
                         "publishedAt": "2026-02-25T01:52:33Z",
                         "tagName": "zfs-2.4.1",
@@ -24513,6 +24641,11 @@
                 ]
             }
         },
+        "rose-compiler/build-artifacts-for-rose": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "rose-compiler/build-blocker-plugin": {
             "releases": {
                 "nodes": []
@@ -24549,11 +24682,6 @@
             }
         },
         "rose-compiler/rose-develop": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "rose-compiler/rose-full": {
             "releases": {
                 "nodes": []
             }
@@ -24601,6 +24729,24 @@
         "spack/ci-pricer": {
             "releases": {
                 "nodes": []
+            }
+        },
+        "spack/compiler-wrapper": {
+            "releases": {
+                "nodes": [
+                    {
+                        "name": "v1.1.0",
+                        "publishedAt": "2026-05-13T15:18:34Z",
+                        "tagName": "v1.1.0",
+                        "url": "https://github.com/spack/compiler-wrapper/releases/tag/v1.1.0"
+                    },
+                    {
+                        "name": "v1.0",
+                        "publishedAt": "2026-05-13T11:47:16Z",
+                        "tagName": "v1.0",
+                        "url": "https://github.com/spack/compiler-wrapper/releases/tag/v1.0"
+                    }
+                ]
             }
         },
         "spack/concretizer-paper-sc22": {
@@ -25485,6 +25631,11 @@
             }
         },
         "spack/spack-cscs2024": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "spack/spack-dashboard": {
             "releases": {
                 "nodes": []
             }
