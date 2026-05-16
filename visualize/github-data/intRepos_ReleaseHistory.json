@@ -14580,6 +14580,18 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "4.12.1-pre2",
+                        "publishedAt": "2026-05-15T20:33:04Z",
+                        "tagName": "4.12.1-pre2",
+                        "url": "https://github.com/llnl/Silo/releases/tag/4.12.1-pre2"
+                    },
+                    {
+                        "name": "4.12.1-pre1",
+                        "publishedAt": "2026-05-15T18:28:07Z",
+                        "tagName": "4.12.1-pre1",
+                        "url": "https://github.com/llnl/Silo/releases/tag/4.12.1-pre1"
+                    },
+                    {
                         "name": "4.12.0",
                         "publishedAt": "2025-11-21T07:40:48Z",
                         "tagName": "4.12.0",
@@ -14720,6 +14732,11 @@
             }
         },
         "llnl/SoRa": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "llnl/SourceCodeDataSOHIP": {
             "releases": {
                 "nodes": []
             }
@@ -25600,6 +25617,12 @@
         "spack/spack-clingo-pgo": {
             "releases": {
                 "nodes": [
+                    {
+                        "name": "v1.1.0",
+                        "publishedAt": "2026-05-16T10:46:02Z",
+                        "tagName": "v1.1.0",
+                        "url": "https://github.com/spack/spack-clingo-pgo/releases/tag/v1.1.0"
+                    },
                     {
                         "name": "v1.0.2",
                         "publishedAt": "2026-05-04T10:23:01Z",
