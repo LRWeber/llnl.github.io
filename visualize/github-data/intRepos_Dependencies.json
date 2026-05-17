@@ -12588,6 +12588,47 @@
                 ]
             }
         },
+        "GLVis/pyglvis": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "anywidget",
+                                    "repository": {
+                                        "nameWithOwner": "manzt/anywidget"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipywidgets",
+                                    "repository": {
+                                        "nameWithOwner": "jakevdp/ipywidgets-static"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mfem",
+                                    "repository": {
+                                        "nameWithOwner": "mfem/PyMFEM"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            }
+        },
         "GLVis/releases": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -18076,85 +18117,85 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pybind11",
+                                    "repository": {
+                                        "nameWithOwner": "pybind/pybind11"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-build-core",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools-scm",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools-scm"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pybind11",
+                                    "repository": {
+                                        "nameWithOwner": "pybind/pybind11"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-build-core",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools-scm",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools-scm"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pybind11",
+                                    "repository": {
+                                        "nameWithOwner": "pybind/pybind11"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-build-core",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools-scm",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools-scm"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "setuptools",
                                     "repository": {
                                         "nameWithOwner": "pypa/setuptools"
                                     }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools-scm",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools-scm"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pybind11",
-                                    "repository": {
-                                        "nameWithOwner": "pybind/pybind11"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-build-core",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools-scm",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools-scm"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pybind11",
-                                    "repository": {
-                                        "nameWithOwner": "pybind/pybind11"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-build-core",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools-scm",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools-scm"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pybind11",
-                                    "repository": {
-                                        "nameWithOwner": "pybind/pybind11"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-build-core",
-                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -38380,7 +38421,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "yarl",
                                     "repository": {
-                                        "nameWithOwner": "aio-libs/yarl"
+                                        "nameWithOwner": "RayverAimar/yarl"
                                     }
                                 }
                             ]
@@ -53092,6 +53133,19 @@
                 ]
             }
         },
+        "llnl/cpp-logger": {
+            "dependencyGraphManifests": {
+                "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA3434",
+                        "name": "CMake"
+                    }
+                ]
+            }
+        },
         "llnl/cram": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -57682,6 +57736,46 @@
         "llnl/havoqgt": {
             "dependencyGraphManifests": {
                 "nodes": []
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            }
+        },
+        "llnl/hcl": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-rtd-theme",
+                                    "repository": {
+                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "languages": {
                 "nodes": [
@@ -78763,7 +78857,7 @@
                                     "packageManager": "PIP",
                                     "packageName": "yarl",
                                     "repository": {
-                                        "nameWithOwner": "aio-libs/yarl"
+                                        "nameWithOwner": "RayverAimar/yarl"
                                     }
                                 }
                             ]

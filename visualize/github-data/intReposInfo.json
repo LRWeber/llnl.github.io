@@ -14358,7 +14358,7 @@
             },
             "homepageUrl": null,
             "issues_Closed": {
-                "totalCount": 14
+                "totalCount": 15
             },
             "issues_Open": {
                 "totalCount": 7
@@ -15499,7 +15499,7 @@
                 "totalCount": 2
             },
             "stargazers": {
-                "totalCount": 84
+                "totalCount": 85
             },
             "url": "https://github.com/XBraid/xbraid"
         },
@@ -15878,7 +15878,7 @@
             },
             "description": "Distributed I/O Daemon - a 9P file server",
             "forks": {
-                "totalCount": 66
+                "totalCount": 67
             },
             "homepageUrl": "",
             "issues_Closed": {
@@ -18079,7 +18079,7 @@
                 "totalCount": 28
             },
             "pullRequests_Merged": {
-                "totalCount": 84
+                "totalCount": 86
             },
             "pullRequests_Open": {
                 "totalCount": 5
@@ -21049,7 +21049,7 @@
                 "totalCount": 798
             },
             "pullRequests_Open": {
-                "totalCount": 36
+                "totalCount": 37
             },
             "repositoryTopics": {
                 "totalCount": 4
@@ -21918,7 +21918,7 @@
                 "totalCount": 5
             },
             "stargazers": {
-                "totalCount": 43
+                "totalCount": 44
             },
             "url": "https://github.com/llnl/AMPE"
         },
@@ -25608,7 +25608,7 @@
                 "totalCount": 5
             },
             "stargazers": {
-                "totalCount": 65
+                "totalCount": 66
             },
             "url": "https://github.com/llnl/ExaConstit"
         },
@@ -27081,7 +27081,7 @@
                 "totalCount": 8
             },
             "pullRequests_Merged": {
-                "totalCount": 118
+                "totalCount": 123
             },
             "pullRequests_Open": {
                 "totalCount": 1
@@ -28016,7 +28016,7 @@
                 "totalCount": 20
             },
             "stargazers": {
-                "totalCount": 226
+                "totalCount": 227
             },
             "url": "https://github.com/llnl/LEAP"
         },
@@ -30572,7 +30572,7 @@
                 "totalCount": 0
             },
             "stargazers": {
-                "totalCount": 160
+                "totalCount": 162
             },
             "url": "https://github.com/llnl/OGhidra"
         },
@@ -39095,6 +39095,61 @@
             },
             "url": "https://github.com/llnl/cowc"
         },
+        "llnl/cpp-logger": {
+            "createdAt": "2022-08-09T06:19:52Z",
+            "defaultBranchRef": {
+                "name": "develop"
+            },
+            "description": "A simple C++ logger",
+            "forks": {
+                "totalCount": 3
+            },
+            "homepageUrl": null,
+            "issues_Closed": {
+                "totalCount": 0
+            },
+            "issues_Open": {
+                "totalCount": 2
+            },
+            "languages": {
+                "totalCount": 3
+            },
+            "licenseInfo": {
+                "name": "MIT License",
+                "nickname": null,
+                "spdxId": "MIT",
+                "url": "http://choosealicense.com/licenses/mit/"
+            },
+            "mentionableUsers": {
+                "totalCount": 12
+            },
+            "name": "cpp-logger",
+            "nameWithOwner": "llnl/cpp-logger",
+            "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/5921419?v=4",
+                "login": "llnl"
+            },
+            "parent": null,
+            "primaryLanguage": {
+                "name": "CMake"
+            },
+            "pullRequests_Closed": {
+                "totalCount": 0
+            },
+            "pullRequests_Merged": {
+                "totalCount": 23
+            },
+            "pullRequests_Open": {
+                "totalCount": 0
+            },
+            "repositoryTopics": {
+                "totalCount": 0
+            },
+            "stargazers": {
+                "totalCount": 0
+            },
+            "url": "https://github.com/llnl/cpp-logger"
+        },
         "llnl/cram": {
             "createdAt": "2014-09-23T22:47:30Z",
             "defaultBranchRef": {
@@ -40354,10 +40409,10 @@
                 "totalCount": 20
             },
             "pullRequests_Merged": {
-                "totalCount": 269
+                "totalCount": 270
             },
             "pullRequests_Open": {
-                "totalCount": 5
+                "totalCount": 4
             },
             "repositoryTopics": {
                 "totalCount": 5
@@ -42925,7 +42980,7 @@
                 "totalCount": 4
             },
             "stargazers": {
-                "totalCount": 22
+                "totalCount": 23
             },
             "url": "https://github.com/llnl/gtest-mpi-listener"
         },
@@ -43148,6 +43203,61 @@
                 "totalCount": 28
             },
             "url": "https://github.com/llnl/havoqgt"
+        },
+        "llnl/hcl": {
+            "createdAt": "2024-04-09T04:39:02Z",
+            "defaultBranchRef": {
+                "name": "develop"
+            },
+            "description": "HCL is a distributed data structure library with STL like interface",
+            "forks": {
+                "totalCount": 1
+            },
+            "homepageUrl": "https://hcl-cpp.readthedocs.io/en/latest",
+            "issues_Closed": {
+                "totalCount": 0
+            },
+            "issues_Open": {
+                "totalCount": 1
+            },
+            "languages": {
+                "totalCount": 6
+            },
+            "licenseInfo": {
+                "name": "MIT License",
+                "nickname": null,
+                "spdxId": "MIT",
+                "url": "http://choosealicense.com/licenses/mit/"
+            },
+            "mentionableUsers": {
+                "totalCount": 11
+            },
+            "name": "hcl",
+            "nameWithOwner": "llnl/hcl",
+            "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/5921419?v=4",
+                "login": "llnl"
+            },
+            "parent": null,
+            "primaryLanguage": {
+                "name": "C++"
+            },
+            "pullRequests_Closed": {
+                "totalCount": 0
+            },
+            "pullRequests_Merged": {
+                "totalCount": 22
+            },
+            "pullRequests_Open": {
+                "totalCount": 0
+            },
+            "repositoryTopics": {
+                "totalCount": 0
+            },
+            "stargazers": {
+                "totalCount": 0
+            },
+            "url": "https://github.com/llnl/hcl"
         },
         "llnl/hdbind": {
             "createdAt": "2024-01-26T22:46:21Z",
@@ -44988,7 +45098,7 @@
                 "totalCount": 9
             },
             "stargazers": {
-                "totalCount": 234
+                "totalCount": 235
             },
             "url": "https://github.com/llnl/libROM"
         },
@@ -54952,7 +55062,7 @@
             },
             "description": "Official development repository for SUNDIALS - a SUite of Nonlinear and DIfferential/ALgebraic equation Solvers. Pull requests are welcome for bug fixes and minor changes.",
             "forks": {
-                "totalCount": 162
+                "totalCount": 161
             },
             "homepageUrl": "https://computing.llnl.gov/projects/sundials",
             "issues_Closed": {
@@ -58021,7 +58131,7 @@
             },
             "description": "Lightweight, general, scalable C++ library for finite element methods",
             "forks": {
-                "totalCount": 601
+                "totalCount": 602
             },
             "homepageUrl": "http://mfem.org",
             "issues_Closed": {
@@ -58056,10 +58166,10 @@
                 "totalCount": 412
             },
             "pullRequests_Merged": {
-                "totalCount": 1999
+                "totalCount": 2000
             },
             "pullRequests_Open": {
-                "totalCount": 147
+                "totalCount": 146
             },
             "repositoryTopics": {
                 "totalCount": 11
@@ -58981,7 +59091,7 @@
                 "totalCount": 7423
             },
             "issues_Open": {
-                "totalCount": 1527
+                "totalCount": 1528
             },
             "languages": {
                 "totalCount": 9
@@ -59012,13 +59122,13 @@
                 "totalCount": 5286
             },
             "pullRequests_Open": {
-                "totalCount": 147
+                "totalCount": 148
             },
             "repositoryTopics": {
                 "totalCount": 3
             },
             "stargazers": {
-                "totalCount": 12201
+                "totalCount": 12203
             },
             "url": "https://github.com/openzfs/zfs"
         },
@@ -61875,7 +61985,7 @@
                 "totalCount": 11
             },
             "stargazers": {
-                "totalCount": 5041
+                "totalCount": 5043
             },
             "url": "https://github.com/spack/spack"
         },
@@ -62899,10 +63009,10 @@
             },
             "homepageUrl": "https://packages.spack.io",
             "issues_Closed": {
-                "totalCount": 191
+                "totalCount": 192
             },
             "issues_Open": {
-                "totalCount": 112
+                "totalCount": 111
             },
             "languages": {
                 "totalCount": 14
@@ -62930,10 +63040,10 @@
                 "totalCount": 419
             },
             "pullRequests_Merged": {
-                "totalCount": 3839
+                "totalCount": 3850
             },
             "pullRequests_Open": {
-                "totalCount": 306
+                "totalCount": 305
             },
             "repositoryTopics": {
                 "totalCount": 9
