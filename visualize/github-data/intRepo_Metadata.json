@@ -7428,6 +7428,12 @@
         "topics": null,
         "website": ""
     },
+    "llnl/rose": {
+        "description": "ROSE is an open-source compiler framework engineered by LLNL supporting program analysis and transformation at both the source and binary levels. ROSE can act as a compiler frontend for C, C++ (including applications which use UPC, OpenMP, or Cuda), Fortran, Java, Ada, and supports ELF and PE binary formats for a variety of instruction sets.",
+        "name": "llnl/rose",
+        "topics": null,
+        "website": ""
+    },
     "llnl/ross-matrix-models": {
         "description": "Finite ring matrix algebra benchmark models for ROSS.",
         "name": "llnl/ross-matrix-models",
@@ -8392,7 +8398,7 @@
         "description": "ROSE is an open-source compiler framework engineered by LLNL supporting program analysis and transformation at both the source and binary levels. ROSE can act as a compiler frontend for C, C++ (including applications which use UPC, OpenMP, or Cuda), Fortran, Java, Ada, and supports ELF and PE binary formats for a variety of instruction sets.",
         "name": "rose-compiler/rose",
         "topics": null,
-        "website": "http://rosecompiler.org"
+        "website": ""
     },
     "rose-compiler/rose-apt-get": {
         "description": "all things related to supporting apt-get install rose on Ubuntu",

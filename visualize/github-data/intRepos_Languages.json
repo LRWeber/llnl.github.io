@@ -3174,7 +3174,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 291700
+                        "size": 291698
                     },
                     {
                         "size": 5910
@@ -3205,7 +3205,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 305776
+                "totalSize": 305774
             }
         },
         "CEED/benchmarks": {
@@ -3257,10 +3257,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 3161353
+                        "size": 3161434
                     },
                     {
-                        "size": 1478219
+                        "size": 1480107
                     },
                     {
                         "size": 324509
@@ -3275,7 +3275,7 @@
                         "size": 214905
                     },
                     {
-                        "size": 45142
+                        "size": 45164
                     },
                     {
                         "size": 12256
@@ -3323,7 +3323,7 @@
                     }
                 ],
                 "totalCount": 9,
-                "totalSize": 5735459
+                "totalSize": 5737450
             }
         },
         "E3SM-Project/scream": {
@@ -11807,7 +11807,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 301728
+                        "size": 290664
                     },
                     {
                         "size": 239046
@@ -11819,7 +11819,7 @@
                         "size": 111537
                     },
                     {
-                        "size": 85048
+                        "size": 84748
                     },
                     {
                         "size": 72791
@@ -11859,7 +11859,7 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 992068
+                "totalSize": 980704
             }
         },
         "flux-framework/f-key": {
@@ -14167,19 +14167,22 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2799147
+                        "size": 2813208
                     },
                     {
-                        "size": 270374
+                        "size": 270944
                     },
                     {
-                        "size": 221372
+                        "size": 247867
                     },
                     {
                         "size": 79472
                     },
                     {
                         "size": 61752
+                    },
+                    {
+                        "size": 54141
                     },
                     {
                         "size": 29611
@@ -14213,6 +14216,10 @@
                         "name": "Fortran"
                     },
                     {
+                        "color": "#a270ba",
+                        "name": "Julia"
+                    },
+                    {
                         "color": null,
                         "name": "M4"
                     },
@@ -14225,8 +14232,8 @@
                         "name": "Makefile"
                     }
                 ],
-                "totalCount": 8,
-                "totalSize": 3482298
+                "totalCount": 9,
+                "totalSize": 3577565
             }
         },
         "jpype-project/jpype": {
@@ -16654,7 +16661,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 302002
+                        "size": 301236
                     },
                     {
                         "size": 15919
@@ -16685,7 +16692,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 326390
+                "totalSize": 325624
             }
         },
         "llnl/Copson_Expansion_Solution": {
@@ -17128,10 +17135,19 @@
         },
         "llnl/EGAN-3DF": {
             "languages": {
-                "edges": [],
-                "nodes": [],
-                "totalCount": 0,
-                "totalSize": 0
+                "edges": [
+                    {
+                        "size": 88717
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ],
+                "totalCount": 1,
+                "totalSize": 88717
             }
         },
         "llnl/EQ3_6": {
@@ -17146,16 +17162,16 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 6010402
+                        "size": 6063214
                     },
                     {
                         "size": 266412
                     },
                     {
-                        "size": 171076
+                        "size": 187875
                     },
                     {
-                        "size": 149621
+                        "size": 172208
                     },
                     {
                         "size": 87237
@@ -17180,12 +17196,12 @@
                         "name": "Fortran"
                     },
                     {
-                        "color": "#DA3434",
-                        "name": "CMake"
-                    },
-                    {
                         "color": "#6E4C13",
                         "name": "Assembly"
+                    },
+                    {
+                        "color": "#DA3434",
+                        "name": "CMake"
                     },
                     {
                         "color": "#89e051",
@@ -17205,7 +17221,7 @@
                     }
                 ],
                 "totalCount": 8,
-                "totalSize": 6775831
+                "totalSize": 6868029
             }
         },
         "llnl/Elemental": {
@@ -18438,7 +18454,7 @@
                         "size": 95983986
                     },
                     {
-                        "size": 5890788
+                        "size": 5893938
                     },
                     {
                         "size": 442949
@@ -18536,7 +18552,7 @@
                     }
                 ],
                 "totalCount": 14,
-                "totalSize": 103514320
+                "totalSize": 103517470
             }
         },
         "llnl/GridKit": {
@@ -21626,7 +21642,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 5319314
+                        "size": 5316437
                     },
                     {
                         "size": 205961
@@ -21657,7 +21673,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 5619208
+                "totalSize": 5616331
             }
         },
         "llnl/RAJA-SDP": {
@@ -22676,7 +22692,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 821981
+                        "size": 824442
                     },
                     {
                         "size": 4440
@@ -22693,7 +22709,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 826421
+                "totalSize": 828882
             }
         },
         "llnl/SSHSpawner": {
@@ -25446,7 +25462,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 14605172
+                        "size": 14641422
                     },
                     {
                         "size": 642106
@@ -25533,7 +25549,7 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 16493844
+                "totalSize": 16530094
             }
         },
         "llnl/axom-docker": {
@@ -25704,7 +25720,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 957678
+                        "size": 962312
                     },
                     {
                         "size": 5572
@@ -25742,7 +25758,7 @@
                     }
                 ],
                 "totalCount": 5,
-                "totalSize": 972532
+                "totalSize": 977166
             }
         },
         "llnl/benchpark-tutorial": {
@@ -28075,25 +28091,22 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 4470192
+                        "size": 5789860
                     },
                     {
-                        "size": 202739
+                        "size": 369103
                     },
                     {
-                        "size": 202457
+                        "size": 229983
                     },
                     {
-                        "size": 109212
+                        "size": 109438
                     },
                     {
-                        "size": 23715
+                        "size": 23705
                     },
                     {
                         "size": 3728
-                    },
-                    {
-                        "size": 1235
                     }
                 ],
                 "nodes": [
@@ -28102,12 +28115,12 @@
                         "name": "C++"
                     },
                     {
-                        "color": "#DA3434",
-                        "name": "CMake"
-                    },
-                    {
                         "color": "#3572A5",
                         "name": "Python"
+                    },
+                    {
+                        "color": "#DA3434",
+                        "name": "CMake"
                     },
                     {
                         "color": "#555555",
@@ -28120,14 +28133,10 @@
                     {
                         "color": "#427819",
                         "name": "Makefile"
-                    },
-                    {
-                        "color": "#7e7eff",
-                        "name": "Nix"
                     }
                 ],
-                "totalCount": 7,
-                "totalSize": 5013278
+                "totalCount": 6,
+                "totalSize": 6525817
             }
         },
         "llnl/dftracer-workloads": {
@@ -34824,10 +34833,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 84909
+                        "size": 87859
                     },
                     {
-                        "size": 16782
+                        "size": 16939
                     },
                     {
                         "size": 4439
@@ -34855,7 +34864,7 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 106163
+                "totalSize": 109270
             }
         },
         "llnl/psuade": {
@@ -35416,16 +35425,16 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 671723
+                        "size": 614594
                     },
                     {
-                        "size": 170069
+                        "size": 169625
                     },
                     {
-                        "size": 12445
+                        "size": 17024
                     },
                     {
-                        "size": 4096
+                        "size": 3891
                     },
                     {
                         "size": 2046
@@ -35454,14 +35463,14 @@
                     }
                 ],
                 "totalCount": 5,
-                "totalSize": 860379
+                "totalSize": 807180
             }
         },
         "llnl/quandary-examples": {
             "languages": {
                 "edges": [
                     {
-                        "size": 740019
+                        "size": 740029
                     },
                     {
                         "size": 26312
@@ -35478,7 +35487,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 766331
+                "totalSize": 766341
             }
         },
         "llnl/quantkriging": {
@@ -36202,6 +36211,14 @@
                 ],
                 "totalCount": 4,
                 "totalSize": 129136
+            }
+        },
+        "llnl/rose": {
+            "languages": {
+                "edges": [],
+                "nodes": [],
+                "totalCount": 0,
+                "totalSize": 0
             }
         },
         "llnl/ross-matrix-models": {
@@ -40492,16 +40509,16 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 18077071
+                        "size": 18076004
                     },
                     {
-                        "size": 5063102
+                        "size": 5066840
                     },
                     {
                         "size": 1233491
                     },
                     {
-                        "size": 463635
+                        "size": 467247
                     },
                     {
                         "size": 461051
@@ -40510,7 +40527,7 @@
                         "size": 375987
                     },
                     {
-                        "size": 210381
+                        "size": 210436
                     },
                     {
                         "size": 60178
@@ -40558,7 +40575,7 @@
                     }
                 ],
                 "totalCount": 9,
-                "totalSize": 25984208
+                "totalSize": 25990546
             }
         },
         "openzfs/zfs-buildbot": {
@@ -40604,31 +40621,31 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 140607138
+                        "size": 131996183
                     },
                     {
-                        "size": 82587670
+                        "size": 82560426
                     },
                     {
                         "size": 1709039
                     },
                     {
-                        "size": 1001824
+                        "size": 1010362
                     },
                     {
                         "size": 903891
                     },
                     {
-                        "size": 796501
+                        "size": 764954
                     },
                     {
-                        "size": 761451
+                        "size": 764283
                     },
                     {
                         "size": 599663
                     },
                     {
-                        "size": 591969
+                        "size": 580969
                     },
                     {
                         "size": 143702
@@ -40775,7 +40792,7 @@
                     }
                 ],
                 "totalCount": 24,
-                "totalSize": 230356444
+                "totalSize": 221687068
             }
         },
         "rose-compiler/build-blocker-plugin": {
@@ -41645,7 +41662,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 62449
+                        "size": 74063
                     }
                 ],
                 "nodes": [
@@ -41655,7 +41672,7 @@
                     }
                 ],
                 "totalCount": 1,
-                "totalSize": 62449
+                "totalSize": 74063
             }
         },
         "spack/concretizer-paper-sc22": {
@@ -42753,7 +42770,7 @@
                         "size": 14133
                     },
                     {
-                        "size": 11983
+                        "size": 12132
                     },
                     {
                         "size": 11727
@@ -42762,7 +42779,7 @@
                         "size": 9844
                     },
                     {
-                        "size": 7861
+                        "size": 8058
                     },
                     {
                         "size": 4652
@@ -42836,7 +42853,7 @@
                     }
                 ],
                 "totalCount": 14,
-                "totalSize": 8858111
+                "totalSize": 8858457
             }
         },
         "spack/spack-asp-prototypes": {
@@ -43419,7 +43436,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 20699246
+                        "size": 20700309
                     },
                     {
                         "size": 79015
@@ -43520,7 +43537,7 @@
                     }
                 ],
                 "totalCount": 14,
-                "totalSize": 20815244
+                "totalSize": 20816307
             }
         },
         "spack/spack-prereq": {
