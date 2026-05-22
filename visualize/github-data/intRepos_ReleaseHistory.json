@@ -9583,6 +9583,11 @@
                 "nodes": []
             }
         },
+        "flux-framework/flux-schedbench": {
+            "releases": {
+                "nodes": []
+            }
+        },
         "flux-framework/flux-security": {
             "releases": {
                 "nodes": [
@@ -17371,6 +17376,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "Release v0.0.6",
+                        "publishedAt": "2026-05-22T03:43:47Z",
+                        "tagName": "v0.0.6",
+                        "url": "https://github.com/llnl/dftracer-utils/releases/tag/v0.0.6"
+                    },
+                    {
                         "name": "Release v0.0.5",
                         "publishedAt": "2025-10-22T03:39:57Z",
                         "tagName": "v0.0.5",
@@ -21653,7 +21664,7 @@
                 "nodes": [
                     {
                         "name": "v2.0.0",
-                        "publishedAt": "2026-05-18T19:36:52Z",
+                        "publishedAt": "2026-05-21T20:16:32Z",
                         "tagName": "v2.0.0",
                         "url": "https://github.com/llnl/rose/releases/tag/v2.0.0"
                     }
@@ -24770,11 +24781,6 @@
             }
         },
         "rose-compiler/matlab-frontend": {
-            "releases": {
-                "nodes": []
-            }
-        },
-        "rose-compiler/rose": {
             "releases": {
                 "nodes": []
             }
