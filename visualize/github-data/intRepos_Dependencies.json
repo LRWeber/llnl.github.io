@@ -18142,60 +18142,60 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pybind11",
-                                    "repository": {
-                                        "nameWithOwner": "pybind/pybind11"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-build-core",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools-scm",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools-scm"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pybind11",
-                                    "repository": {
-                                        "nameWithOwner": "pybind/pybind11"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-build-core",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools-scm",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools-scm"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "setuptools",
                                     "repository": {
                                         "nameWithOwner": "pypa/setuptools"
                                     }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools-scm",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools-scm"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pybind11",
+                                    "repository": {
+                                        "nameWithOwner": "pybind/pybind11"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-build-core",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools-scm",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools-scm"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pybind11",
+                                    "repository": {
+                                        "nameWithOwner": "pybind/pybind11"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-build-core",
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -42783,54 +42783,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "furo",
-                                    "repository": {
-                                        "nameWithOwner": "pradyunsg/furo"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "myst-parser",
-                                    "repository": {
-                                        "nameWithOwner": "executablebooks/MyST-Parser"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "requests",
-                                    "repository": {
-                                        "nameWithOwner": "psf/requests"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx",
-                                    "repository": {
-                                        "nameWithOwner": "sphinx-doc/sphinx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-copybutton",
-                                    "repository": {
-                                        "nameWithOwner": "executablebooks/sphinx-copybutton"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tomli",
-                                    "repository": {
-                                        "nameWithOwner": "hukkin/tomli"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "build",
                                     "repository": {
                                         "nameWithOwner": "pypa/build"
@@ -43037,6 +42989,54 @@
                                     "packageName": "virtualenv",
                                     "repository": {
                                         "nameWithOwner": "pypa/virtualenv"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "furo",
+                                    "repository": {
+                                        "nameWithOwner": "pradyunsg/furo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "myst-parser",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/MyST-Parser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-copybutton",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/sphinx-copybutton"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tomli",
+                                    "repository": {
+                                        "nameWithOwner": "hukkin/tomli"
                                     }
                                 }
                             ]
@@ -58138,6 +58138,26 @@
                                     "packageName": "docker/setup-qemu-action",
                                     "repository": {
                                         "nameWithOwner": "docker/setup-qemu-action"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "azure/setup-helm",
+                                    "repository": {
+                                        "nameWithOwner": "Azure/setup-helm"
                                     }
                                 }
                             ]
@@ -77703,6 +77723,28 @@
                 "nodes": []
             }
         },
+        "spack/setup-spack": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": []
+            }
+        },
         "spack/slackin-extended": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -77724,6 +77766,19 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "pip",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/pip"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "coverage",
                                     "repository": {
                                         "nameWithOwner": "coveragepy/coveragepy"
@@ -77737,9 +77792,77 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pip",
+                                    "packageName": "black",
                                     "repository": {
-                                        "nameWithOwner": "pypa/pip"
+                                        "nameWithOwner": "psf/black"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "clingo",
+                                    "repository": {
+                                        "nameWithOwner": "potassco/clingo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "docutils",
+                                    "repository": {
+                                        "nameWithOwner": "jwilk-mirrors/docutils"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flake8",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/flake8"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "isort",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/isort"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mypy",
+                                    "repository": {
+                                        "nameWithOwner": "python/mypy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pylint",
+                                    "repository": {
+                                        "nameWithOwner": "pylint-dev/pylint"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ruamel-yaml",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ruff",
+                                    "repository": {
+                                        "nameWithOwner": "astral-sh/ruff"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "slotscheck",
+                                    "repository": {
+                                        "nameWithOwner": "ariebovenberg/slotscheck"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "vermin",
+                                    "repository": {
+                                        "nameWithOwner": "netromdk/vermin"
                                     }
                                 }
                             ]
@@ -78059,87 +78182,6 @@
                                     "packageName": "Homebrew/actions/setup-homebrew",
                                     "repository": {
                                         "nameWithOwner": "Homebrew/actions"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "black",
-                                    "repository": {
-                                        "nameWithOwner": "psf/black"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "clingo",
-                                    "repository": {
-                                        "nameWithOwner": "potassco/clingo"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "docutils",
-                                    "repository": {
-                                        "nameWithOwner": "jwilk-mirrors/docutils"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flake8",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/flake8"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "isort",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/isort"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "mypy",
-                                    "repository": {
-                                        "nameWithOwner": "python/mypy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pylint",
-                                    "repository": {
-                                        "nameWithOwner": "pylint-dev/pylint"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "ruamel-yaml",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "ruff",
-                                    "repository": {
-                                        "nameWithOwner": "astral-sh/ruff"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "slotscheck",
-                                    "repository": {
-                                        "nameWithOwner": "ariebovenberg/slotscheck"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "vermin",
-                                    "repository": {
-                                        "nameWithOwner": "netromdk/vermin"
                                     }
                                 }
                             ]
