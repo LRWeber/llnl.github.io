@@ -8,64 +8,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "deepchem",
-                                    "repository": {
-                                        "nameWithOwner": "deepchem/deepchem"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "dgl",
-                                    "repository": {
-                                        "nameWithOwner": "dmlc/dgl"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pyg-lib",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "rdkit",
-                                    "repository": {
-                                        "nameWithOwner": "kuelumbus/rdkit-pypi"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tensorflow-cpu",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torch",
-                                    "repository": {
-                                        "nameWithOwner": "pytorch/pytorch"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "bokeh",
                                     "repository": {
                                         "nameWithOwner": "bokeh/bokeh"
@@ -394,6 +336,64 @@
                                     "packageName": "xgboost",
                                     "repository": {
                                         "nameWithOwner": "dmlc/xgboost"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "deepchem",
+                                    "repository": {
+                                        "nameWithOwner": "deepchem/deepchem"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "dgl",
+                                    "repository": {
+                                        "nameWithOwner": "dmlc/dgl"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyg-lib",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "rdkit",
+                                    "repository": {
+                                        "nameWithOwner": "kuelumbus/rdkit-pypi"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tensorflow-cpu",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torch",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/pytorch"
                                     }
                                 }
                             ]
@@ -17979,36 +17979,16 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "mypy",
-                                    "repository": {
-                                        "nameWithOwner": "python/mypy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "ruff",
-                                    "repository": {
-                                        "nameWithOwner": "astral-sh/ruff"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "llnl-clippy",
                                     "repository": {
                                         "nameWithOwner": "llnl/clippy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mypy",
+                                    "repository": {
+                                        "nameWithOwner": "python/mypy"
                                     }
                                 },
                                 {
@@ -18027,9 +18007,43 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pytest-ordering",
+                                    "packageName": "ruff",
                                     "repository": {
-                                        "nameWithOwner": "ftobia/pytest-ordering"
+                                        "nameWithOwner": "astral-sh/ruff"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ipython",
+                                    "repository": {
+                                        "nameWithOwner": "ipython/ipython"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mypy",
+                                    "repository": {
+                                        "nameWithOwner": "python/mypy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "ruff",
+                                    "repository": {
+                                        "nameWithOwner": "astral-sh/ruff"
                                     }
                                 }
                             ]
@@ -18117,10 +18131,15 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "setuptools",
+                                    "packageName": "pybind11",
                                     "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
+                                        "nameWithOwner": "pybind/pybind11"
                                     }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-build-core",
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -18137,15 +18156,10 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pybind11",
+                                    "packageName": "setuptools",
                                     "repository": {
-                                        "nameWithOwner": "pybind/pybind11"
+                                        "nameWithOwner": "pypa/setuptools"
                                     }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-build-core",
-                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
