@@ -13363,6 +13363,12 @@
             "releases": {
                 "nodes": [
                     {
+                        "name": "v2026.5.0",
+                        "publishedAt": "2026-05-29T18:23:00Z",
+                        "tagName": "2026.5.0",
+                        "url": "https://github.com/llnl/PYB11Generator/releases/tag/2026.5.0"
+                    },
+                    {
                         "name": "Patch release on 2025.12.0, extending submodule build support",
                         "publishedAt": "2026-01-21T19:27:39Z",
                         "tagName": "2025.12.1",
@@ -21132,6 +21138,11 @@
             }
         },
         "llnl/productivity-frameworks": {
+            "releases": {
+                "nodes": []
+            }
+        },
+        "llnl/professor": {
             "releases": {
                 "nodes": []
             }
