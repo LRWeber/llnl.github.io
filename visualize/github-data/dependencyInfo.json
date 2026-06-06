@@ -1469,6 +1469,21 @@
                 "login": "Marak"
             }
         },
+        "MarkusJx/install-boost": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "install-boost",
+            "nameWithOwner": "MarkusJx/install-boost",
+            "owner": {
+                "login": "MarkusJx"
+            }
+        },
         "Martiusweb/asynctest": {
             "languages": {
                 "nodes": [
@@ -1513,6 +1528,22 @@
             "owner": {
                 "isVerified": true,
                 "login": "Medium"
+            }
+        },
+        "MetallData/jsonlogic-py": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "jsonlogic-py",
+            "nameWithOwner": "MetallData/jsonlogic-py",
+            "owner": {
+                "isVerified": false,
+                "login": "MetallData"
             }
         },
         "MetinSeylan/Vue-Socket.io": {
@@ -2909,22 +2940,6 @@
                 "login": "acornjs"
             }
         },
-        "actions-rs/toolchain": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3178c6",
-                        "name": "TypeScript"
-                    }
-                ]
-            },
-            "name": "toolchain",
-            "nameWithOwner": "actions-rs/toolchain",
-            "owner": {
-                "isVerified": false,
-                "login": "actions-rs"
-            }
-        },
         "actions/attest-build-provenance": {
             "languages": {
                 "nodes": []
@@ -3091,6 +3106,22 @@
             },
             "name": "setup-go",
             "nameWithOwner": "actions/setup-go",
+            "owner": {
+                "isVerified": true,
+                "login": "actions"
+            }
+        },
+        "actions/setup-java": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "setup-java",
+            "nameWithOwner": "actions/setup-java",
             "owner": {
                 "isVerified": true,
                 "login": "actions"
@@ -4177,6 +4208,22 @@
                 "login": "apache"
             }
         },
+        "apache/maven-javadoc-plugin": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "maven-javadoc-plugin",
+            "nameWithOwner": "apache/maven-javadoc-plugin",
+            "owner": {
+                "isVerified": true,
+                "login": "apache"
+            }
+        },
         "apache/maven-resources-plugin": {
             "languages": {
                 "nodes": [
@@ -4916,6 +4963,21 @@
                 "login": "beatgammit"
             }
         },
+        "beenje/gidgetlab": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "gidgetlab",
+            "nameWithOwner": "beenje/gidgetlab",
+            "owner": {
+                "login": "beenje"
+            }
+        },
         "benbalter/jekyll-include-cache": {
             "languages": {
                 "nodes": [
@@ -5082,6 +5144,21 @@
             "owner": {
                 "isVerified": false,
                 "login": "bitflags"
+            }
+        },
+        "bjornharrtell/jts2geojson": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#c22d40",
+                        "name": "Scala"
+                    }
+                ]
+            },
+            "name": "jts2geojson",
+            "nameWithOwner": "bjornharrtell/jts2geojson",
+            "owner": {
+                "login": "bjornharrtell"
             }
         },
         "blaze/datashape": {
@@ -8334,6 +8411,22 @@
                 "login": "easimon"
             }
         },
+        "eclipse-collections/eclipse-collections": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "eclipse-collections",
+            "nameWithOwner": "eclipse-collections/eclipse-collections",
+            "owner": {
+                "isVerified": false,
+                "login": "eclipse-collections"
+            }
+        },
         "eclipse-ee4j/orb": {
             "languages": {
                 "nodes": [
@@ -8345,6 +8438,22 @@
             },
             "name": "orb",
             "nameWithOwner": "eclipse-ee4j/orb",
+            "owner": {
+                "isVerified": false,
+                "login": "eclipse-ee4j"
+            }
+        },
+        "eclipse-ee4j/tyrus": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "tyrus",
+            "nameWithOwner": "eclipse-ee4j/tyrus",
             "owner": {
                 "isVerified": false,
                 "login": "eclipse-ee4j"
@@ -10045,6 +10154,22 @@
                 "login": "giampaolo"
             }
         },
+        "gidgethub/gidgethub": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "gidgethub",
+            "nameWithOwner": "gidgethub/gidgethub",
+            "owner": {
+                "isVerified": false,
+                "login": "gidgethub"
+            }
+        },
         "gilbarbara/react-joyride": {
             "languages": {
                 "nodes": [
@@ -11101,6 +11226,22 @@
             "nameWithOwner": "gweis/isodate",
             "owner": {
                 "login": "gweis"
+            }
+        },
+        "h2database/h2database": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "h2database",
+            "nameWithOwner": "h2database/h2database",
+            "owner": {
+                "isVerified": false,
+                "login": "h2database"
             }
         },
         "h5py/h5py": {
@@ -12493,6 +12634,38 @@
                 "login": "j178"
             }
         },
+        "jakartaee/common-annotations-api": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "common-annotations-api",
+            "nameWithOwner": "jakartaee/common-annotations-api",
+            "owner": {
+                "isVerified": false,
+                "login": "jakartaee"
+            }
+        },
+        "jakartaee/jaxb-api": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "jaxb-api",
+            "nameWithOwner": "jakartaee/jaxb-api",
+            "owner": {
+                "isVerified": false,
+                "login": "jakartaee"
+            }
+        },
         "jakartaee/tags": {
             "languages": {
                 "nodes": [
@@ -12504,6 +12677,22 @@
             },
             "name": "tags",
             "nameWithOwner": "jakartaee/tags",
+            "owner": {
+                "isVerified": false,
+                "login": "jakartaee"
+            }
+        },
+        "jakartaee/validation": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "validation",
+            "nameWithOwner": "jakartaee/validation",
             "owner": {
                 "isVerified": false,
                 "login": "jakartaee"
@@ -12890,21 +13079,6 @@
             "nameWithOwner": "jcmturner/rpc",
             "owner": {
                 "login": "jcmturner"
-            }
-        },
-        "jcrist/msgspec": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "msgspec",
-            "nameWithOwner": "jcrist/msgspec",
-            "owner": {
-                "login": "jcrist"
             }
         },
         "jdillard/sphinx-llms-txt": {
@@ -15859,6 +16033,22 @@
                 "login": "lo48576"
             }
         },
+        "locationtech/jts": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "jts",
+            "nameWithOwner": "locationtech/jts",
+            "owner": {
+                "isVerified": false,
+                "login": "locationtech"
+            }
+        },
         "lodash/lodash": {
             "languages": {
                 "nodes": [
@@ -17603,6 +17793,22 @@
                 "login": "mochajs"
             }
         },
+        "mockito/mockito": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "mockito",
+            "nameWithOwner": "mockito/mockito",
+            "owner": {
+                "isVerified": false,
+                "login": "mockito"
+            }
+        },
         "model-bakers/model_bakery": {
             "languages": {
                 "nodes": [
@@ -17916,6 +18122,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "msgpack"
+            }
+        },
+        "msgspec/msgspec": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "msgspec",
+            "nameWithOwner": "msgspec/msgspec",
+            "owner": {
+                "isVerified": false,
+                "login": "msgspec"
             }
         },
         "msys2/setup-msys2": {
@@ -18853,6 +19075,22 @@
             "owner": {
                 "isVerified": true,
                 "login": "opencv"
+            }
+        },
+        "openjdk/jfx": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            },
+            "name": "jfx",
+            "nameWithOwner": "openjdk/jfx",
+            "owner": {
+                "isVerified": false,
+                "login": "openjdk"
             }
         },
         "openjournals/openjournals-draft-action": {
@@ -21145,6 +21383,22 @@
                 "login": "pytest-dev"
             }
         },
+        "pytest-dev/pytest-asyncio": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "pytest-asyncio",
+            "nameWithOwner": "pytest-dev/pytest-asyncio",
+            "owner": {
+                "isVerified": false,
+                "login": "pytest-dev"
+            }
+        },
         "pytest-dev/pytest-cov": {
             "languages": {
                 "nodes": [
@@ -21481,6 +21735,22 @@
                 "login": "python-poetry"
             }
         },
+        "python-semver/python-semver": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "python-semver",
+            "nameWithOwner": "python-semver/python-semver",
+            "owner": {
+                "isVerified": false,
+                "login": "python-semver"
+            }
+        },
         "python-trio/async_generator": {
             "languages": {
                 "nodes": [
@@ -21751,6 +22021,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "qlustered"
+            }
+        },
+        "qos-ch/logback": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "logback",
+            "nameWithOwner": "qos-ch/logback",
+            "owner": {
+                "isVerified": false,
+                "login": "qos-ch"
             }
         },
         "qos-ch/slf4j": {
@@ -22825,22 +23111,6 @@
                 "login": "rust-fuzz"
             }
         },
-        "rust-lang-deprecated/error-chain": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#dea584",
-                        "name": "Rust"
-                    }
-                ]
-            },
-            "name": "error-chain",
-            "nameWithOwner": "rust-lang-deprecated/error-chain",
-            "owner": {
-                "isVerified": false,
-                "login": "rust-lang-deprecated"
-            }
-        },
         "rust-lang-nursery/lazy-static.rs": {
             "languages": {
                 "nodes": [
@@ -23638,22 +23908,6 @@
             "nameWithOwner": "seperman/orderly-set",
             "owner": {
                 "login": "seperman"
-            }
-        },
-        "serde-rs/json": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#dea584",
-                        "name": "Rust"
-                    }
-                ]
-            },
-            "name": "json",
-            "nameWithOwner": "serde-rs/json",
-            "owner": {
-                "isVerified": true,
-                "login": "serde-rs"
             }
         },
         "serde-rs/serde": {
@@ -24939,6 +25193,38 @@
                 "login": "sporkmonger"
             }
         },
+        "spring-projects/spring-boot": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "spring-boot",
+            "nameWithOwner": "spring-projects/spring-boot",
+            "owner": {
+                "isVerified": true,
+                "login": "spring-projects"
+            }
+        },
+        "spring-projects/spring-data-commons": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "spring-data-commons",
+            "nameWithOwner": "spring-projects/spring-data-commons",
+            "owner": {
+                "isVerified": true,
+                "login": "spring-projects"
+            }
+        },
         "spring-projects/spring-data-jpa": {
             "languages": {
                 "nodes": [
@@ -24969,6 +25255,22 @@
             "owner": {
                 "isVerified": true,
                 "login": "spring-projects"
+            }
+        },
+        "springdoc/springdoc-openapi": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#b07219",
+                        "name": "Java"
+                    }
+                ]
+            },
+            "name": "springdoc-openapi",
+            "nameWithOwner": "springdoc/springdoc-openapi",
+            "owner": {
+                "isVerified": false,
+                "login": "springdoc"
             }
         },
         "sqlalchemy/alembic": {
@@ -25468,6 +25770,21 @@
             "nameWithOwner": "svenevs/exhale",
             "owner": {
                 "login": "svenevs"
+            }
+        },
+        "svenstaro/upload-release-action": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "upload-release-action",
+            "nameWithOwner": "svenstaro/upload-release-action",
+            "owner": {
+                "login": "svenstaro"
             }
         },
         "sybrenstuvel/python-rsa": {
@@ -26430,6 +26747,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "trifectatechfoundation"
+            }
+        },
+        "triton-lang/triton": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#5EC8DB",
+                        "name": "MLIR"
+                    }
+                ]
+            },
+            "name": "triton",
+            "nameWithOwner": "triton-lang/triton",
+            "owner": {
+                "isVerified": false,
+                "login": "triton-lang"
             }
         },
         "tschaub/gh-pages": {
