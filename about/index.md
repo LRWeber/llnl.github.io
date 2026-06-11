@@ -106,7 +106,7 @@ This website abounds with examples of projects that have found a home in the ope
 
 <div class="row gx-5 gy-5">
   <div class="col-4 col-sm-4 col-lg-4">
-    {% include components/quick-link.html title="TTS (Technology Transformation Services) Handbook: GitHub" url="https://handbook.tts.gsa.gov/tools/github/" icon="fa-github" %}
+    {% include components/quick-link.html title="TTS (Technology Transformation Services) Handbook: GitHub" url="https://github.com/GSA-TTS/handbook" icon="fa-github" %}
   </div>
   <div class="col-4 col-sm-4 col-lg-4">
     {% include components/quick-link.html title="Controls Necessary for Federal Use of GitHub" url="https://github.com/fisma-ready/github" icon="fa-github" %}
