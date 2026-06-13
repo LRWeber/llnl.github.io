@@ -1703,6 +1703,22 @@
                 "login": "NLog"
             }
         },
+        "NVIDIA/TensorRT": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            },
+            "name": "TensorRT",
+            "nameWithOwner": "NVIDIA/TensorRT",
+            "owner": {
+                "isVerified": true,
+                "login": "NVIDIA"
+            }
+        },
         "NVIDIA/cuda-python": {
             "languages": {
                 "nodes": [
@@ -2879,6 +2895,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "WestHealth"
+            }
+        },
+        "Yelp/bravado": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "bravado",
+            "nameWithOwner": "Yelp/bravado",
+            "owner": {
+                "isVerified": true,
+                "login": "Yelp"
             }
         },
         "Zulko/moviepy": {
@@ -4836,6 +4868,22 @@
             "owner": {
                 "isVerified": true,
                 "login": "aws"
+            }
+        },
+        "awslabs/dgl-lifesci": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "dgl-lifesci",
+            "nameWithOwner": "awslabs/dgl-lifesci",
+            "owner": {
+                "isVerified": true,
+                "login": "awslabs"
             }
         },
         "azz/prettier-tslint": {
@@ -7476,6 +7524,22 @@
                 "login": "decalage2"
             }
         },
+        "deepchem/deepchem": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "deepchem",
+            "nameWithOwner": "deepchem/deepchem",
+            "owner": {
+                "isVerified": false,
+                "login": "deepchem"
+            }
+        },
         "deepin-community/pyqt6": {
             "languages": {
                 "nodes": [
@@ -7848,6 +7912,38 @@
             "nameWithOwner": "dmarx/keyframed",
             "owner": {
                 "login": "dmarx"
+            }
+        },
+        "dmlc/dgl": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "dgl",
+            "nameWithOwner": "dmlc/dgl",
+            "owner": {
+                "isVerified": false,
+                "login": "dmlc"
+            }
+        },
+        "dmlc/xgboost": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            },
+            "name": "xgboost",
+            "nameWithOwner": "dmlc/xgboost",
+            "owner": {
+                "isVerified": false,
+                "login": "dmlc"
             }
         },
         "dmwm/DBS": {
@@ -8445,6 +8541,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "eWaterCycle"
+            }
+        },
+        "earthlab/matplotcheck": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "matplotcheck",
+            "nameWithOwner": "earthlab/matplotcheck",
+            "owner": {
+                "isVerified": false,
+                "login": "earthlab"
             }
         },
         "easimon/maximize-build-space": {
@@ -11412,21 +11524,6 @@
             "nameWithOwner": "harlowja/fasteners",
             "owner": {
                 "login": "harlowja"
-            }
-        },
-        "harryfei/which-rs": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#dea584",
-                        "name": "Rust"
-                    }
-                ]
-            },
-            "name": "which-rs",
-            "nameWithOwner": "harryfei/which-rs",
-            "owner": {
-                "login": "harryfei"
             }
         },
         "harvesthq/chosen": {
@@ -15057,6 +15154,21 @@
                 "login": "kmike"
             }
         },
+        "konstantint/matplotlib-venn": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#DA5B0B",
+                        "name": "Jupyter Notebook"
+                    }
+                ]
+            },
+            "name": "matplotlib-venn",
+            "nameWithOwner": "konstantint/matplotlib-venn",
+            "owner": {
+                "login": "konstantint"
+            }
+        },
         "kpdecker/jsdiff": {
             "languages": {
                 "nodes": [
@@ -15342,6 +15454,21 @@
                 "login": "kubernetes"
             }
         },
+        "kuelumbus/rdkit-pypi": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "rdkit-pypi",
+            "nameWithOwner": "kuelumbus/rdkit-pypi",
+            "owner": {
+                "login": "kuelumbus"
+            }
+        },
         "kurtmckee/feedparser": {
             "languages": {
                 "nodes": [
@@ -15541,6 +15668,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "lief-project"
+            }
+        },
+        "lightgbm-org/LightGBM": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f34b7d",
+                        "name": "C++"
+                    }
+                ]
+            },
+            "name": "LightGBM",
+            "nameWithOwner": "lightgbm-org/LightGBM",
+            "owner": {
+                "isVerified": false,
+                "login": "lightgbm-org"
             }
         },
         "lint-staged/lint-staged": {
@@ -16970,6 +17113,22 @@
                 "login": "meta-pytorch"
             }
         },
+        "meta-pytorch/data": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "data",
+            "nameWithOwner": "meta-pytorch/data",
+            "owner": {
+                "isVerified": true,
+                "login": "meta-pytorch"
+            }
+        },
         "mfem/PyMFEM": {
             "languages": {
                 "nodes": [
@@ -17997,6 +18156,22 @@
             "owner": {
                 "isVerified": false,
                 "login": "mongodb"
+            }
+        },
+        "mordred-descriptor/mordred": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "mordred",
+            "nameWithOwner": "mordred-descriptor/mordred",
+            "owner": {
+                "isVerified": false,
+                "login": "mordred-descriptor"
             }
         },
         "more-itertools/more-itertools": {
@@ -23789,6 +23964,22 @@
                 "login": "scikit-image"
             }
         },
+        "scikit-learn-contrib/imbalanced-learn": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "imbalanced-learn",
+            "nameWithOwner": "scikit-learn-contrib/imbalanced-learn",
+            "owner": {
+                "isVerified": false,
+                "login": "scikit-learn-contrib"
+            }
+        },
         "scikit-learn/scikit-learn": {
             "languages": {
                 "nodes": [
@@ -26279,6 +26470,21 @@
             "owner": {
                 "isVerified": false,
                 "login": "textX"
+            }
+        },
+        "thammegowda/011-imb-learn": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "011-imb-learn",
+            "nameWithOwner": "thammegowda/011-imb-learn",
+            "owner": {
+                "login": "thammegowda"
             }
         },
         "thampiman/reverse-geocoder": {
