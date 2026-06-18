@@ -1593,6 +1593,22 @@
                 "login": "Mause"
             }
         },
+        "Medium/phantomjs": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "phantomjs",
+            "nameWithOwner": "Medium/phantomjs",
+            "owner": {
+                "isVerified": true,
+                "login": "Medium"
+            }
+        },
         "MetallData/jsonlogic-py": {
             "languages": {
                 "nodes": [
@@ -4965,6 +4981,22 @@
                 "login": "babel"
             }
         },
+        "babel/babelify": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "babelify",
+            "nameWithOwner": "babel/babelify",
+            "owner": {
+                "isVerified": true,
+                "login": "babel"
+            }
+        },
         "banister/method_source": {
             "languages": {
                 "nodes": [
@@ -5131,6 +5163,21 @@
             "nameWithOwner": "benjaminp/six",
             "owner": {
                 "login": "benjaminp"
+            }
+        },
+        "benjamn/install": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "install",
+            "nameWithOwner": "benjamn/install",
+            "owner": {
+                "login": "benjamn"
             }
         },
         "benoitc/gunicorn": {
@@ -5657,6 +5704,22 @@
                 "login": "browserify"
             }
         },
+        "browserify/browserify": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "browserify",
+            "nameWithOwner": "browserify/browserify",
+            "owner": {
+                "isVerified": false,
+                "login": "browserify"
+            }
+        },
         "browserify/commonjs-assert": {
             "languages": {
                 "nodes": [
@@ -5684,6 +5747,22 @@
             },
             "name": "resolve",
             "nameWithOwner": "browserify/resolve",
+            "owner": {
+                "isVerified": false,
+                "login": "browserify"
+            }
+        },
+        "browserify/watchify": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "watchify",
+            "nameWithOwner": "browserify/watchify",
             "owner": {
                 "isVerified": false,
                 "login": "browserify"
@@ -6212,6 +6291,22 @@
             "nameWithOwner": "cespare/xxhash",
             "owner": {
                 "login": "cespare"
+            }
+        },
+        "chaijs/chai": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "chai",
+            "nameWithOwner": "chaijs/chai",
+            "owner": {
+                "isVerified": false,
+                "login": "chaijs"
             }
         },
         "chalk/ansi-regex": {
@@ -10933,22 +11028,6 @@
                 "login": "googleapis"
             }
         },
-        "googleapis/google-auth-library-python": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "google-auth-library-python",
-            "nameWithOwner": "googleapis/google-auth-library-python",
-            "owner": {
-                "isVerified": false,
-                "login": "googleapis"
-            }
-        },
         "googleapis/google-cloud-go": {
             "languages": {
                 "nodes": [
@@ -11678,6 +11757,22 @@
             "nameWithOwner": "horejsek/python-fastjsonschema",
             "owner": {
                 "login": "horejsek"
+            }
+        },
+        "horovod/horovod": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "horovod",
+            "nameWithOwner": "horovod/horovod",
+            "owner": {
+                "isVerified": false,
+                "login": "horovod"
             }
         },
         "hplt-project/sacremoses": {
@@ -14810,6 +14905,38 @@
                 "login": "karma-runner"
             }
         },
+        "karma-runner/karma-mocha": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "karma-mocha",
+            "nameWithOwner": "karma-runner/karma-mocha",
+            "owner": {
+                "isVerified": false,
+                "login": "karma-runner"
+            }
+        },
+        "karma-runner/karma-phantomjs-launcher": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "karma-phantomjs-launcher",
+            "nameWithOwner": "karma-runner/karma-phantomjs-launcher",
+            "owner": {
+                "isVerified": false,
+                "login": "karma-runner"
+            }
+        },
         "keithschulze/coord": {
             "languages": {
                 "nodes": [
@@ -16938,6 +17065,22 @@
                 "login": "medyagh"
             }
         },
+        "mermaid-js/mermaid": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3178c6",
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            "name": "mermaid",
+            "nameWithOwner": "mermaid-js/mermaid",
+            "owner": {
+                "isVerified": false,
+                "login": "mermaid-js"
+            }
+        },
         "meta-pytorch/botorch": {
             "languages": {
                 "nodes": [
@@ -17559,6 +17702,21 @@
             "nameWithOwner": "minrk/appnope",
             "owner": {
                 "login": "minrk"
+            }
+        },
+        "mishoo/UglifyJS": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "UglifyJS",
+            "nameWithOwner": "mishoo/UglifyJS",
+            "owner": {
+                "login": "mishoo"
             }
         },
         "missinglinkelectronics/sphinxcontrib-svg2pdfconverter": {
@@ -18567,6 +18725,21 @@
             "nameWithOwner": "nightlark/pymsi",
             "owner": {
                 "login": "nightlark"
+            }
+        },
+        "nikku/karma-browserify": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "karma-browserify",
+            "nameWithOwner": "nikku/karma-browserify",
+            "owner": {
+                "login": "nikku"
             }
         },
         "nilp0inter/cpe": {
@@ -21718,6 +21891,22 @@
                 "login": "python-jsonschema"
             }
         },
+        "python-ldap/python-ldap": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ]
+            },
+            "name": "python-ldap",
+            "nameWithOwner": "python-ldap/python-ldap",
+            "owner": {
+                "isVerified": false,
+                "login": "python-ldap"
+            }
+        },
         "python-lsp/python-lsp-server": {
             "languages": {
                 "nodes": [
@@ -23823,6 +24012,21 @@
                 "login": "scipy"
             }
         },
+        "scottcorgan/tiny-emitter": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "tiny-emitter",
+            "nameWithOwner": "scottcorgan/tiny-emitter",
+            "owner": {
+                "login": "scottcorgan"
+            }
+        },
         "scttcper/ngx-codemirror": {
             "languages": {
                 "nodes": [
@@ -24675,6 +24879,22 @@
             "nameWithOwner": "singingwolfboy/nose-testconfig",
             "owner": {
                 "login": "singingwolfboy"
+            }
+        },
+        "sinonjs/sinon": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "sinon",
+            "nameWithOwner": "sinonjs/sinon",
+            "owner": {
+                "isVerified": false,
+                "login": "sinonjs"
             }
         },
         "skeyjia6/ffmpeg": {
@@ -28229,6 +28449,21 @@
                 "login": "xarray-contrib"
             }
         },
+        "xdissent/karma-chai": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "karma-chai",
+            "nameWithOwner": "xdissent/karma-chai",
+            "owner": {
+                "login": "xdissent"
+            }
+        },
         "xflr6/graphviz": {
             "languages": {
                 "nodes": [
@@ -28352,6 +28587,21 @@
                 "login": "yaml"
             }
         },
+        "yanoosh/karma-sinon": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "karma-sinon",
+            "nameWithOwner": "yanoosh/karma-sinon",
+            "owner": {
+                "login": "yanoosh"
+            }
+        },
         "yargs/cliui": {
             "languages": {
                 "nodes": [
@@ -28428,6 +28678,51 @@
             "owner": {
                 "isVerified": false,
                 "login": "zarr-developers"
+            }
+        },
+        "zemirco/bannerify": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "bannerify",
+            "nameWithOwner": "zemirco/bannerify",
+            "owner": {
+                "login": "zemirco"
+            }
+        },
+        "zenorocha/good-listener": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "good-listener",
+            "nameWithOwner": "zenorocha/good-listener",
+            "owner": {
+                "login": "zenorocha"
+            }
+        },
+        "zenorocha/select": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "select",
+            "nameWithOwner": "zenorocha/select",
+            "owner": {
+                "login": "zenorocha"
             }
         },
         "zeromq/pyzmq": {
