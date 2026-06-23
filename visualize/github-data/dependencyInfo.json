@@ -5954,17 +5954,6 @@
                 "login": "canonical"
             }
         },
-        "canonical/setup-lxd": {
-            "languages": {
-                "nodes": []
-            },
-            "name": "setup-lxd",
-            "nameWithOwner": "canonical/setup-lxd",
-            "owner": {
-                "isVerified": true,
-                "login": "canonical"
-            }
-        },
         "canonical/ubuntu-drivers-common": {
             "languages": {
                 "nodes": [
@@ -10251,22 +10240,6 @@
                 "login": "geopython"
             }
         },
-        "get-woke/woke-action": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#89e051",
-                        "name": "Shell"
-                    }
-                ]
-            },
-            "name": "woke-action",
-            "nameWithOwner": "get-woke/woke-action",
-            "owner": {
-                "isVerified": true,
-                "login": "get-woke"
-            }
-        },
         "getsentry/sentry-python": {
             "languages": {
                 "nodes": [
@@ -12441,21 +12414,6 @@
             },
             "name": "pytest-benchmark",
             "nameWithOwner": "ionelmc/pytest-benchmark",
-            "owner": {
-                "login": "ionelmc"
-            }
-        },
-        "ionelmc/python-tblib": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "python-tblib",
-            "nameWithOwner": "ionelmc/python-tblib",
             "owner": {
                 "login": "ionelmc"
             }
@@ -20426,6 +20384,22 @@
                 "login": "pradyunsg"
             }
         },
+        "pre-commit-ci/lite-action": {
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            "name": "lite-action",
+            "nameWithOwner": "pre-commit-ci/lite-action",
+            "owner": {
+                "isVerified": true,
+                "login": "pre-commit-ci"
+            }
+        },
         "pre-commit/action": {
             "languages": {
                 "nodes": []
@@ -21054,22 +21028,6 @@
             },
             "name": "patsy",
             "nameWithOwner": "pydata/patsy",
-            "owner": {
-                "isVerified": false,
-                "login": "pydata"
-            }
-        },
-        "pydata/sparse": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            },
-            "name": "sparse",
-            "nameWithOwner": "pydata/sparse",
             "owner": {
                 "isVerified": false,
                 "login": "pydata"
@@ -24957,22 +24915,6 @@
             "owner": {
                 "isVerified": false,
                 "login": "smol-rs"
-            }
-        },
-        "snapcore/action-build": {
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#f1e05a",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            "name": "action-build",
-            "nameWithOwner": "snapcore/action-build",
-            "owner": {
-                "isVerified": false,
-                "login": "snapcore"
             }
         },
         "snok/install-poetry": {

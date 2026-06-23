@@ -8710,6 +8710,20 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "cf-units",
+                                    "repository": {
+                                        "nameWithOwner": "SciTools/cf-units"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cf-xarray",
+                                    "repository": {
+                                        "nameWithOwner": "xarray-contrib/cf-xarray"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "cf-xarray",
                                     "repository": {
                                         "nameWithOwner": "xarray-contrib/cf-xarray"
@@ -8780,23 +8794,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "dask",
-                                    "repository": {
-                                        "nameWithOwner": "dask/dask"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "distributed",
                                     "repository": {
                                         "nameWithOwner": "dask/distributed"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "docutils",
-                                    "repository": {
-                                        "nameWithOwner": "jwilk-mirrors/docutils"
                                     }
                                 },
                                 {
@@ -8955,6 +8955,13 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "kerchunk",
+                                    "repository": {
+                                        "nameWithOwner": "fsspec/kerchunk"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "locket",
                                     "repository": {
                                         "nameWithOwner": "mwilliamson/locket.py"
@@ -9011,9 +9018,30 @@
                                 },
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "netcdf4",
+                                    "repository": {
+                                        "nameWithOwner": "Unidata/netcdf4-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "numcodecs",
                                     "repository": {
                                         "nameWithOwner": "zarr-developers/numcodecs"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numcodecs",
+                                    "repository": {
+                                        "nameWithOwner": "zarr-developers/numcodecs"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
                                     }
                                 },
                                 {
@@ -9063,15 +9091,17 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "partd",
+                                    "packageName": "pandas",
                                     "repository": {
-                                        "nameWithOwner": "dask/partd"
+                                        "nameWithOwner": "pandas-dev/pandas"
                                     }
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pathlib",
-                                    "repository": null
+                                    "packageName": "partd",
+                                    "repository": {
+                                        "nameWithOwner": "dask/partd"
+                                    }
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -9167,6 +9197,13 @@
                                     "packageName": "pyld",
                                     "repository": {
                                         "nameWithOwner": "digitalbazaar/pyld"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pyproj",
+                                    "repository": {
+                                        "nameWithOwner": "pyproj4/pyproj"
                                     }
                                 },
                                 {
@@ -9295,13 +9332,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "sphinx-rtd-theme",
-                                    "repository": {
-                                        "nameWithOwner": "readthedocs/sphinx_rtd_theme"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "sqlalchemy",
                                     "repository": {
                                         "nameWithOwner": "sqlalchemy/sqlalchemy"
@@ -9312,34 +9342,6 @@
                                     "packageName": "sqlmodel",
                                     "repository": {
                                         "nameWithOwner": "fastapi/sqlmodel"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sympy",
-                                    "repository": {
-                                        "nameWithOwner": "sympy/sympy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tblib",
-                                    "repository": {
-                                        "nameWithOwner": "ionelmc/python-tblib"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "toml",
-                                    "repository": {
-                                        "nameWithOwner": "uiri/toml"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tomli",
-                                    "repository": {
-                                        "nameWithOwner": "hukkin/tomli"
                                     }
                                 }
                             ]
@@ -19010,10 +19012,15 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "setuptools",
+                                    "packageName": "pybind11",
                                     "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
+                                        "nameWithOwner": "pybind/pybind11"
                                     }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-build-core",
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -19030,15 +19037,10 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pybind11",
+                                    "packageName": "setuptools",
                                     "repository": {
-                                        "nameWithOwner": "pybind/pybind11"
+                                        "nameWithOwner": "pypa/setuptools"
                                     }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-build-core",
-                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -40529,6 +40531,54 @@
                 ]
             }
         },
+        "llnl/MI-ChemVis": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "eventlet",
+                                    "repository": {
+                                        "nameWithOwner": "eventlet/eventlet"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "flask",
+                                    "repository": {
+                                        "nameWithOwner": "pallets/flask"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-socketio",
+                                    "repository": {
+                                        "nameWithOwner": "miguelgrinberg/python-socketio"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#f1e05a",
+                        "name": "JavaScript"
+                    }
+                ]
+            }
+        },
         "llnl/MLAP": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -43720,67 +43770,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "furo",
-                                    "repository": {
-                                        "nameWithOwner": "pradyunsg/furo"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "myst-parser",
-                                    "repository": {
-                                        "nameWithOwner": "executablebooks/MyST-Parser"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "requests",
-                                    "repository": {
-                                        "nameWithOwner": "psf/requests"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx",
-                                    "repository": {
-                                        "nameWithOwner": "sphinx-doc/sphinx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-copybutton",
-                                    "repository": {
-                                        "nameWithOwner": "executablebooks/sphinx-copybutton"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tomli",
-                                    "repository": {
-                                        "nameWithOwner": "hukkin/tomli"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "build",
                                     "repository": {
                                         "nameWithOwner": "pypa/build"
@@ -43987,6 +43976,67 @@
                                     "packageName": "virtualenv",
                                     "repository": {
                                         "nameWithOwner": "pypa/virtualenv"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "furo",
+                                    "repository": {
+                                        "nameWithOwner": "pradyunsg/furo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "myst-parser",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/MyST-Parser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-copybutton",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/sphinx-copybutton"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tomli",
+                                    "repository": {
+                                        "nameWithOwner": "hukkin/tomli"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
                                     }
                                 }
                             ]
@@ -75821,19 +75871,6 @@
                 ]
             }
         },
-        "mdg-graphics/mili": {
-            "dependencyGraphManifests": {
-                "nodes": []
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#555555",
-                        "name": "C"
-                    }
-                ]
-            }
-        },
         "mdg-graphics/mili-python": {
             "dependencyGraphManifests": {
                 "nodes": [
@@ -77381,6 +77418,19 @@
                                     "repository": {
                                         "nameWithOwner": "actions/checkout"
                                     }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
                                 },
                                 {
                                     "packageManager": "ACTIONS",
@@ -77937,6 +77987,67 @@
                     {
                         "color": "#4d41b1",
                         "name": "Fortran"
+                    }
+                ]
+            }
+        },
+        "spack/gh-spack-pr": {
+            "dependencyGraphManifests": {
+                "nodes": [
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pexpect",
+                                    "repository": {
+                                        "nameWithOwner": "pexpect/pexpect"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/checkout",
+                                    "repository": {
+                                        "nameWithOwner": "actions/checkout"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "actions/setup-python",
+                                    "repository": {
+                                        "nameWithOwner": "actions/setup-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "pre-commit-ci/lite-action",
+                                    "repository": {
+                                        "nameWithOwner": "pre-commit-ci/lite-action"
+                                    }
+                                },
+                                {
+                                    "packageManager": "ACTIONS",
+                                    "packageName": "pre-commit/action",
+                                    "repository": {
+                                        "nameWithOwner": "pre-commit/action"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "languages": {
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
                     }
                 ]
             }
@@ -79181,19 +79292,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pip",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/pip"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "coverage",
                                     "repository": {
                                         "nameWithOwner": "coveragepy/coveragepy"
@@ -79354,6 +79452,19 @@
                                     "packageName": "sphinxcontrib-svg2pdfconverter",
                                     "repository": {
                                         "nameWithOwner": "missinglinkelectronics/sphinxcontrib-svg2pdfconverter"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pip",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/pip"
                                     }
                                 }
                             ]
@@ -82247,54 +82358,6 @@
                 ]
             }
         },
-        "spack/spack-snap": {
-            "dependencyGraphManifests": {
-                "nodes": [
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "actions/checkout",
-                                    "repository": {
-                                        "nameWithOwner": "actions/checkout"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "canonical/setup-lxd",
-                                    "repository": {
-                                        "nameWithOwner": "canonical/setup-lxd"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "get-woke/woke-action",
-                                    "repository": {
-                                        "nameWithOwner": "get-woke/woke-action"
-                                    }
-                                },
-                                {
-                                    "packageManager": "ACTIONS",
-                                    "packageName": "snapcore/action-build",
-                                    "repository": {
-                                        "nameWithOwner": "snapcore/action-build"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "languages": {
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ]
-            }
-        },
         "spack/spack-stack": {
             "dependencyGraphManifests": {
                 "nodes": []
@@ -84298,37 +84361,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "cftime",
-                                    "repository": {
-                                        "nameWithOwner": "Unidata/cftime"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "dask",
-                                    "repository": {
-                                        "nameWithOwner": "dask/dask"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "netcdf4",
-                                    "repository": {
-                                        "nameWithOwner": "Unidata/netcdf4-python"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "numpy",
                                     "repository": {
                                         "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
                                     }
                                 },
                                 {
@@ -84340,13 +84375,6 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "python-dateutil",
-                                    "repository": {
-                                        "nameWithOwner": "dateutil/dateutil"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "regionmask",
                                     "repository": {
                                         "nameWithOwner": "regionmask/regionmask"
@@ -84354,16 +84382,9 @@
                                 },
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "scipy",
+                                    "packageName": "setuptools",
                                     "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sparse",
-                                    "repository": {
-                                        "nameWithOwner": "pydata/sparse"
+                                        "nameWithOwner": "pypa/setuptools"
                                     }
                                 },
                                 {
