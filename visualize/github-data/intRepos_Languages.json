@@ -4056,7 +4056,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1267993
+                        "size": 1268280
                     },
                     {
                         "size": 149356
@@ -4094,7 +4094,7 @@
                     }
                 ],
                 "totalCount": 5,
-                "totalSize": 1470809
+                "totalSize": 1471096
             }
         },
         "ESGF/esg-search": {
@@ -5779,7 +5779,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 73581
+                        "size": 70266
                     },
                     {
                         "size": 1781
@@ -5803,7 +5803,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 76266
+                "totalSize": 72951
             }
         },
         "FrankD412/pyaestro": {
@@ -8331,7 +8331,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 196302
+                        "size": 197678
                     },
                     {
                         "size": 6016
@@ -8348,7 +8348,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 202318
+                "totalSize": 203694
             }
         },
         "LBANN/cb_optillm": {
@@ -10000,19 +10000,19 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1327517
+                        "size": 1327601
                     },
                     {
                         "size": 611545
                     },
                     {
-                        "size": 144512
+                        "size": 145595
                     },
                     {
                         "size": 33123
                     },
                     {
-                        "size": 16570
+                        "size": 15998
                     },
                     {
                         "size": 5779
@@ -10052,7 +10052,7 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 2139160
+                "totalSize": 2139755
             }
         },
         "chaos/9nbd": {
@@ -16196,7 +16196,7 @@
                         "size": 1701746
                     },
                     {
-                        "size": 311015
+                        "size": 311043
                     },
                     {
                         "size": 202673
@@ -16273,7 +16273,7 @@
                     }
                 ],
                 "totalCount": 11,
-                "totalSize": 2436034
+                "totalSize": 2436062
             }
         },
         "llnl/CallFlow": {
@@ -16910,23 +16910,6 @@
                 ],
                 "totalCount": 1,
                 "totalSize": 108963
-            }
-        },
-        "llnl/DFDiagnoser": {
-            "languages": {
-                "edges": [
-                    {
-                        "size": 77103
-                    }
-                ],
-                "nodes": [
-                    {
-                        "color": "#3572A5",
-                        "name": "Python"
-                    }
-                ],
-                "totalCount": 1,
-                "totalSize": 77103
             }
         },
         "llnl/DFTT": {
@@ -21645,10 +21628,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 577591
+                        "size": 575799
                     },
                     {
-                        "size": 4511
+                        "size": 4908
                     },
                     {
                         "size": 298
@@ -21669,7 +21652,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 582400
+                "totalSize": 581005
             }
         },
         "llnl/QRUS": {
@@ -25551,10 +25534,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 15178656
+                        "size": 15219182
                     },
                     {
-                        "size": 659391
+                        "size": 659458
                     },
                     {
                         "size": 592144
@@ -25638,7 +25621,7 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 17126874
+                "totalSize": 17167467
             }
         },
         "llnl/axom-docker": {
@@ -25809,10 +25792,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 1012838
+                        "size": 1012834
                     },
                     {
-                        "size": 11462
+                        "size": 12290
                     },
                     {
                         "size": 4592
@@ -25847,7 +25830,7 @@
                     }
                 ],
                 "totalCount": 5,
-                "totalSize": 1033673
+                "totalSize": 1034497
             }
         },
         "llnl/benchpark-tutorial": {
@@ -28000,13 +27983,13 @@
                         "size": 827845
                     },
                     {
-                        "size": 363645
+                        "size": 436752
                     },
                     {
                         "size": 50989
                     },
                     {
-                        "size": 6391
+                        "size": 6844
                     },
                     {
                         "size": 1005
@@ -28042,15 +28025,41 @@
                     }
                 ],
                 "totalCount": 6,
-                "totalSize": 1250295
+                "totalSize": 1323855
+            }
+        },
+        "llnl/dfdiagnoser": {
+            "languages": {
+                "edges": [
+                    {
+                        "size": 115667
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ],
+                "totalCount": 1,
+                "totalSize": 115667
             }
         },
         "llnl/dfoptimizer": {
             "languages": {
-                "edges": [],
-                "nodes": [],
-                "totalCount": 0,
-                "totalSize": 0
+                "edges": [
+                    {
+                        "size": 134740
+                    }
+                ],
+                "nodes": [
+                    {
+                        "color": "#3572A5",
+                        "name": "Python"
+                    }
+                ],
+                "totalCount": 1,
+                "totalSize": 134740
             }
         },
         "llnl/dftf": {
@@ -28074,7 +28083,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 2891185
+                        "size": 2898179
                     },
                     {
                         "size": 321278
@@ -28086,7 +28095,7 @@
                         "size": 243262
                     },
                     {
-                        "size": 219040
+                        "size": 221015
                     },
                     {
                         "size": 26840
@@ -28126,14 +28135,14 @@
                     }
                 ],
                 "totalCount": 7,
-                "totalSize": 3989242
+                "totalSize": 3998211
             }
         },
         "llnl/dftracer-agents": {
             "languages": {
                 "edges": [
                     {
-                        "size": 1406302
+                        "size": 1423088
                     },
                     {
                         "size": 254940
@@ -28178,7 +28187,7 @@
                     }
                 ],
                 "totalCount": 6,
-                "totalSize": 1707304
+                "totalSize": 1724090
             }
         },
         "llnl/dftracer-bak": {
@@ -32054,7 +32063,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 283457
+                        "size": 317091
                     },
                     {
                         "size": 2577
@@ -32085,14 +32094,14 @@
                     }
                 ],
                 "totalCount": 4,
-                "totalSize": 288041
+                "totalSize": 321675
             }
         },
         "llnl/mada-tools": {
             "languages": {
                 "edges": [
                     {
-                        "size": 755450
+                        "size": 755454
                     },
                     {
                         "size": 1492
@@ -32116,7 +32125,7 @@
                     }
                 ],
                 "totalCount": 3,
-                "totalSize": 758398
+                "totalSize": 758402
             }
         },
         "llnl/maestro_sheetmusic": {
@@ -38097,28 +38106,28 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 10010342
+                        "size": 10297852
                     },
                     {
-                        "size": 4149758
+                        "size": 4370690
                     },
                     {
-                        "size": 2862439
+                        "size": 2895301
                     },
                     {
-                        "size": 871709
+                        "size": 880743
                     },
                     {
-                        "size": 381254
+                        "size": 404474
                     },
                     {
                         "size": 270544
                     },
                     {
-                        "size": 104741
+                        "size": 105845
                     },
                     {
-                        "size": 93869
+                        "size": 99719
                     },
                     {
                         "size": 8413
@@ -38127,10 +38136,10 @@
                         "size": 8128
                     },
                     {
-                        "size": 6480
+                        "size": 6485
                     },
                     {
-                        "size": 2281
+                        "size": 2436
                     }
                 ],
                 "nodes": [
@@ -38184,7 +38193,7 @@
                     }
                 ],
                 "totalCount": 12,
-                "totalSize": 18769958
+                "totalSize": 19350630
             }
         },
         "llnl/system-noise": {
@@ -40028,7 +40037,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 994120
+                        "size": 1000272
                     },
                     {
                         "size": 390
@@ -40045,7 +40054,7 @@
                     }
                 ],
                 "totalCount": 2,
-                "totalSize": 994510
+                "totalSize": 1000662
             }
         },
         "mfem/PyMFEM": {
@@ -40927,10 +40936,10 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 18301567
+                        "size": 18314708
                     },
                     {
-                        "size": 5119707
+                        "size": 5121918
                     },
                     {
                         "size": 1233491
@@ -40945,7 +40954,7 @@
                         "size": 386312
                     },
                     {
-                        "size": 216255
+                        "size": 216311
                     },
                     {
                         "size": 72073
@@ -40993,7 +41002,7 @@
                     }
                 ],
                 "totalCount": 9,
-                "totalSize": 26321032
+                "totalSize": 26336440
             }
         },
         "openzfs/zfs-buildbot": {
@@ -43534,19 +43543,19 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 409822
+                        "size": 416503
                     },
                     {
                         "size": 124610
                     },
                     {
-                        "size": 38527
+                        "size": 38681
                     },
                     {
                         "size": 13232
                     },
                     {
-                        "size": 7732
+                        "size": 7760
                     },
                     {
                         "size": 908
@@ -43579,7 +43588,7 @@
                     }
                 ],
                 "totalCount": 6,
-                "totalSize": 594831
+                "totalSize": 601694
             }
         },
         "spack/spack-it": {
@@ -43676,7 +43685,7 @@
             "languages": {
                 "edges": [
                     {
-                        "size": 20881019
+                        "size": 20883901
                     },
                     {
                         "size": 48886
@@ -43777,7 +43786,7 @@
                     }
                 ],
                 "totalCount": 14,
-                "totalSize": 20966888
+                "totalSize": 20969770
             }
         },
         "spack/spack-prereq": {
