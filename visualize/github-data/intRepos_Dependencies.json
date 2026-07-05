@@ -8654,6 +8654,110 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "cdf2cim",
+                                    "repository": {
+                                        "nameWithOwner": "ES-DOC/esdoc-cdf2cim"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cdms2",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "cmor",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "esgf-pyclient",
+                                    "repository": {
+                                        "nameWithOwner": "ESGF/esgf-pyclient"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "esgfpid",
+                                    "repository": {
+                                        "nameWithOwner": "IS-ENES-Data/esgf-pid"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "esmf",
+                                    "repository": null
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "lxml",
+                                    "repository": {
+                                        "nameWithOwner": "lxml/lxml"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "myproxyclient",
+                                    "repository": {
+                                        "nameWithOwner": "cedadev/MyProxyClient"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "psycopg2",
+                                    "repository": {
+                                        "nameWithOwner": "psycopg/psycopg2"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sqlalchemy",
+                                    "repository": {
+                                        "nameWithOwner": "sqlalchemy/sqlalchemy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sqlalchemy-migrate",
+                                    "repository": {
+                                        "nameWithOwner": "alexjg/sqlalchemy-migrate"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "esgfpid",
+                                    "repository": {
+                                        "nameWithOwner": "IS-ENES-Data/esgf-pid"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "annotated-doc",
                                     "repository": {
                                         "nameWithOwner": "fastapi/annotated-doc"
@@ -9369,110 +9473,6 @@
                                     "packageName": "tomli",
                                     "repository": {
                                         "nameWithOwner": "hukkin/tomli"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "cdf2cim",
-                                    "repository": {
-                                        "nameWithOwner": "ES-DOC/esdoc-cdf2cim"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "cdms2",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "cmor",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "esgf-pyclient",
-                                    "repository": {
-                                        "nameWithOwner": "ESGF/esgf-pyclient"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "esgfpid",
-                                    "repository": {
-                                        "nameWithOwner": "IS-ENES-Data/esgf-pid"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "esmf",
-                                    "repository": null
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "lxml",
-                                    "repository": {
-                                        "nameWithOwner": "lxml/lxml"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "myproxyclient",
-                                    "repository": {
-                                        "nameWithOwner": "cedadev/MyProxyClient"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "psycopg2",
-                                    "repository": {
-                                        "nameWithOwner": "psycopg/psycopg2"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "requests",
-                                    "repository": {
-                                        "nameWithOwner": "psf/requests"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sqlalchemy",
-                                    "repository": {
-                                        "nameWithOwner": "sqlalchemy/sqlalchemy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sqlalchemy-migrate",
-                                    "repository": {
-                                        "nameWithOwner": "alexjg/sqlalchemy-migrate"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "esgfpid",
-                                    "repository": {
-                                        "nameWithOwner": "IS-ENES-Data/esgf-pid"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "requests",
-                                    "repository": {
-                                        "nameWithOwner": "psf/requests"
                                     }
                                 }
                             ]
@@ -19027,10 +19027,15 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "setuptools",
+                                    "packageName": "pybind11",
                                     "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
+                                        "nameWithOwner": "pybind/pybind11"
                                     }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scikit-build-core",
+                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -19047,15 +19052,10 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "pybind11",
+                                    "packageName": "setuptools",
                                     "repository": {
-                                        "nameWithOwner": "pybind/pybind11"
+                                        "nameWithOwner": "pypa/setuptools"
                                     }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scikit-build-core",
-                                    "repository": null
                                 },
                                 {
                                     "packageManager": "PIP",
@@ -19618,6 +19618,61 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "boutdata",
+                                    "repository": {
+                                        "nameWithOwner": "boutproject/boutdata"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "boututils",
+                                    "repository": {
+                                        "nameWithOwner": "boutproject/boututils"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "netcdf4",
+                                    "repository": {
+                                        "nameWithOwner": "Unidata/netcdf4-python"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "numpy",
+                                    "repository": {
+                                        "nameWithOwner": "numpy/numpy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "scipy",
+                                    "repository": {
+                                        "nameWithOwner": "scipy/scipy"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "xbout",
+                                    "repository": {
+                                        "nameWithOwner": "boutproject/xBOUT"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "xhermes",
+                                    "repository": {
+                                        "nameWithOwner": "boutproject/xhermes"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "attrs",
                                     "repository": {
                                         "nameWithOwner": "python-attrs/attrs"
@@ -19825,61 +19880,6 @@
                                     "packageName": "typing-extensions",
                                     "repository": {
                                         "nameWithOwner": "python/typing"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "boutdata",
-                                    "repository": {
-                                        "nameWithOwner": "boutproject/boutdata"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "boututils",
-                                    "repository": {
-                                        "nameWithOwner": "boutproject/boututils"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "netcdf4",
-                                    "repository": {
-                                        "nameWithOwner": "Unidata/netcdf4-python"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "numpy",
-                                    "repository": {
-                                        "nameWithOwner": "numpy/numpy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "scipy",
-                                    "repository": {
-                                        "nameWithOwner": "scipy/scipy"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "xbout",
-                                    "repository": {
-                                        "nameWithOwner": "boutproject/xBOUT"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "xhermes",
-                                    "repository": {
-                                        "nameWithOwner": "boutproject/xhermes"
                                     }
                                 }
                             ]
@@ -43791,6 +43791,67 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "furo",
+                                    "repository": {
+                                        "nameWithOwner": "pradyunsg/furo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "myst-parser",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/MyST-Parser"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "requests",
+                                    "repository": {
+                                        "nameWithOwner": "psf/requests"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-copybutton",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/sphinx-copybutton"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tomli",
+                                    "repository": {
+                                        "nameWithOwner": "hukkin/tomli"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "build",
                                     "repository": {
                                         "nameWithOwner": "pypa/build"
@@ -43997,67 +44058,6 @@
                                     "packageName": "virtualenv",
                                     "repository": {
                                         "nameWithOwner": "pypa/virtualenv"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "furo",
-                                    "repository": {
-                                        "nameWithOwner": "pradyunsg/furo"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "myst-parser",
-                                    "repository": {
-                                        "nameWithOwner": "executablebooks/MyST-Parser"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "requests",
-                                    "repository": {
-                                        "nameWithOwner": "psf/requests"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx",
-                                    "repository": {
-                                        "nameWithOwner": "sphinx-doc/sphinx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-copybutton",
-                                    "repository": {
-                                        "nameWithOwner": "executablebooks/sphinx-copybutton"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tomli",
-                                    "repository": {
-                                        "nameWithOwner": "hukkin/tomli"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
                                     }
                                 }
                             ]
@@ -45823,7 +45823,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Reflection.Metadata",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/runtime"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
@@ -46192,7 +46192,7 @@
                                     "packageManager": "NUGET",
                                     "packageName": "System.Reflection.Metadata",
                                     "repository": {
-                                        "nameWithOwner": "dotnet/runtime"
+                                        "nameWithOwner": "dotnet/dotnet"
                                     }
                                 },
                                 {
@@ -56004,47 +56004,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "colorama",
-                                    "repository": {
-                                        "nameWithOwner": "tartley/colorama"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pandas",
-                                    "repository": {
-                                        "nameWithOwner": "pandas-dev/pandas"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytorch-triton-rocm",
-                                    "repository": {
-                                        "nameWithOwner": "triton-lang/triton"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "torchvision",
-                                    "repository": {
-                                        "nameWithOwner": "pytorch/vision"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "tqdm",
-                                    "repository": {
-                                        "nameWithOwner": "tqdm/tqdm"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "pyyaml",
                                     "repository": {
                                         "nameWithOwner": "yaml/pyyaml"
@@ -56188,6 +56147,47 @@
                                     "packageName": "torch",
                                     "repository": {
                                         "nameWithOwner": "pytorch/pytorch"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "colorama",
+                                    "repository": {
+                                        "nameWithOwner": "tartley/colorama"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pandas",
+                                    "repository": {
+                                        "nameWithOwner": "pandas-dev/pandas"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytorch-triton-rocm",
+                                    "repository": {
+                                        "nameWithOwner": "triton-lang/triton"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "torchvision",
+                                    "repository": {
+                                        "nameWithOwner": "pytorch/vision"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "tqdm",
+                                    "repository": {
+                                        "nameWithOwner": "tqdm/tqdm"
                                     }
                                 }
                             ]
@@ -75035,26 +75035,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "mkdocs",
-                                    "repository": {
-                                        "nameWithOwner": "mkdocs/mkdocs"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "setuptools",
-                                    "repository": {
-                                        "nameWithOwner": "pypa/setuptools"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "encorewf",
                                     "repository": null
                                 },
@@ -75201,6 +75181,26 @@
                                     "packageName": "trata",
                                     "repository": {
                                         "nameWithOwner": "llnl/trata"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "mkdocs",
+                                    "repository": {
+                                        "nameWithOwner": "mkdocs/mkdocs"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "setuptools",
+                                    "repository": {
+                                        "nameWithOwner": "pypa/setuptools"
                                     }
                                 }
                             ]
@@ -79492,82 +79492,6 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
-                                    "packageName": "docutils",
-                                    "repository": {
-                                        "nameWithOwner": "jwilk-mirrors/docutils"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "furo",
-                                    "repository": {
-                                        "nameWithOwner": "pradyunsg/furo"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pygments",
-                                    "repository": {
-                                        "nameWithOwner": "pygments/pygments"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx",
-                                    "repository": {
-                                        "nameWithOwner": "sphinx-doc/sphinx"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-copybutton",
-                                    "repository": {
-                                        "nameWithOwner": "executablebooks/sphinx-copybutton"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-last-updated-by-git",
-                                    "repository": {
-                                        "nameWithOwner": "mgeier/sphinx-last-updated-by-git"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinx-sitemap",
-                                    "repository": {
-                                        "nameWithOwner": "jdillard/sphinx-sitemap"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinxcontrib-programoutput",
-                                    "repository": {
-                                        "nameWithOwner": "OpenNTI/sphinxcontrib-programoutput"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sphinxcontrib-svg2pdfconverter",
-                                    "repository": {
-                                        "nameWithOwner": "missinglinkelectronics/sphinxcontrib-svg2pdfconverter"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
                                     "packageName": "pip",
                                     "repository": {
                                         "nameWithOwner": "pypa/pip"
@@ -79665,6 +79589,82 @@
                                     "packageName": "vermin",
                                     "repository": {
                                         "nameWithOwner": "netromdk/vermin"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "docutils",
+                                    "repository": {
+                                        "nameWithOwner": "jwilk-mirrors/docutils"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "furo",
+                                    "repository": {
+                                        "nameWithOwner": "pradyunsg/furo"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pygments",
+                                    "repository": {
+                                        "nameWithOwner": "pygments/pygments"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx",
+                                    "repository": {
+                                        "nameWithOwner": "sphinx-doc/sphinx"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-copybutton",
+                                    "repository": {
+                                        "nameWithOwner": "executablebooks/sphinx-copybutton"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-last-updated-by-git",
+                                    "repository": {
+                                        "nameWithOwner": "mgeier/sphinx-last-updated-by-git"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinx-sitemap",
+                                    "repository": {
+                                        "nameWithOwner": "jdillard/sphinx-sitemap"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinxcontrib-programoutput",
+                                    "repository": {
+                                        "nameWithOwner": "OpenNTI/sphinxcontrib-programoutput"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sphinxcontrib-svg2pdfconverter",
+                                    "repository": {
+                                        "nameWithOwner": "missinglinkelectronics/sphinxcontrib-svg2pdfconverter"
                                     }
                                 }
                             ]
@@ -80868,6 +80868,54 @@
                             "nodes": [
                                 {
                                     "packageManager": "PIP",
+                                    "packageName": "flake8",
+                                    "repository": {
+                                        "nameWithOwner": "PyCQA/flake8"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pygithub",
+                                    "repository": {
+                                        "nameWithOwner": "PyGithub/PyGithub"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "pytest-cov",
+                                    "repository": {
+                                        "nameWithOwner": "pytest-dev/pytest-cov"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "python-dateutil",
+                                    "repository": {
+                                        "nameWithOwner": "dateutil/dateutil"
+                                    }
+                                },
+                                {
+                                    "packageManager": "PIP",
+                                    "packageName": "sentry-sdk",
+                                    "repository": {
+                                        "nameWithOwner": "getsentry/sentry-python"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "dependencies": {
+                            "nodes": [
+                                {
+                                    "packageManager": "PIP",
                                     "packageName": "pygithub",
                                     "repository": {
                                         "nameWithOwner": "PyGithub/PyGithub"
@@ -81073,54 +81121,6 @@
                                     "packageName": "urllib3",
                                     "repository": {
                                         "nameWithOwner": "urllib3/urllib3"
-                                    }
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "dependencies": {
-                            "nodes": [
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "flake8",
-                                    "repository": {
-                                        "nameWithOwner": "PyCQA/flake8"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pygithub",
-                                    "repository": {
-                                        "nameWithOwner": "PyGithub/PyGithub"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "pytest-cov",
-                                    "repository": {
-                                        "nameWithOwner": "pytest-dev/pytest-cov"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "python-dateutil",
-                                    "repository": {
-                                        "nameWithOwner": "dateutil/dateutil"
-                                    }
-                                },
-                                {
-                                    "packageManager": "PIP",
-                                    "packageName": "sentry-sdk",
-                                    "repository": {
-                                        "nameWithOwner": "getsentry/sentry-python"
                                     }
                                 }
                             ]
