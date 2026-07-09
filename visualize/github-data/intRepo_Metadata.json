@@ -2216,12 +2216,6 @@
         ],
         "website": "https://flux-framework.org/cheat-sheet/"
     },
-    "flux-framework/distribution": {
-        "description": null,
-        "name": "flux-framework/distribution",
-        "topics": null,
-        "website": null
-    },
     "flux-framework/dyad": {
         "description": "DYAD: DYnamic and Asynchronous Data Streamliner",
         "name": "flux-framework/dyad",
@@ -2392,6 +2386,12 @@
         "topics": null,
         "website": null
     },
+    "flux-framework/flux-rest-server": {
+        "description": "experimental REST server for flux-framework",
+        "name": "flux-framework/flux-rest-server",
+        "topics": null,
+        "website": null
+    },
     "flux-framework/flux-restful-api": {
         "description": "Flux RESTful API provided by FastAPI",
         "name": "flux-framework/flux-restful-api",
@@ -2499,12 +2499,6 @@
     "flux-framework/planning": {
         "description": "Repository for planning documents related to the Flux Framework project",
         "name": "flux-framework/planning",
-        "topics": null,
-        "website": null
-    },
-    "flux-framework/power-research": {
-        "description": "Links, code and milestones for power-aware scheduling research",
-        "name": "flux-framework/power-research",
         "topics": null,
         "website": null
     },
@@ -6437,7 +6431,7 @@
         "description": "The Multi Agent Design Assistant (MADA) project allows users to create and link custom AI agents to help with their workloads.",
         "name": "llnl/mada",
         "topics": null,
-        "website": null
+        "website": "https://software.llnl.gov/mada/latest/"
     },
     "llnl/mada-tools": {
         "description": "The Multi-Agent Design Assistant (MADA) Tools project is a Python-powered repository that provides a centralized library of AI tools, like MCP servers, skills files, and more.",
