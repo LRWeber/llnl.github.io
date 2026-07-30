@@ -45,7 +45,6 @@
             "labContributors": {
                 "nodes": [
                     "balos1",
-                    "cyrush",
                     "gardner48",
                     "victorapm"
                 ]
@@ -59,14 +58,6 @@
                 ]
             },
             "nameWithOwner": "AMReX-Codes/amrex-tutorials"
-        },
-        "AMReX-Microelectronics/FerroX": {
-            "labContributors": {
-                "nodes": [
-                    "gardner48"
-                ]
-            },
-            "nameWithOwner": "AMReX-Microelectronics/FerroX"
         },
         "APS-GCCM/matdata-incoming": {
             "labContributors": {
@@ -1514,6 +1505,14 @@
                 ]
             },
             "nameWithOwner": "PowerShell/DSC"
+        },
+        "Purelymail/purelymail-issues": {
+            "labContributors": {
+                "nodes": [
+                    "sbromberger"
+                ]
+            },
+            "nameWithOwner": "Purelymail/purelymail-issues"
         },
         "Python-for-HPC/PyOMP": {
             "labContributors": {
@@ -3986,14 +3985,6 @@
             },
             "nameWithOwner": "keller-mark/pluot"
         },
-        "kkorner/base_header_library": {
-            "labContributors": {
-                "nodes": [
-                    "korner1"
-                ]
-            },
-            "nameWithOwner": "kkorner/base_header_library"
-        },
         "kokkos/kokkos": {
             "labContributors": {
                 "nodes": [
@@ -4282,7 +4273,6 @@
         "llnl/ContinuationSolvers": {
             "labContributors": {
                 "nodes": [
-                    "chakshinglee",
                     "thartland",
                     "white238"
                 ]
@@ -4305,14 +4295,6 @@
                 ]
             },
             "nameWithOwner": "llnl/DD-NM-ROM"
-        },
-        "llnl/DFDashboard": {
-            "labContributors": {
-                "nodes": [
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/DFDashboard"
         },
         "llnl/DeepAL": {
             "labContributors": {
@@ -4959,6 +4941,14 @@
             },
             "nameWithOwner": "llnl/Wintap-PyUtil"
         },
+        "llnl/ai-playground": {
+            "labContributors": {
+                "nodes": [
+                    "bgunnar5"
+                ]
+            },
+            "nameWithOwner": "llnl/ai-playground"
+        },
         "llnl/analog": {
             "labContributors": {
                 "nodes": [
@@ -5174,15 +5164,6 @@
             },
             "nameWithOwner": "llnl/conduit"
         },
-        "llnl/cpp-logger": {
-            "labContributors": {
-                "nodes": [
-                    "JaeseungYeom",
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/cpp-logger"
-        },
         "llnl/csld": {
             "labContributors": {
                 "nodes": [
@@ -5212,24 +5193,6 @@
             },
             "nameWithOwner": "llnl/dapper"
         },
-        "llnl/datacrumbs": {
-            "labContributors": {
-                "nodes": [
-                    "hariharan-devarajan",
-                    "milroy",
-                    "trws"
-                ]
-            },
-            "nameWithOwner": "llnl/datacrumbs"
-        },
-        "llnl/datacrumbs-utils": {
-            "labContributors": {
-                "nodes": [
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/datacrumbs-utils"
-        },
         "llnl/deepopt": {
             "labContributors": {
                 "nodes": [
@@ -5237,71 +5200,6 @@
                 ]
             },
             "nameWithOwner": "llnl/deepopt"
-        },
-        "llnl/dfanalyzer": {
-            "labContributors": {
-                "nodes": [
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/dfanalyzer"
-        },
-        "llnl/dfdiagnoser": {
-            "labContributors": {
-                "nodes": [
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/dfdiagnoser"
-        },
-        "llnl/dfoptimizer": {
-            "labContributors": {
-                "nodes": [
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/dfoptimizer"
-        },
-        "llnl/dftracer": {
-            "labContributors": {
-                "nodes": [
-                    "JaeseungYeom",
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/dftracer"
-        },
-        "llnl/dftracer-agents": {
-            "labContributors": {
-                "nodes": [
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/dftracer-agents"
-        },
-        "llnl/dftracer-traces": {
-            "labContributors": {
-                "nodes": [
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/dftracer-traces"
-        },
-        "llnl/dftracer-utils": {
-            "labContributors": {
-                "nodes": [
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/dftracer-utils"
-        },
-        "llnl/dftracer-workloads": {
-            "labContributors": {
-                "nodes": [
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/dftracer-workloads"
         },
         "llnl/dynstaller": {
             "labContributors": {
@@ -5903,14 +5801,6 @@
             },
             "nameWithOwner": "llnl/pseudopod"
         },
-        "llnl/pydftracer": {
-            "labContributors": {
-                "nodes": [
-                    "hariharan-devarajan"
-                ]
-            },
-            "nameWithOwner": "llnl/pydftracer"
-        },
         "llnl/pylibROM": {
             "labContributors": {
                 "nodes": [
@@ -6312,6 +6202,14 @@
                 ]
             },
             "nameWithOwner": "llnl/wormhole-cli"
+        },
+        "llnl/wormhole-holepunch": {
+            "labContributors": {
+                "nodes": [
+                    "tgmachina"
+                ]
+            },
+            "nameWithOwner": "llnl/wormhole-holepunch"
         },
         "llnl/wormhole-token-service": {
             "labContributors": {
@@ -7043,6 +6941,14 @@
                 ]
             },
             "nameWithOwner": "orca-accelerator/orca-website"
+        },
+        "package-url/purl-spec": {
+            "labContributors": {
+                "nodes": [
+                    "becker33"
+                ]
+            },
+            "nameWithOwner": "package-url/purl-spec"
         },
         "parallelcodefoundry/ParEval": {
             "labContributors": {
