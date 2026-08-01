@@ -1732,12 +1732,6 @@
         "topics": null,
         "website": null
     },
-    "LBANN/HPC-launcher": {
-        "description": "Launcher utilities for HPC resources",
-        "name": "LBANN/HPC-launcher",
-        "topics": null,
-        "website": null
-    },
     "LBANN/ScaFFold": {
         "description": "Scale-Free Fractal benchmark",
         "name": "LBANN/ScaFFold",
@@ -3186,12 +3180,6 @@
         "topics": null,
         "website": null
     },
-    "llnl/DFDashboard": {
-        "description": "The Interactive Visualization Layer of the DataFlowX Suite",
-        "name": "llnl/DFDashboard",
-        "topics": null,
-        "website": null
-    },
     "llnl/DFTT": {
         "description": "Software for building and operating suites of correlation and subspace detectors",
         "name": "llnl/DFTT",
@@ -3387,6 +3375,12 @@
         "name": "llnl/FLORA",
         "topics": null,
         "website": ""
+    },
+    "llnl/FORGE": {
+        "description": null,
+        "name": "llnl/FORGE",
+        "topics": null,
+        "website": null
     },
     "llnl/FPChecker": {
         "description": "A dynamic analysis tool to detect floating-point errors in HPC applications.",
@@ -3610,6 +3604,12 @@
             "tutorial"
         ],
         "website": "https://hpc-tutorials.llnl.gov"
+    },
+    "llnl/HPC-launcher": {
+        "description": "Launcher utilities for HPC resources",
+        "name": "llnl/HPC-launcher",
+        "topics": null,
+        "website": null
     },
     "llnl/HPCCEA": {
         "description": "High Performance Computing Cluster Engineering Academy within Livermore Computing",
@@ -4980,6 +4980,12 @@
         "topics": null,
         "website": ""
     },
+    "llnl/ai-playground": {
+        "description": "AI Playground is a project designed to improve the visibility and accessibility of AI tooling across the DOE. In this context, \"AI tooling\" includes MCP servers, agents, skills, and other AI-specific resources.",
+        "name": "llnl/ai-playground",
+        "topics": null,
+        "website": null
+    },
     "llnl/aiida-flux-scheduler": {
         "description": "Flux scheduler plugin for AiiDA.",
         "name": "llnl/aiida-flux-scheduler",
@@ -5386,12 +5392,6 @@
         "topics": null,
         "website": "https://gdo152.llnl.gov/cowc/"
     },
-    "llnl/cpp-logger": {
-        "description": "A simple C++ logger",
-        "name": "llnl/cpp-logger",
-        "topics": null,
-        "website": null
-    },
     "llnl/cram": {
         "description": "Tool to run many small MPI jobs inside of one large MPI job.",
         "name": "llnl/cram",
@@ -5478,18 +5478,6 @@
         ],
         "website": ""
     },
-    "llnl/datacrumbs": {
-        "description": "A multi-level dataflow profiler for capture I/O calls from worklows.",
-        "name": "llnl/datacrumbs",
-        "topics": null,
-        "website": "https://datacrumbs.readthedocs.io/en/latest/"
-    },
-    "llnl/datacrumbs-utils": {
-        "description": "Utilities and Userspace tools for help users use and deploy datacrumbs.",
-        "name": "llnl/datacrumbs-utils",
-        "topics": null,
-        "website": null
-    },
     "llnl/dataracebench": {
         "description": "Data race benchmark suite for evaluating OpenMP correctness tools aimed to detect data races.",
         "name": "llnl/dataracebench",
@@ -5551,74 +5539,9 @@
         ],
         "website": null
     },
-    "llnl/dfanalyzer": {
-        "description": "Layered data-flow analysis for HPC I/O.",
-        "name": "llnl/dfanalyzer",
-        "topics": [
-            "deep-learning",
-            "hpc",
-            "io-analysis",
-            "multi-layer"
-        ],
-        "website": "https://dfanalyzer.readthedocs.io/en/latest/"
-    },
-    "llnl/dfdiagnoser": {
-        "description": null,
-        "name": "llnl/dfdiagnoser",
-        "topics": null,
-        "website": null
-    },
-    "llnl/dfoptimizer": {
-        "description": null,
-        "name": "llnl/dfoptimizer",
-        "topics": null,
-        "website": null
-    },
     "llnl/dftf": {
         "description": "Drink From The Firehose",
         "name": "llnl/dftf",
-        "topics": null,
-        "website": null
-    },
-    "llnl/dftracer": {
-        "description": "A multi-level dataflow tracer for capturing I/O calls from workflows.",
-        "name": "llnl/dftracer",
-        "topics": [
-            "deep",
-            "io",
-            "learning",
-            "profiler",
-            "dlio"
-        ],
-        "website": "https://dftracer.readthedocs.io/en/latest/"
-    },
-    "llnl/dftracer-agents": {
-        "description": null,
-        "name": "llnl/dftracer-agents",
-        "topics": null,
-        "website": null
-    },
-    "llnl/dftracer-bak": {
-        "description": "A multi-level dataflow tracer for capture I/O calls from worklows.",
-        "name": "llnl/dftracer-bak",
-        "topics": null,
-        "website": null
-    },
-    "llnl/dftracer-traces": {
-        "description": "DFtracer Traces",
-        "name": "llnl/dftracer-traces",
-        "topics": null,
-        "website": null
-    },
-    "llnl/dftracer-utils": {
-        "description": "A collection of utilities for DFTracer",
-        "name": "llnl/dftracer-utils",
-        "topics": null,
-        "website": "https://dftracer.readthedocs.io/projects/utils/en/latest/"
-    },
-    "llnl/dftracer-workloads": {
-        "description": "Repository for workloads that have been integrated with DFTracer.",
-        "name": "llnl/dftracer-workloads",
         "topics": null,
         "website": null
     },
@@ -6023,12 +5946,6 @@
             "graph"
         ],
         "website": ""
-    },
-    "llnl/hcl": {
-        "description": "HCL is a distributed data structure library with STL like interface",
-        "name": "llnl/hcl",
-        "topics": null,
-        "website": "https://hcl-cpp.readthedocs.io/en/latest"
     },
     "llnl/hdbind": {
         "description": null,
@@ -6596,12 +6513,6 @@
         "topics": null,
         "website": null
     },
-    "llnl/mimir": {
-        "description": null,
-        "name": "llnl/mimir",
-        "topics": null,
-        "website": null
-    },
     "llnl/minq": {
         "description": null,
         "name": "llnl/minq",
@@ -6816,12 +6727,6 @@
         "name": "llnl/omi_data_tools_open_source",
         "topics": null,
         "website": null
-    },
-    "llnl/omnibus-gitlab": {
-        "description": "GitLab Omnibus Mirror | Please open new issues in our issue tracker on GitLab.com",
-        "name": "llnl/omnibus-gitlab",
-        "topics": null,
-        "website": "https://gitlab.com/gitlab-org/omnibus-gitlab/"
     },
     "llnl/op": {
         "description": "  A generic interface for different optimization packages",
@@ -7128,12 +7033,6 @@
         "name": "llnl/pySigma-pipeline-wintap",
         "topics": null,
         "website": null
-    },
-    "llnl/pydftracer": {
-        "description": "This repository contains the python binding for DFTracer",
-        "name": "llnl/pydftracer",
-        "topics": null,
-        "website": "https://dftracer.readthedocs.io/projects/python/en/latest/"
     },
     "llnl/pylibROM": {
         "description": "Python interface for libROM, library for reduced order models",
@@ -8055,6 +7954,46 @@
         ],
         "website": ""
     },
+    "llnl/wormhole-airlock": {
+        "description": "Local proxy service designed to pair with Piko to manage inbound requests from Wormhole",
+        "name": "llnl/wormhole-airlock",
+        "topics": [
+            "wormhole-st"
+        ],
+        "website": ""
+    },
+    "llnl/wormhole-cli": {
+        "description": "CLI tool to interface with Wormhole deployments.",
+        "name": "llnl/wormhole-cli",
+        "topics": [
+            "wormhole-st"
+        ],
+        "website": ""
+    },
+    "llnl/wormhole-holepunch": {
+        "description": "Gateway to manage a dynamic range of proxy targets while enforcing requirements.",
+        "name": "llnl/wormhole-holepunch",
+        "topics": [
+            "wormhole-st"
+        ],
+        "website": ""
+    },
+    "llnl/wormhole-route-registry": {
+        "description": "Dynamic registration of proxied routes for Wormhole.",
+        "name": "llnl/wormhole-route-registry",
+        "topics": [
+            "wormhole-st"
+        ],
+        "website": ""
+    },
+    "llnl/wormhole-token-service": {
+        "description": "Minting and verification of tokens for Wormhole.",
+        "name": "llnl/wormhole-token-service",
+        "topics": [
+            "wormhole-st"
+        ],
+        "website": ""
+    },
     "llnl/wrap": {
         "description": "MPI wrapper generator, for writing PMPI tool libraries",
         "name": "llnl/wrap",
@@ -8580,6 +8519,12 @@
     "spack/governance": {
         "description": "Documents describing the governance of the Spack project.",
         "name": "spack/governance",
+        "topics": null,
+        "website": null
+    },
+    "spack/integration-testing": {
+        "description": "Integration testing packages repository for the Spack Package Manager",
+        "name": "spack/integration-testing",
         "topics": null,
         "website": null
     },

@@ -1295,11 +1295,6 @@
             "firstCommitAt": "2024-10-02T04:27:11Z",
             "initBeforeGitHubRepo": true
         },
-        "LBANN/HPC-launcher": {
-            "createdAt": "2024-10-02T00:15:52Z",
-            "firstCommitAt": "2024-10-02T00:15:52Z",
-            "initBeforeGitHubRepo": true
-        },
         "LBANN/ScaFFold": {
             "createdAt": "2026-01-21T20:34:05Z",
             "firstCommitAt": "2026-01-21T21:57:21Z",
@@ -2275,11 +2270,6 @@
             "firstCommitAt": "2024-09-25T23:37:12Z",
             "initBeforeGitHubRepo": true
         },
-        "llnl/DFDashboard": {
-            "createdAt": "2025-06-10T16:49:24Z",
-            "firstCommitAt": "2025-06-10T16:49:24Z",
-            "initBeforeGitHubRepo": true
-        },
         "llnl/DFTT": {
             "createdAt": "2020-01-24T18:34:38Z",
             "firstCommitAt": "2020-01-24T18:55:46Z",
@@ -2399,6 +2389,11 @@
             "createdAt": "2023-07-11T18:55:54Z",
             "firstCommitAt": "2023-07-11T18:55:55Z",
             "initBeforeGitHubRepo": false
+        },
+        "llnl/FORGE": {
+            "createdAt": "2026-07-24T18:43:03Z",
+            "firstCommitAt": "2024-11-22T16:34:04Z",
+            "initBeforeGitHubRepo": true
         },
         "llnl/FPChecker": {
             "createdAt": "2019-03-21T22:34:14Z",
@@ -2528,6 +2523,11 @@
         "llnl/HPC-Tutorials": {
             "createdAt": "2021-02-11T05:01:26Z",
             "firstCommitAt": "2019-11-13T21:11:44Z",
+            "initBeforeGitHubRepo": true
+        },
+        "llnl/HPC-launcher": {
+            "createdAt": "2024-10-02T00:15:52Z",
+            "firstCommitAt": "2024-10-02T00:15:52Z",
             "initBeforeGitHubRepo": true
         },
         "llnl/HPCCEA": {
@@ -3355,6 +3355,11 @@
             "firstCommitAt": "2010-12-02T07:28:33Z",
             "initBeforeGitHubRepo": true
         },
+        "llnl/ai-playground": {
+            "createdAt": "2026-07-29T23:06:36Z",
+            "firstCommitAt": "2026-07-29T23:06:37Z",
+            "initBeforeGitHubRepo": false
+        },
         "llnl/aiida-flux-scheduler": {
             "createdAt": "2025-05-12T16:55:03Z",
             "firstCommitAt": "2025-05-12T16:55:04Z",
@@ -3600,11 +3605,6 @@
             "firstCommitAt": "2016-09-13T00:10:19Z",
             "initBeforeGitHubRepo": false
         },
-        "llnl/cpp-logger": {
-            "createdAt": "2022-08-09T06:19:52Z",
-            "firstCommitAt": "2022-08-09T06:19:52Z",
-            "initBeforeGitHubRepo": true
-        },
         "llnl/cram": {
             "createdAt": "2014-09-23T22:47:30Z",
             "firstCommitAt": "2014-02-21T07:40:20Z",
@@ -3650,16 +3650,6 @@
             "firstCommitAt": "2024-11-22T22:15:12Z",
             "initBeforeGitHubRepo": false
         },
-        "llnl/datacrumbs": {
-            "createdAt": "2024-07-18T16:54:23Z",
-            "firstCommitAt": "2024-07-18T16:54:23Z",
-            "initBeforeGitHubRepo": true
-        },
-        "llnl/datacrumbs-utils": {
-            "createdAt": "2026-03-19T16:54:44Z",
-            "firstCommitAt": "2026-03-19T16:54:44Z",
-            "initBeforeGitHubRepo": true
-        },
         "llnl/dataracebench": {
             "createdAt": "2017-05-26T09:24:22Z",
             "firstCommitAt": "2017-05-26T09:24:23Z",
@@ -3700,55 +3690,10 @@
             "firstCommitAt": "2018-04-21T03:52:51Z",
             "initBeforeGitHubRepo": true
         },
-        "llnl/dfanalyzer": {
-            "createdAt": "2025-06-10T15:32:50Z",
-            "firstCommitAt": "2025-06-10T15:32:51Z",
-            "initBeforeGitHubRepo": false
-        },
-        "llnl/dfdiagnoser": {
-            "createdAt": "2025-06-10T16:44:23Z",
-            "firstCommitAt": "2025-06-10T16:44:23Z",
-            "initBeforeGitHubRepo": true
-        },
-        "llnl/dfoptimizer": {
-            "createdAt": "2025-06-10T15:35:57Z",
-            "firstCommitAt": "2025-06-10T15:35:58Z",
-            "initBeforeGitHubRepo": false
-        },
         "llnl/dftf": {
             "createdAt": "2023-05-30T16:13:55Z",
             "firstCommitAt": "2023-05-30T16:13:55Z",
             "initBeforeGitHubRepo": true
-        },
-        "llnl/dftracer": {
-            "createdAt": "2023-03-29T03:17:54Z",
-            "firstCommitAt": "2023-03-29T03:17:55Z",
-            "initBeforeGitHubRepo": false
-        },
-        "llnl/dftracer-agents": {
-            "createdAt": "2026-03-13T04:53:32Z",
-            "firstCommitAt": "2026-03-13T04:53:32Z",
-            "initBeforeGitHubRepo": true
-        },
-        "llnl/dftracer-bak": {
-            "createdAt": "2024-06-17T04:08:51Z",
-            "firstCommitAt": "2026-03-13T04:53:32Z",
-            "initBeforeGitHubRepo": true
-        },
-        "llnl/dftracer-traces": {
-            "createdAt": "2025-10-21T20:03:16Z",
-            "firstCommitAt": "2025-10-21T20:03:17Z",
-            "initBeforeGitHubRepo": false
-        },
-        "llnl/dftracer-utils": {
-            "createdAt": "2025-08-07T18:15:22Z",
-            "firstCommitAt": "2025-08-07T18:15:22Z",
-            "initBeforeGitHubRepo": true
-        },
-        "llnl/dftracer-workloads": {
-            "createdAt": "2026-02-19T20:58:33Z",
-            "firstCommitAt": "2026-02-19T20:58:34Z",
-            "initBeforeGitHubRepo": false
         },
         "llnl/direct-fuse": {
             "createdAt": "2020-03-03T22:13:14Z",
@@ -3988,11 +3933,6 @@
         "llnl/havoqgt": {
             "createdAt": "2016-08-09T06:09:51Z",
             "firstCommitAt": "2013-10-23T18:09:43Z",
-            "initBeforeGitHubRepo": true
-        },
-        "llnl/hcl": {
-            "createdAt": "2024-04-09T04:39:02Z",
-            "firstCommitAt": "2019-10-10T21:21:50Z",
             "initBeforeGitHubRepo": true
         },
         "llnl/hdbind": {
@@ -4330,11 +4270,6 @@
             "firstCommitAt": "2024-06-26T14:18:01Z",
             "initBeforeGitHubRepo": true
         },
-        "llnl/mimir": {
-            "createdAt": "2023-04-26T19:12:50Z",
-            "firstCommitAt": "2022-02-11T18:38:16Z",
-            "initBeforeGitHubRepo": true
-        },
         "llnl/minq": {
             "createdAt": "2020-09-29T23:13:59Z",
             "firstCommitAt": "2020-05-29T18:36:12Z",
@@ -4463,11 +4398,6 @@
         "llnl/omi_data_tools_open_source": {
             "createdAt": "2024-11-08T18:49:31Z",
             "firstCommitAt": "2024-11-08T18:00:31Z",
-            "initBeforeGitHubRepo": true
-        },
-        "llnl/omnibus-gitlab": {
-            "createdAt": "2019-06-03T18:32:52Z",
-            "firstCommitAt": "2013-11-21T11:06:42Z",
             "initBeforeGitHubRepo": true
         },
         "llnl/op": {
@@ -4668,11 +4598,6 @@
         "llnl/pySigma-pipeline-wintap": {
             "createdAt": "2024-10-10T16:37:16Z",
             "firstCommitAt": "2024-10-10T16:37:16Z",
-            "initBeforeGitHubRepo": true
-        },
-        "llnl/pydftracer": {
-            "createdAt": "2025-08-06T21:57:22Z",
-            "firstCommitAt": "2025-08-06T21:57:22Z",
             "initBeforeGitHubRepo": true
         },
         "llnl/pylibROM": {
@@ -5245,6 +5170,31 @@
             "firstCommitAt": "2024-07-30T21:57:36Z",
             "initBeforeGitHubRepo": false
         },
+        "llnl/wormhole-airlock": {
+            "createdAt": "2026-06-25T22:30:25Z",
+            "firstCommitAt": "2026-07-17T20:04:09Z",
+            "initBeforeGitHubRepo": false
+        },
+        "llnl/wormhole-cli": {
+            "createdAt": "2026-06-25T22:26:29Z",
+            "firstCommitAt": "2026-07-23T22:06:18Z",
+            "initBeforeGitHubRepo": false
+        },
+        "llnl/wormhole-holepunch": {
+            "createdAt": "2026-06-25T22:29:38Z",
+            "firstCommitAt": "2026-07-22T22:14:58Z",
+            "initBeforeGitHubRepo": false
+        },
+        "llnl/wormhole-route-registry": {
+            "createdAt": "2026-06-25T22:33:16Z",
+            "firstCommitAt": "2026-07-22T23:29:46Z",
+            "initBeforeGitHubRepo": false
+        },
+        "llnl/wormhole-token-service": {
+            "createdAt": "2026-06-25T22:34:02Z",
+            "firstCommitAt": "2026-07-23T18:34:43Z",
+            "initBeforeGitHubRepo": false
+        },
         "llnl/wrap": {
             "createdAt": "2010-09-20T23:04:28Z",
             "firstCommitAt": "2010-08-23T16:51:32Z",
@@ -5609,6 +5559,11 @@
             "createdAt": "2024-09-19T20:06:13Z",
             "firstCommitAt": "2024-09-19T20:46:22Z",
             "initBeforeGitHubRepo": false
+        },
+        "spack/integration-testing": {
+            "createdAt": "2026-07-31T21:32:53Z",
+            "firstCommitAt": "2026-07-31T21:31:23Z",
+            "initBeforeGitHubRepo": true
         },
         "spack/label-schema": {
             "createdAt": "2021-11-07T21:32:39Z",

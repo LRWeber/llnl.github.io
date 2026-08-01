@@ -2603,12 +2603,6 @@
                 "totalCount": 0
             }
         },
-        "LBANN/HPC-launcher": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
         "LBANN/ScaFFold": {
             "repositoryTopics": {
                 "nodes": [],
@@ -5371,12 +5365,6 @@
                 "totalCount": 0
             }
         },
-        "llnl/DFDashboard": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
         "llnl/DFTT": {
             "repositoryTopics": {
                 "nodes": [],
@@ -5802,6 +5790,12 @@
             }
         },
         "llnl/FLORA": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "llnl/FORGE": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -6346,6 +6340,12 @@
                     }
                 ],
                 "totalCount": 1
+            }
+        },
+        "llnl/HPC-launcher": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
             }
         },
         "llnl/HPCCEA": {
@@ -9451,6 +9451,12 @@
                 "totalCount": 0
             }
         },
+        "llnl/ai-playground": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
         "llnl/aiida-flux-scheduler": {
             "repositoryTopics": {
                 "nodes": [],
@@ -10379,12 +10385,6 @@
                 "totalCount": 0
             }
         },
-        "llnl/cpp-logger": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
         "llnl/cram": {
             "repositoryTopics": {
                 "nodes": [
@@ -10627,18 +10627,6 @@
                 "totalCount": 1
             }
         },
-        "llnl/datacrumbs": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
-        "llnl/datacrumbs-utils": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
         "llnl/dataracebench": {
             "repositoryTopics": {
                 "nodes": [
@@ -10754,126 +10742,7 @@
                 "totalCount": 1
             }
         },
-        "llnl/dfanalyzer": {
-            "repositoryTopics": {
-                "nodes": [
-                    {
-                        "resourcePath": "/topics/deep-learning",
-                        "topic": {
-                            "name": "deep-learning"
-                        },
-                        "url": "https://github.com/topics/deep-learning"
-                    },
-                    {
-                        "resourcePath": "/topics/hpc",
-                        "topic": {
-                            "name": "hpc"
-                        },
-                        "url": "https://github.com/topics/hpc"
-                    },
-                    {
-                        "resourcePath": "/topics/io-analysis",
-                        "topic": {
-                            "name": "io-analysis"
-                        },
-                        "url": "https://github.com/topics/io-analysis"
-                    },
-                    {
-                        "resourcePath": "/topics/multi-layer",
-                        "topic": {
-                            "name": "multi-layer"
-                        },
-                        "url": "https://github.com/topics/multi-layer"
-                    }
-                ],
-                "totalCount": 4
-            }
-        },
-        "llnl/dfdiagnoser": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
-        "llnl/dfoptimizer": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
         "llnl/dftf": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
-        "llnl/dftracer": {
-            "repositoryTopics": {
-                "nodes": [
-                    {
-                        "resourcePath": "/topics/deep",
-                        "topic": {
-                            "name": "deep"
-                        },
-                        "url": "https://github.com/topics/deep"
-                    },
-                    {
-                        "resourcePath": "/topics/io",
-                        "topic": {
-                            "name": "io"
-                        },
-                        "url": "https://github.com/topics/io"
-                    },
-                    {
-                        "resourcePath": "/topics/learning",
-                        "topic": {
-                            "name": "learning"
-                        },
-                        "url": "https://github.com/topics/learning"
-                    },
-                    {
-                        "resourcePath": "/topics/profiler",
-                        "topic": {
-                            "name": "profiler"
-                        },
-                        "url": "https://github.com/topics/profiler"
-                    },
-                    {
-                        "resourcePath": "/topics/dlio",
-                        "topic": {
-                            "name": "dlio"
-                        },
-                        "url": "https://github.com/topics/dlio"
-                    }
-                ],
-                "totalCount": 5
-            }
-        },
-        "llnl/dftracer-agents": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
-        "llnl/dftracer-bak": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
-        "llnl/dftracer-traces": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
-        "llnl/dftracer-utils": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
-        "llnl/dftracer-workloads": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -11831,12 +11700,6 @@
                     }
                 ],
                 "totalCount": 2
-            }
-        },
-        "llnl/hcl": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
             }
         },
         "llnl/hdbind": {
@@ -13209,12 +13072,6 @@
                 "totalCount": 0
             }
         },
-        "llnl/mimir": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
         "llnl/minq": {
             "repositoryTopics": {
                 "nodes": [],
@@ -13701,12 +13558,6 @@
             }
         },
         "llnl/omi_data_tools_open_source": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
-        "llnl/omnibus-gitlab": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -14325,12 +14176,6 @@
             }
         },
         "llnl/pySigma-pipeline-wintap": {
-            "repositoryTopics": {
-                "nodes": [],
-                "totalCount": 0
-            }
-        },
-        "llnl/pydftracer": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
@@ -16336,6 +16181,76 @@
                 "totalCount": 1
             }
         },
+        "llnl/wormhole-airlock": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/wormhole-st",
+                        "topic": {
+                            "name": "wormhole-st"
+                        },
+                        "url": "https://github.com/topics/wormhole-st"
+                    }
+                ],
+                "totalCount": 1
+            }
+        },
+        "llnl/wormhole-cli": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/wormhole-st",
+                        "topic": {
+                            "name": "wormhole-st"
+                        },
+                        "url": "https://github.com/topics/wormhole-st"
+                    }
+                ],
+                "totalCount": 1
+            }
+        },
+        "llnl/wormhole-holepunch": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/wormhole-st",
+                        "topic": {
+                            "name": "wormhole-st"
+                        },
+                        "url": "https://github.com/topics/wormhole-st"
+                    }
+                ],
+                "totalCount": 1
+            }
+        },
+        "llnl/wormhole-route-registry": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/wormhole-st",
+                        "topic": {
+                            "name": "wormhole-st"
+                        },
+                        "url": "https://github.com/topics/wormhole-st"
+                    }
+                ],
+                "totalCount": 1
+            }
+        },
+        "llnl/wormhole-token-service": {
+            "repositoryTopics": {
+                "nodes": [
+                    {
+                        "resourcePath": "/topics/wormhole-st",
+                        "topic": {
+                            "name": "wormhole-st"
+                        },
+                        "url": "https://github.com/topics/wormhole-st"
+                    }
+                ],
+                "totalCount": 1
+            }
+        },
         "llnl/wrap": {
             "repositoryTopics": {
                 "nodes": [
@@ -17291,6 +17206,12 @@
             }
         },
         "spack/governance": {
+            "repositoryTopics": {
+                "nodes": [],
+                "totalCount": 0
+            }
+        },
+        "spack/integration-testing": {
             "repositoryTopics": {
                 "nodes": [],
                 "totalCount": 0
