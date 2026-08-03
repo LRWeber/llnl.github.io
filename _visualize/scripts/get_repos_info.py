@@ -69,6 +69,10 @@ for repo in repolist:
 
 print("\nCollective data gathering Part2of2 complete!")
 
+# An empty list of repos is never the desired outcome; Force an exception
+if len(dataCollector.data["data"]) == 0:
+    raise Exception("Repo data collection came up empty.")
+
 # Write output file
 dataCollector.fileSave(newline="\n")
 
